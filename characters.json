@@ -1,0 +1,51 @@
+{
+    "characters": [
+        {
+            "Julia":[
+                {
+                    "name": "Julia",
+                    "dlc": "s2",
+                    "photo": "img/JuliaChangTk7.png",
+                    "sex": "female",
+                    "tutorial": "https://youtu.be/EEja-2a8o74",
+                    "execution": "medium",
+                    "tier":"1",
+                    "mobility":"good",
+                    "gameplan_focus": "aggression",
+                    "gameplan_okizeme": "aggressive",
+                    "gameplan_offensive_options": "mixup",
+                    "gameplan_offensive_options2": "poke",
+                    "setups": "not_important",
+                    "stance_heavy": "no",
+                    "skill-level": "2"
+                }
+            ]
+        },
+
+        {
+            "Kazuya":[
+                {
+                    "name": "Kazuya",
+                    "dlc": "none",
+                    "photo": "img/KazuyaMishimaTk7.png",
+                    "sex": "male",
+                    "tutorial": "https://youtu.be/bIUhU2Xz5A0",
+                    "execution": "hard",
+                    "tier":"2",
+                    "mobility":"standard",
+                    "gameplan_focus": "aggression",
+                    "gameplan_okizeme": "aggressive",
+                    "gameplan_offensive_options": "plus_frames",
+                    "gameplan_offensive_options2": "mixup",
+                    "setups": "not_important",
+                    "stance_heavy": "no",
+                    "skill-level": "3"
+                }
+            ]
+        },
+
+
+
+    ]
+
+}
