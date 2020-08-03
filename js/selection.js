@@ -17,11 +17,10 @@ var fs = require('fs');
   console.log(data.toString());
 });
 */
-
-var characters = fs.readFileSync("js/characters.json");
-console.log(characters.characters);
-console.log("name: ", characters[1].characters);
-
+console.log("hello");
+import {characters} from '../characters.json';
+var character = JSON.parse(characters);
+console.log(character.characters[0]);
 
 function chooseCharacter(){
         return characters;
