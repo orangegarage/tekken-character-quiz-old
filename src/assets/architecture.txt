@@ -1,0 +1,45 @@
+"name": "string",
+"dlc": "none, s1,s2,s3"
+"photo": "img link",
+"sex": "male or female",
+"tutorial": "youtube link",
+"execution": "hard/medium/easy",
+"tier":"S(Tournament staple) ~ D(Bad)", (1 2 3 4 5)
+"mobility": "extra good/good/ok/bad",
+"gameplan_focus": "combo/movement/aggression/defense/versatile",
+"gameplan_okizeme": "aggressive/defensive",
+"gameplan_offensive_options": "whiff_punish/counterhit/mixup/grab/plus_frame/poke/versatile", (approach the opponent)
+"gameplan_offensive_options2": "whiff_punish/counterhit/mixup/grab/plus_frame/poke/versatile", (open people up)
+"setups": "important/not_important",
+"stance_heavy": "yes/no",
+"skill-level": "1/2/3/4"
+
+
+JSON Template:
+    "":[
+        {
+            
+            "name": "",
+            "dlc": "",
+            "photo": "",
+            "sex": "",
+            "tutorial": "",
+            "execution": "",
+            "tier":"",
+            "mobility":"",
+            "gameplan_focus": "",
+            "gameplan_okizeme": "",
+            "gameplan_offensive_options": "",
+            "gameplan_offensive_options2": "", 
+            "setups": "",
+            "stance_heavy": "",
+            "skill_level": "",
+            "flavortext_eng": "",
+            "flavortext_kr": ""
+        }
+    ]
+
+selection:
+"prioritize(attribute, value)"
+"consider(attribute, value)"
+"ignore(attribute)"
