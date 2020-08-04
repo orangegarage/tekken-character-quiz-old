@@ -1,3 +1,5 @@
+import VueRouter from 'vue-router'
+
 function prioritize(attribute, value){
     console.log("answer prioritizes: " + value);
     
@@ -12,7 +14,7 @@ function ignore(attribute){
 }
 
 console.log("hello");
-import {characters} from '../characters.json';
+import characters from '../characters.json';
 var character = JSON.parse(characters);
 console.log(character.characters[0]);
 
