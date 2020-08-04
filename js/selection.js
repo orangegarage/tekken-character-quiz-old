@@ -11,12 +11,6 @@ function ignore(attribute){
     console.log("answer ignores: " + attribute);
 }
 
-var fs = require('fs');
-/*var contents = fs.readFile("js/characters.json", function (err, data) {
-  if (err) return console.error(err);
-  console.log(data.toString());
-});
-*/
 console.log("hello");
 import {characters} from '../characters.json';
 var character = JSON.parse(characters);
