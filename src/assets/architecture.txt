@@ -43,3 +43,12 @@ selection:
 "prioritize(attribute, value)"
 "consider(attribute, value)"
 "ignore(attribute)"
+
+
++ make a view that will represent 1 question
++ make a component that will represent characters in the character select
++ make a component that will represent character select, and automatically create character components for each character (see: v-for ) with the JSON you provide
++ refactor the view to be a template that can be re-used for every question — instead of having 1 view page per question, pass in an array of questions and answers
++ ensure each of those pages can pass answers to the global state
++ create a ‘results’ view that will access answers in the global state, and do calculations to present the user with their character of choice
++ consider further improvements, such as having the results page allow you to go back and edit answers
