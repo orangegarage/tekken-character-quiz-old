@@ -1,6 +1,6 @@
 <template>
     <div class = "quiz">
-        <Questions question1 = "Do you prefer a male or female character?"/>
+        <Questions/>
     </div>
 </template>
 
@@ -10,7 +10,7 @@ import Questions from '@/components/Questions.vue' //import from component
 export default {
     name: 'Quiz',
     components: { 
-        Questions
+        Questions,
     }
 }
 </script>

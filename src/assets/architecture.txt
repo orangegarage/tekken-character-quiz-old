@@ -45,7 +45,7 @@ selection:
 "ignore(attribute)"
 
 
-+ make a view that will represent 1 question
++ make a view that will represent 1 question (Greyed out skip button, on answer click change it to brighter next button)
 + make a component that will represent characters in the character select
 + make a component that will represent character select, and automatically create character components for each character (see: v-for ) with the JSON you provide
 + refactor the view to be a template that can be re-used for every question — instead of having 1 view page per question, pass in an array of questions and answers
