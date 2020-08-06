@@ -7,9 +7,15 @@ export const store = {
         currentQuestion: 0,
         currentStatus: "Skip"
     },
-    progressButton(){
-        console.log("ooh nice button");
+    nextButton(){
         this.state.currentQuestion++;
         this.state.currentStatus = "Skip";
+    },
+    backButton(){
+        this.state.currentQuestion--;
+        this.state.currentStatus = "Skip";
+    },
+    answerAsButton(){
+        this.state.currentStatus = "Next";
     }
 }
