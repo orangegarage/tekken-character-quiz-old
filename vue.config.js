@@ -8,5 +8,5 @@ module.exports = {
           prependData: '@import "@/assets/_variables.scss";'
         }
       }
-    }z
+    }
 };
