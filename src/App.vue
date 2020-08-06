@@ -57,4 +57,11 @@ ul {
   list-style-type: none;
   padding-inline-start: 0;
 }
+
+li:hover {
+  color:#42b983;
+  /* color: #e4464a; */
+}
+
+
 </style>

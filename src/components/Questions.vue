@@ -1,16 +1,20 @@
 <template>
     <div class = "quiz">
         <p class = "questions">
-            <ul>
-            <li v-for= "(question, index) in jsonQuestion" v-bind:key="index">{{index+1}}. {{jsonQuestion.question}}
-                <!-- {{question.id}}. {{question.question}} -->
+            <!-- <ul>  -->
+            <!-- <li v-for= "(questionValue, id) in jsonQuestion" v-bind:key="id">{{questionValue.id}}. {{questionValue.question}} -->
+                {{jsonQuestion[currentQuestion].id}}. {{jsonQuestion[currentQuestion].question}}
+                <!-- item in items, item (alias for array element), items (source array)-->
                 <ul>
-                    <!-- v-for can format out an array the way we want -->
-                    <li v-for= "value in jsonQuestion.answers" v-bind:key="value"> {{value}} </li>
+                    <li v-for= "value in jsonQuestion[currentQuestion].answers" v-bind:key="value" v-on:click="progress = 'Next'"> {{value}} </li>
                 </ul>
-            </li>
-            </ul>
+            <!-- </li> -->
+            <!-- </ul> -->
         </p>
+
+        <div class = "next">
+            <button v-on:click="currentQuestion++; progress='Skip'" class = "button">{{progress}}</button>
+        </div>
     </div>
 
 </template>
@@ -24,9 +28,11 @@ export default {
     name: 'Questions',
     data() {
         return {
-            jsonQuestion: quiz.questions//returning 'question' from imported 'quiz'. array 'questions'
+            jsonQuestion: quiz.questions,//returning 'question' from imported 'quiz'. array 'questions',
+            currentQuestion: 0,
+            progress: "Skip"
         };
-    }    
+    }
 };
 // make function for every question that would return characters related
 </script>
