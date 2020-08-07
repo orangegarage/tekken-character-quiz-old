@@ -17,7 +17,8 @@
                     "gameplan_offensive_options2": "poke",
                     "setups": "not_important",
                     "stance_heavy": "no",
-                    "skill_level": "2",
+                    "gameplan_level": "2",
+                    "beginner_friendly": "yes",
                     "flavortext_eng": "Julia is a Native American environmental activist turned streamer, fighting to bring awareness to the dying forests.\n Julia Chang boasts one of the best forward movement in the game thanks to party crasher and swift step.\nShe can use those aggressive lunges to herd the opponent to the wall, where they will be forced to deal with Julia's seemingly never-ending low/mid mixups.\nJulia benefits from an agressive okizeme playstyle, forcing the opponent to select between twin arrows/double palm push or wardrums, a unique move that guarantees a wallsplat if spaced correctly.\nJulia is also a superior grappler with Mad Axe, one of the fastest throws in the game, and has high damaging combos with great wall carry.\nAll these together have Julia as a top tier character that is seen frequently in high level tournaments.\nUnfortunately, Julia has an intermediate execution hurdle in order to use her highest damage combos that may seem daunting to a newcomer.\nJulia is a character that can improve with you, as your execution grows stronger and her combo damage jumps, you can progress with this character to new heights.\nRecommended players: HelpMe, Chanel, Rangchu, JeonDding, MaD\n",
                     "flavortext_kr": "인디언 부족에게서 길러진 줄리아 창은 황폐화 되어가는 자연에 대한 위기감을 많은 사람들에게 일깨워 주고자 인터넷 방송인이 되었습니다.\n 줄리아는 호신주 및 순보 덕분에 게임 최고 수준의 전진성을 보유하고 있습니다.\n강력한 전진성의 견제기들을 통해 천천히 상대를 코너로 몰아 굳어버린 상대에게 벽에서 강력한 이지선다를 거는 것이 줄리아의 이상적인 운영법입니다.\n줄리아는 돌쌍장/당장을 통한 공격적인 기상심리가 좋습니다. 특히 당장은 거리를 잰 '발당장'을 통해 상대를 확실히 벽꽝시킬 수 있는 특별하고 강력한 기술입니다.\n줄리아는 매드액스라는 철권 최상의 잡기 기술을 가지고 있을 뿐만 아니라, 벽몰이도 수준급인 강력한 콤보들을 보유하고 있습니다.\n덕분에 줄리아는 대회 상위권에서도 자주 보이는 진정한 탑티어 캐릭터입니다.\n하지만 줄리아의 최고 데미지를 뽑기 위해서는 상당히 어려운 커맨드들을 소화내야 합니다. 생소한 커맨드에 빡빡한 타이밍은 처음 게임을 시작하는 분들에게는 막막할 수도 있습니다.\n하지만 다른 캐릭터들을 봤을때 어려운 축에 속하는 커맨드는 아니고, 부족한 콤보력은 호신주로 메꿔주며 벽몰이가 가능하기 때문에,\n처음부터 유저와 함께 성장할 수 있는 캐릭터이기도 합니다. 커맨드에 익숙해질수록 강력해지는 줄리아는 어쩌면 최고계급 갱신의 열쇠가 될 수도 있을 것입니다."
                 }
@@ -41,7 +42,8 @@
                     "gameplan_offensive_options2": "versatile",
                     "setups": "not_important",
                     "stance_heavy": "no",
-                    "skill_level": "3",
+                    "gameplan_level": "3",
+                    "beginner_friendly": "no",
                     "flavortext_eng": "Kazuya is the primary antagonist of the Tekken series, looking to exact revenge on his father Heihachi through his Devil Gene powers.\nKazuya benefits strongly from aggressively pursuing an okizeme through his hellsweep and lion slayer.\nSome players thrive on this scenario and set up aggressive vortexes that is almost impossible to get out of.\nTheir setups revolve around \nHowever, since his hellsweep can get heavily punished upon block, his aggression comes at a high risk.\nBecause of the risks involved, some players enjoy taking Kazuya more defensively, using movement to whiff punish/counterhit the opponent's attack with a meaty EWGF.\nWhile Kazuya",
                     "flavortext_kr": "lorem"
                 }

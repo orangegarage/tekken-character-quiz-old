@@ -3,10 +3,9 @@
         <div class = "qna">
             <p class ="total-questions">{{jsonQuestion[storeState.currentQuestion].id}} of {{totalQuestions}}</p>
             <p class = "questions">
-                    {{jsonQuestion[storeState.currentQuestion].id}}. {{jsonQuestion[storeState.currentQuestion].question}}
-                    
+                    {{jsonQuestion[storeState.currentQuestion].id}}. {{jsonQuestion[storeState.currentQuestion].question}}    
             </p>
-                    <!-- item in items, item (alias for array element), items (source array)-->
+            <!-- item in items, item (alias for array element), items (source array)-->
             <ul>
                 <li class="answers" v-for= "value in jsonQuestion[storeState.currentQuestion].answers" v-bind:key="value" v-on:click="answerClick()"> {{value}} </li>
             </ul>
@@ -14,7 +13,6 @@
 
         <div class = "next">
             <button v-on:click="backButtonClick()" class = "button">Back</button>
-            <!-- hide this when currentquestion=0 -->
             <button v-on:click="nextButtonClick()" class = "button">{{storeState.currentStatus}}</button>
 
         </div>
@@ -24,7 +22,6 @@
 
 
 <script>
-
 import quiz from "../assets/quiz.json";
 import {store} from "../core/questions.js";
 
@@ -58,7 +55,6 @@ export default {
                 console.log("this is the first question");
             }
             else if(this.storeState.currentQuestion<=0){
-                alert("this is the first question");
                 this.storeState.currentQuestion = 0;
             }
         },
@@ -71,5 +67,5 @@ export default {
         }
     }
 };
-// make function for every question that would return characters related
+// make function for every question that would return characters related?
 </script>

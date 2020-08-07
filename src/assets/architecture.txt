@@ -12,8 +12,9 @@
 "gameplan_offensive_options": "whiff_punish/counterhit/mixup/grab/plus_frame/poke/versatile", (approach the opponent)
 "gameplan_offensive_options2": "whiff_punish/counterhit/mixup/grab/plus_frame/poke/versatile", (open people up)
 "setups": "important/not_important",
-"stance_heavy": "yes/no",
-"skill-level": "1/2/3/4"
+"stance_heavy": "yes/no"
+"gameplan_level": "1/2/3/4"
+"beginner_friendly": "yes"
 
 
 JSON Template:
@@ -29,12 +30,14 @@ JSON Template:
             "tier":"",
             "mobility":"",
             "gameplan_focus": "",
+            "gameplan_focus2": "",
             "gameplan_okizeme": "",
             "gameplan_offensive_options": "",
             "gameplan_offensive_options2": "", 
             "setups": "",
             "stance_heavy": "",
-            "skill_level": "",
+            "gameplan_level":,
+            "beginner_friendly": "",
             "flavortext_eng": "",
             "flavortext_kr": ""
         }

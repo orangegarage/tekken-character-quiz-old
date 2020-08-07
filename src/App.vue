@@ -2,8 +2,8 @@
   <div id="app">
     <nav id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/quiz">Take the Quiz</router-link>
+      <router-link to="/quiz">Take the Quiz</router-link> |
+      <router-link to="/about">About</router-link>
     </nav>
     <transition
       name = "fade"
@@ -66,6 +66,10 @@ ul {
 }
 .next{
   margin-top:2em;
+}
+
+.questions{
+  white-space: pre;
 }
 
 li:hover {

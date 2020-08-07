@@ -33,7 +33,7 @@
         },
         {
             "id": 4,
-            "question":"What would be your secondary goal/something you enjoy next? (You can choose the same thing)",
+            "question":"What would be your secondary goal/something you enjoy next? (Choose the same thing to double down)",
             "answers":[
                 "Landing flashy, high damage combos to take the lead.",
                 "Dashing in and out as I chip my opponent down.",
@@ -44,15 +44,83 @@
         },
         {
             "id": 5,
-            "question":"What would be your ideal offensive method??",
+            "question":"What would be your favorite offensive method?",
             "answers":[
-                "I would strike the moment the opponent overextends and whiffs a move.",
+                "Striking the moment the opponent overextends and whiffs a move.",
                 "A devastating counterhit when my opponent tries to attack.",
                 "Aggressive mixups that will keep them guessing.",
                 "Grappling and throwing is the way to go - you can't break them all.",
                 "Mindgames from plus frames that will suffocate the opponent to death.",
                 "Poking down the opponent down with a series of low risk moves.",
                 "So many options, I would like a character that can specialize in everything."
+            ]
+        },
+        {
+            "id": 6,
+            "question":"What would be your next preferred offensive method? (Choose the same thing to double down)",
+            "answers":[
+                "Striking the moment the opponent overextends and whiffs a move.",
+                "A devastating counterhit when my opponent tries to attack.",
+                "Aggressive mixups that will keep them guessing.",
+                "Grappling and throwing is the way to go - you can't break them all.",
+                "Mindgames from plus frames that will suffocate the opponent to death.",
+                "Poking down the opponent down with a series of low risk moves.",
+                "So many options, I would like a character that can specialize in everything."
+            ]
+        },
+        {
+            "id": 7,
+            "question":"The opponent is on the ground - what do you want to do? (Okizeme)",
+            "answers":[
+                "I aggressively dash in, looking for a followup mixup.",
+                "I take it safe and reset to neutral in a favorable position.",
+                "I don't have an opinion."
+            ]
+        },
+        {
+            "id": 8,
+            "question":"Would you want to play a character focused around setups/pattern play?",
+            "answers":[
+                "Absolutely! Please try to recommend me a character that focuses on setups.",
+                "I prefer setups, but it doesn't take priority over other options.",
+                "I hate setups! Please try to recommend me characters that don't have setups as their focus.",
+                "I prefer no setups, but I am willing to play a setup oriented character.",
+                "I don't really have an opinion. Please don't take setups into consideration."
+            ]
+        },
+        {
+            "id": 9,
+            "question":"Would you want to play a character with lots of stances?",
+            "answers":[
+                "Stances are great, please try to recommend me a stance heavy character.",
+                "I prefer having stances, but it doesn't take priority over other options.",
+                "I hate stance. Please try to recommend me characters that aren't stance heavy.",
+                "I prefer having no stances, but I am willing to play a character with stances.",
+                "I don't really have an opinion. Please don't take stances into consideration."
+            ]
+        },
+        {
+            "id": 10,
+            "question":"Recommend me characters that are: \n(Tiers are subjective, all characters are playable.)",
+            "answers":[
+                "High tier only (regular TWT Ro 8 appearances, OP characters).",
+                "Mid tier only(good characters with some flaws).",
+                "Low tier only(characters with noticeable flaws).",
+                "No low tiers.",
+                "No high tiers.",
+                "I don't care about tiers, please don't take it into consideration."
+            ]
+        },
+        {
+            "id": 11,
+            "question":"One last thing, do you have preference on character difficulty?\n(Difficulty is subjective, all characters are hard at first.)",
+            "answers":[
+                "I prefer characters that I can learn the basics with. (simpler gameplan & execution)",
+                "I prefer characters that have a easier execution(commands) but harder gameplan.",
+                "I prefer characters that have a easier gameplan but harder execution(commands).",
+                "I prefer characters that have challenging execution and gameplan.",
+                "I don't have a preference on character difficulty.",
+                "Choose a \"beginner friendly\"character for me. I understand this is subjective."
             ]
         }
     ]
