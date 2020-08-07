@@ -58,6 +58,16 @@ ul {
   padding-inline-start: 0;
 }
 
+.questions{
+  margin-bottom: 2em;
+}
+.answers{
+  margin-top:1em;
+}
+.next{
+  margin-top:2em;
+}
+
 li:hover {
   color:#42b983;
   /* color: #e4464a; */
