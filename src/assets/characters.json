@@ -1,6 +1,83 @@
 {
     "characters": [
         {
+            "Alisa":[
+                {
+                    "name": "Alisa",
+                    "dlc": "none",
+                    "photo": "img/AlisaBosconovitchTk7.png",
+                    "sex": "female",
+                    "tutorial": "https://youtu.be/pmn-VumrHo8",
+                    "execution": "easy",
+                    "tier":"2",
+                    "mobility":"best",
+                    "gameplan_focus": "movement",
+                    "gameplan_focus2": "defense",
+                    "gameplan_okizeme": "neutral",
+                    "gameplan_offensive_options": "poke",
+                    "gameplan_offensive_options2": "whiff_punish",
+                    "setups": "not_important",
+                    "evasion": "medium",
+                    "stance_heavy": "no",
+                    "gameplan_level": "2",
+                    "beginner_friendly": "yes",
+                    "flavortext_eng": "Alisa is a robot created by Dr. Bosconovitch to look like his daughter, designed to serve as bodyguard of Jin Kazama.\nAlong with Lars and Lee, Alisa is shown in Tekken 7 supporting Jin as he prepares to defeat the invading Kazuya Mishima.\nOne of Alisa's biggest characteristic is her movement. Her quick backdashes and sidesteps allow her to push the limits of Tekken,\ndodging moves in situations that other characters would not be able to dodge.\nThis enables Alisa to poke and prod the opponent with her safer moves, then whiff punish the opponent as soon as they throw out a move without thinking.\nAlisa's neutral moves and optimal combos are very easy to execute, making her a good character to start with.\nHowever, Alisa does have slightly lower punish damage as well as limited combo routes to compensate.\nIf you want to enjoy Tekken's 3D fighting mechanics to the fullest, Alisa would be a great choice for you.\nAlisa's potential grows as you learn more about the game and learn how to utilize movement and sidesteps effectively.\nRecommended players: Chanel, AO, Cuddle Core",
+                    "flavortext_kr": "lorem ipsum"
+                }
+            ]
+        },
+        
+        {
+            "Hwoarang":[
+                {
+                    "name": "Hwoarang",
+                    "dlc": "none",
+                    "photo": "img/HwoarangTk7.png",
+                    "sex": "male",
+                    "tutorial": "https://youtu.be/ZaafwJvaaGU",
+                    "execution": "hard",
+                    "tier":"3",
+                    "mobility":"good",
+                    "gameplan_focus": "aggression",
+                    "gameplan_focus2": "combo",
+                    "gameplan_okizeme": "offensive",
+                    "gameplan_offensive_options": "mixup",
+                    "gameplan_offensive_options2": "versatile",
+                    "setups": "important",
+                    "evasion": "medium",
+                    "stance_heavy": "yes",
+                    "gameplan_level": "4",
+                    "beginner_friendly": "no",
+                    "flavortext_eng": "Hailing from South Korea, Hwoarang constantly strives to become better his skills and ultimately defeat Jin Kazama, his long-standing rival.\nHwoarang is a character who can suffocate the opponent through his free-flowing aggression, trapping them in an endless vortex of punches and kicks.\nOpponents who can't escape this pressure will inevitably find themselves up in the air after getting hit by a just frame skyrocket.\nFunnily enough, Hwoarang also has great grappling options, which don't make him a grappler, but supplements his mixups and potentially setting up a base for his Okizeme.\nHwoarang offers great versatility in his combos and offense, but his moves and stances leave him vulnerable to sidesteps and well-telegraphed counters.\nBecause of his high risk, high reward moveset, Hwoarang players must know when to pause and resume aggression on the fly, sometimes even in the middle of a mixup.\nDue to his multiple stances and associated execution and gameplan difficulty, Hwoarang is not recommended to newer players.\nHowever, if you enjoy flashy, high damage combos and smooth, flowing aggression, Hwoarang might prove to be worth grinding your life into.\nRecommended players: Yeonarang, TKMuse, Rest, Knee, MacRoya",
+                    "flavortext_kr": "lorem ipsum"
+                }
+            ]
+        },
+        {
+            "Jack":[
+                {
+                    "name": "Jack",
+                    "dlc": "none",
+                    "photo": "img/JackTk7.png",
+                    "sex": "male",
+                    "tutorial": "youtube link",
+                    "execution": "easy",
+                    "tier":"3",
+                    "mobility": "ok",
+                    "gameplan_focus": "versatile",
+                    "gameplan_focus2": "versatile",
+                    "gameplan_okizeme": "Neutral",
+                    "gameplan_offensive_options": "versatile", 
+                    "gameplan_offensive_options2": "plus_frame",
+                    "setups": "not_important",
+                    "stance_heavy": "no",
+                    "gameplan_level": "2",
+                    "beginner_friendly": "yes"
+                },
+            ]
+        },
+
+        {
             "Julia":[
                 {
                     "name": "Julia",
@@ -10,12 +87,14 @@
                     "tutorial": "https://youtu.be/EEja-2a8o74",
                     "execution": "medium",
                     "tier":"1",
-                    "mobility":"good",
+                    "mobility":"ok",
                     "gameplan_focus": "aggression",
+                    "gameplan_focus2": "movement",
                     "gameplan_okizeme": "aggressive",
                     "gameplan_offensive_options": "mixup",
                     "gameplan_offensive_options2": "poke",
                     "setups": "not_important",
+                    "evasion": "medium",
                     "stance_heavy": "no",
                     "gameplan_level": "2",
                     "beginner_friendly": "yes",
@@ -35,22 +114,49 @@
                     "tutorial": "https://youtu.be/bIUhU2Xz5A0",
                     "execution": "hard",
                     "tier":"2",
-                    "mobility":"standard",
+                    "mobility":"ok",
                     "gameplan_focus": "versatile",
+                    "gameplan_focus2": "versatile",
                     "gameplan_okizeme": "aggressive",
-                    "gameplan_offensive_options": "versatile",
-                    "gameplan_offensive_options2": "versatile",
+                    "gameplan_offensive_options": "mixup",
+                    "gameplan_offensive_options2": "whiff_punish",
+                    "evasion": "low",
                     "setups": "not_important",
                     "stance_heavy": "no",
                     "gameplan_level": "3",
                     "beginner_friendly": "no",
-                    "flavortext_eng": "Kazuya is the primary antagonist of the Tekken series, looking to exact revenge on his father Heihachi through his Devil Gene powers.\nKazuya benefits strongly from aggressively pursuing an okizeme through his hellsweep and lion slayer.\nSome players thrive on this scenario and set up aggressive vortexes that is almost impossible to get out of.\nTheir setups revolve around \nHowever, since his hellsweep can get heavily punished upon block, his aggression comes at a high risk.\nBecause of the risks involved, some players enjoy taking Kazuya more defensively, using movement to whiff punish/counterhit the opponent's attack with a meaty EWGF.\nWhile Kazuya",
-                    "flavortext_kr": "lorem"
+                    "flavortext_eng": "Kazuya is the primary antagonist of the Tekken series, looking to exact revenge on his father Heihachi through his Devil Gene powers.\nKazuya benefits strongly from aggressively pursuing an okizeme through his hellsweep and lion slayer.\nSome players thrive on this scenario and set up aggressive vortexes that is almost impossible to get out of.\nHowever, since his hellsweep can get heavily punished upon block, his aggression comes at a high risk.\nBecause of the risks involved, some players enjoy taking Kazuya more defensively, using movement to whiff punish/counterhit the opponent's attack with a meaty EWGF.\nWhile Kazuya's versatility and cool moves make him a popular choice, Kazuya has one of the highest execution barriers in Tekken and therefore discouraged to new players.\nHowever, if you want a versatile Mishima strengthened with mixups, Kazuya would be the one for you.\nRecommended players: Knee, Choksae, BoaLuv, Ikari, CrazyDongpal",
+                    "flavortext_kr": "lorem ipsum"
+                }
+            ]
+        },
+
+        {
+            "Xiaoyu":[
+                {
+                    "name": "Xiaoyu",
+                    "dlc": "none",
+                    "photo": "img/LingXiaoyuTk7.png",
+                    "sex": "female",
+                    "tutorial": "",
+                    "execution": "medium",
+                    "tier":"3",
+                    "mobility":"good",
+                    "gameplan_focus": "aggression",
+                    "gameplan_focus2": "combo",
+                    "gameplan_okizeme": "aggressive",
+                    "gameplan_offensive_options": "mixup",
+                    "gameplan_offensive_options2": "counterhit", 
+                    "setups": "important",
+                    "evasion":"high",
+                    "stance_heavy": "yes",
+                    "gameplan_level": "4",
+                    "beginner_friendly": "no",
+                    "flavortext_eng": "",
+                    "flavortext_kr": ""
                 }
             ]
         }
-
-
 
     ]
 

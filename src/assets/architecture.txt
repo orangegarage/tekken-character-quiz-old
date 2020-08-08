@@ -5,13 +5,14 @@
 "tutorial": "youtube link",
 "execution": "hard/medium/easy",
 "tier":"S(Tournament staple) ~ D(Bad)", (1 2 3 4 5)
-"mobility": "extra good/good/ok/bad",
+"mobility": "best/good/ok/bad",
 "gameplan_focus": "combo/movement/aggression/defense/versatile",
 "gameplan_focus2": "combo/movement/aggression/defense/versatile",
-"gameplan_okizeme": "aggressive/defensive",
+"gameplan_okizeme": "aggressive/defensive/neutral",
 "gameplan_offensive_options": "whiff_punish/counterhit/mixup/grab/plus_frame/poke/versatile", (approach the opponent)
 "gameplan_offensive_options2": "whiff_punish/counterhit/mixup/grab/plus_frame/poke/versatile", (open people up)
 "setups": "important/not_important",
+"evasion": "high/medium/low",
 "stance_heavy": "yes/no"
 "gameplan_level": "1/2/3/4"
 "beginner_friendly": "yes"
@@ -35,6 +36,7 @@ JSON Template:
             "gameplan_offensive_options": "",
             "gameplan_offensive_options2": "", 
             "setups": "",
+            "evasion": "",
             "stance_heavy": "",
             "gameplan_level":,
             "beginner_friendly": "",
@@ -58,6 +60,8 @@ quiz.json template
             ]
         }
 
+
+aggressive Oki characters: Julia, kazuya, king, ak, marduk, anna, nina
 
 + make a view that will represent 1 question (Greyed out skip button, on answer click change it to brighter next button)
 + make a component that will represent characters in the character select

@@ -101,6 +101,28 @@
         },
         {
             "id": 10,
+            "question":"Movement?",
+            "answers":[
+                "Stances are great, please try to recommend me a stance heavy character.",
+                "I prefer having stances, but it doesn't take priority over other options.",
+                "I hate stance. Please try to recommend me characters that aren't stance heavy.",
+                "I prefer having no stances, but I am willing to play a character with stances.",
+                "I don't really have an opinion. Please don't take stances into consideration."
+            ]
+        },
+        {
+            "id": 11,
+            "question":"Evasion?",
+            "answers":[
+                "Stances are great, please try to recommend me a stance heavy character.",
+                "I prefer having stances, but it doesn't take priority over other options.",
+                "I hate stance. Please try to recommend me characters that aren't stance heavy.",
+                "I prefer having no stances, but I am willing to play a character with stances.",
+                "I don't really have an opinion. Please don't take stances into consideration."
+            ]
+        },
+        {
+            "id": 12,
             "question":"Recommend me characters that are: \n(Tiers are subjective, all characters are playable.)",
             "answers":[
                 "High tier only (regular TWT Ro 8 appearances, OP characters).",
@@ -112,7 +134,7 @@
             ]
         },
         {
-            "id": 11,
+            "id": 13,
             "question":"One last thing, do you have preference on character difficulty?\n(Difficulty is subjective, all characters are hard at first.)",
             "answers":[
                 "I prefer characters that I can learn the basics with. (simpler gameplan & execution)",
