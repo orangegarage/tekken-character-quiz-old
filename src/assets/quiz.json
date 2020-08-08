@@ -74,7 +74,8 @@
             "answers":[
                 "I aggressively dash in, looking for a followup mixup.",
                 "I take it safe and reset to neutral in a favorable position.",
-                "I don't have an opinion."
+                "I would like a character that has options for both.",
+                "I don't have an opinion. Please don't take okizeme situations into consideration."
             ]
         },
         {
@@ -101,24 +102,20 @@
         },
         {
             "id": 10,
-            "question":"Movement?",
+            "question":"Do you value your characters' built in movement? (backdash/sidestep)",
             "answers":[
-                "Stances are great, please try to recommend me a stance heavy character.",
-                "I prefer having stances, but it doesn't take priority over other options.",
-                "I hate stance. Please try to recommend me characters that aren't stance heavy.",
-                "I prefer having no stances, but I am willing to play a character with stances.",
-                "I don't really have an opinion. Please don't take stances into consideration."
+                "Yes, I think movement is very important",
+                "To an extent, characters with bad movement are frustrating to play.",
+                "It's not something I feel strongly about, please don't take movement into consideration."
             ]
         },
         {
             "id": 11,
-            "question":"Evasion?",
+            "question":"Would you prefer a character with built in evasion in their moveset? ",
             "answers":[
-                "Stances are great, please try to recommend me a stance heavy character.",
-                "I prefer having stances, but it doesn't take priority over other options.",
-                "I hate stance. Please try to recommend me characters that aren't stance heavy.",
-                "I prefer having no stances, but I am willing to play a character with stances.",
-                "I don't really have an opinion. Please don't take stances into consideration."
+                "Yes, please prioritize a character with high evasion",
+                "I would enjoy high evasion, but it's not a priority for me.",
+                "I don't really have an opinion. Please don't take built-in evasion into consideration."
             ]
         },
         {
