@@ -31,6 +31,13 @@
 body {
   background-color: #696969;
   text-align: center;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -42,6 +49,7 @@ body {
 
 #nav {
   padding: 30px;
+  font-size:1.5em;
 }
 
 #nav a {
@@ -60,6 +68,7 @@ ul {
 
 .questions{
   margin-bottom: 2em;
+  white-space:pre-wrap;
 }
 .answers{
   margin-top:1em;
@@ -68,14 +77,41 @@ ul {
   margin-top:2em;
 }
 
-.questions{
-  white-space: pre;
-}
-
 li:hover {
   color:#42b983;
   /* color: #e4464a; */
 }
 
+.qna input[type="radio"] {
+  display: none;
+}
+.qna input[type="radio"]:checked+label{
+  color: #42b983;
+}
+/* .qna label {
+  border:1px solid black;
+} */
 
+.qna{
+  min-height:44vh;
+}
+.quiz{
+  margin: 0;
+  padding: 0;
+  font-size: 130%;
+  min-height:45vh;
+}
+.button{
+  font-size: 120%;
+  color: white;
+  background-color: transparent;
+  border-style: none;
+}
+
+.quiz-nav {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+/* Make radio button default clicked based on index. */
 </style>

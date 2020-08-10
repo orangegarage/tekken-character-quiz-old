@@ -19,3 +19,5 @@ export const store = {
         this.state.currentStatus = "Next";
     }
 }
+
+//submit button will: route to character page at the end.

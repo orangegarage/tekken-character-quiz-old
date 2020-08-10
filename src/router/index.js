@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Quiz from '../views/Quiz.vue'
+import Recommendation from '../views/Recommendation.vue'
 Vue.use(VueRouter)
 
   const routes = [
@@ -22,6 +23,11 @@ Vue.use(VueRouter)
     path: '/quiz',
     name: 'Quiz',
     component: Quiz
+  },
+  {
+    path: '/recommendation',
+    name: 'Recommendation',
+    component: () => import('../views/Recommendation.vue')
   }
   
 ]

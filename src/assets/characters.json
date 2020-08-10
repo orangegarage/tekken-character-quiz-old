@@ -10,7 +10,7 @@
                     "tutorial": "https://youtu.be/pmn-VumrHo8",
                     "execution": "easy",
                     "tier":"2",
-                    "mobility":"best",
+                    "movement":"best",
                     "gameplan_focus": "movement",
                     "gameplan_focus2": "defense",
                     "gameplan_okizeme": "neutral",
@@ -37,7 +37,7 @@
                     "tutorial": "https://youtu.be/ZaafwJvaaGU",
                     "execution": "hard",
                     "tier":"3",
-                    "mobility":"ok",
+                    "movement":"ok",
                     "gameplan_focus": "aggression",
                     "gameplan_focus2": "combo",
                     "gameplan_okizeme": "neutral",
@@ -63,7 +63,7 @@
                     "tutorial": "youtube link",
                     "execution": "easy",
                     "tier":"3",
-                    "mobility": "ok",
+                    "movement": "ok",
                     "gameplan_focus": "versatile",
                     "gameplan_focus2": "versatile",
                     "gameplan_okizeme": "neutral",
@@ -73,8 +73,10 @@
                     "setups": "not_important",
                     "stance_heavy": "no",
                     "gameplan_level": "2",
-                    "beginner_friendly": "yes"
-                },
+                    "beginner_friendly": "yes",
+                    "flavortext_eng": "domo arigatto mr. roboto",
+                    "fdlavortext_kr": "lorem"
+                }
             ]
         },
 
@@ -88,7 +90,7 @@
                     "tutorial": "https://youtu.be/EEja-2a8o74",
                     "execution": "medium",
                     "tier":"1",
-                    "mobility":"ok",
+                    "movement":"ok",
                     "gameplan_focus": "aggression",
                     "gameplan_focus2": "movement",
                     "gameplan_okizeme": "aggressive",
@@ -115,7 +117,7 @@
                     "tutorial": "https://youtu.be/bIUhU2Xz5A0",
                     "execution": "hard",
                     "tier":"2",
-                    "mobility":"ok",
+                    "movement":"ok",
                     "gameplan_focus": "versatile",
                     "gameplan_focus2": "versatile",
                     "gameplan_okizeme": "aggressive",
@@ -142,7 +144,7 @@
                     "tutorial": "",
                     "execution": "medium",
                     "tier":"3",
-                    "mobility":"good",
+                    "movement":"good",
                     "gameplan_focus": "aggression",
                     "gameplan_focus2": "combo",
                     "gameplan_okizeme": "aggressive",
@@ -153,8 +155,8 @@
                     "stance_heavy": "yes",
                     "gameplan_level": "4",
                     "beginner_friendly": "no",
-                    "flavortext_eng": "",
-                    "flavortext_kr": ""
+                    "flavortext_eng": "lorem",
+                    "flavortext_kr": "lorem"
                 }
             ]
         }

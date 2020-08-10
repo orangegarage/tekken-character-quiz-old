@@ -4,7 +4,7 @@
             "id": 1,
             "question": "Do you prefer a male or female character?",
             "answers": [
-                "I strongly prefer a male character",
+                "I strongly prefer a male character.",
                 "I prefer a male character, but it's not essential.",
                 "I strongly prefer a female character.",
                 "I prefer a female character, but it's not essential.",
@@ -25,9 +25,9 @@
             "question":"During a round, what would be your primary goal/something you enjoy most?",
             "answers":[
                 "Landing flashy, high damage combos to take the lead.",
-                "Dashing in and out as I chip my opponent down.",
+                "Dashing in and out of range as I chip my opponent down.",
                 "Getting close and personal with my opponent through aggression.",
-                "Waiting for my overzealous opponent to make mistakes that I can capitalize on.",
+                "Waiting for my opponent to make mistakes that I can capitalize on.",
                 "I enjoy everything, please choose a versatile character for me."
             ]
         },
@@ -36,9 +36,9 @@
             "question":"What would be your secondary goal/something you enjoy next? (Choose the same thing to double down)",
             "answers":[
                 "Landing flashy, high damage combos to take the lead.",
-                "Dashing in and out as I chip my opponent down.",
+                "Dashing in and out of range as I chip my opponent down.",
                 "Getting close and personal with my opponent through aggression.",
-                "Waiting for my overzealous opponent to make mistakes that I can capitalize on.",
+                "Waiting for my opponent to make mistakes that I can capitalize on.",
                 "I enjoy everything, please choose a versatile character for me."
             ]
         },
