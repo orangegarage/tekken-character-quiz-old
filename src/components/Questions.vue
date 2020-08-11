@@ -7,9 +7,9 @@
             </p>
             <!-- item in items, item (alias for array element), items (source array)-->
             <ul>
-                <li class="answers" v-for= "(value, index) in jsonQuestion[storeState.currentQuestion].answers" v-bind:key="value" v-on:click="answerClick()">
-                    <input type="radio" name = "radioAnswer" v-bind:id = "'answer-'+ index" v-bind:value="value" v-model.lazy="picked">
-                    <label v-bind:for ="'answer-'+ index">{{value}}</label>
+                <li class="answers" v-for= "(value, key) in jsonQuestion[storeState.currentQuestion].answers" v-bind:key="value" v-on:click="answerClick()">
+                    <input type="radio" name = "radioAnswer" v-bind:id = "'answer-'+ key" v-bind:value="value" v-model.lazy="picked">
+                    <label v-bind:for ="'answer-'+ key">{{value}}</label>
                 </li>
             </ul>
             <span>Picked: {{picked}}</span>
@@ -19,8 +19,8 @@
             <button v-on:click="backButtonClick()" class = "button">&laquo;Back</button>
             <!-- make buttons the amnt of length and have the active one enabled? on click change the currentQuestion value -->
             <input type="radio" name ="radioNav" 
-                class="quiz-nav" v-for= "(value,index) in jsonQuestion" 
-                v-bind:key="index" v-bind:id = "'button-'+index" v-on:click="navClick(index)" :checked="index==storeState.currentQuestion">
+                class="quiz-nav" v-for= "(value,key) in jsonQuestion" 
+                v-bind:key="key" v-bind:id = "'button-'+key" v-on:click="navClick(key)" :checked="key==storeState.currentQuestion">
             <button v-on:click="nextButtonClick()" class = "button">{{storeState.currentStatus}}&raquo;</button>
         </div>
 
@@ -73,8 +73,8 @@ export default {
                 this.storeState.currentStatus = "Submit";
             }
         },
-        navClick(index){
-            this.storeState.currentQuestion = index;
+        navClick(key){
+            this.storeState.currentQuestion = key;
         }
     }
 }

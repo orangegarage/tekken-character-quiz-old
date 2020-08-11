@@ -3,144 +3,155 @@
         {
             "id": 1,
             "question": "Do you prefer a male or female character?",
-            "answers": [
-                "I strongly prefer a male character.",
-                "I prefer a male character, but it's not essential.",
-                "I strongly prefer a female character.",
-                "I prefer a female character, but it's not essential.",
-                "I don't lean either way. Recommend me a character without considering this."
-            ]
+            "answers": {
+                "male-prioritize": "I strongly prefer a male character.",
+                "male-prefer": "I prefer a male character, but it's not essential.",
+                "female-prioritize": "I strongly prefer a female character.",
+                "female-prefer": "I prefer a female character, but it's not essential.",
+                "neutral": "I don't lean either way. Recommend me a character without considering this."
+            },
+            "answer-key": "gender"
         },
         {
             "id": 2,
             "question": "Do you want DLC characters, including crossovers, recommended to you?",
-            "answers": [
-                "Absolutely, I am willing to buy DLC if the character fits my playstyle.",
-                "I'm ok with it, but please prioritize non-DLC characters.",
-                "Please recommend me characters in the base game. I don't want to buy DLC."
-            ]
+            "answers": {
+                "neutral": "Absolutely, I am willing to buy DLC if the character fits my playstyle.",
+                "base-prefer": "I'm ok with it, but please prioritize non-DLC characters.",
+                "base-priroritize": "Please recommend me characters in the base game. I don't want to buy DLC."
+            },
+            "answer-key": "dlc"
         },
         {
             "id": 3,
             "question":"During a round, what would be your primary goal/something you enjoy most?",
-            "answers":[
-                "Landing flashy, high damage combos to take the lead.",
-                "Dashing in and out of range as I chip my opponent down.",
-                "Getting close and personal with my opponent through aggression.",
-                "Waiting for my opponent to make mistakes that I can capitalize on.",
-                "I enjoy everything, please choose a versatile character for me."
-            ]
+            "answers":{
+                "combo-prioritize": "Landing flashy, high damage combos to take the lead.",
+                "movement-prioritize": "Dashing in and out of range as I chip my opponent down.",
+                "aggression-prioritize": "Getting close and personal with my opponent through aggression.",
+                "defense-prioritize": "Waiting for my opponent to make mistakes that I can capitalize on.",
+                "versatile-prioritize": "I enjoy everything, please choose a versatile character for me."
+            },
+            "answer-key": "gameplan-focus"
         },
         {
             "id": 4,
             "question":"What would be your secondary goal/something you enjoy next? (Choose the same thing to double down)",
-            "answers":[
-                "Landing flashy, high damage combos to take the lead.",
-                "Dashing in and out of range as I chip my opponent down.",
-                "Getting close and personal with my opponent through aggression.",
-                "Waiting for my opponent to make mistakes that I can capitalize on.",
-                "I enjoy everything, please choose a versatile character for me."
-            ]
+            "answers":{
+                "combo-prefer": "Landing flashy, high damage combos to take the lead.",
+                "movement-prefer": "Dashing in and out of range as I chip my opponent down.",
+                "aggression-prefer": "Getting close and personal with my opponent through aggression.",
+                "defense-prefer": "Waiting for my opponent to make mistakes that I can capitalize on.",
+                "versatile-prefer": "I enjoy everything, please choose a versatile character for me."
+            },
+            "answer-key": "gameplan-focus2"
         },
         {
             "id": 5,
             "question":"What would be your favorite offensive method?",
-            "answers":[
-                "Striking the moment the opponent overextends and whiffs a move.",
-                "A devastating counterhit when my opponent tries to attack.",
-                "Aggressive mixups that will keep them guessing.",
-                "Grappling and throwing is the way to go - you can't break them all.",
-                "Mindgames from plus frames that will suffocate the opponent to death.",
-                "Poking down the opponent down with a series of low risk moves.",
-                "So many options, I would like a character that can specialize in everything."
-            ]
+            "answers":{
+                "whiff-punish-prioritize": "Striking the moment the opponent overextends and whiffs a move.",
+                "counterhit-prioritize": "A devastating counterhit when my opponent tries to attack.",
+                "mixup-prioritize": "Aggressive mixups that will keep them guessing.",
+                "grab-prioritize": "Grappling and throwing is the way to go - you can't break them all.",
+                "plus-frame-prioritize": "Mindgames from plus frames that will suffocate the opponent to death.",
+                "poke-prioritize": "Poking down the opponent down with a series of low risk moves.",
+                "versatile-prioritize": "So many options, I would like a character that can specialize in everything."
+            },
+            "answer-key": "gameplan-offensive-options"
         },
         {
             "id": 6,
             "question":"What would be your next preferred offensive method? (Choose the same thing to double down)",
-            "answers":[
-                "Striking the moment the opponent overextends and whiffs a move.",
-                "A devastating counterhit when my opponent tries to attack.",
-                "Aggressive mixups that will keep them guessing.",
-                "Grappling and throwing is the way to go - you can't break them all.",
-                "Mindgames from plus frames that will suffocate the opponent to death.",
-                "Poking down the opponent down with a series of low risk moves.",
-                "So many options, I would like a character that can specialize in everything."
-            ]
+            "answers":{
+                "whiff-punish-prefer": "Striking the moment the opponent overextends and whiffs a move.",
+                "counterhit-prefer": "A devastating counterhit when my opponent tries to attack.",
+                "mixup-prefer": "Aggressive mixups that will keep them guessing.",
+                "grab-prefer": "Grappling and throwing is the way to go - you can't break them all.",
+                "plus-frame-prefer": "Mindgames from plus frames that will suffocate the opponent to death.",
+                "poke-prefer": "Poking down the opponent down with a series of low risk moves.",
+                "versatile-prefer": "So many options, I would like a character that can specialize in everything."
+            },
+            "answer-key": "gameplan-offensive-options2"
         },
         {
             "id": 7,
             "question":"The opponent is on the ground - what do you want to do? (Okizeme)",
-            "answers":[
-                "I aggressively dash in, looking for a followup mixup.",
-                "I take it safe and reset to neutral in a favorable position.",
-                "I would like a character that has options for both.",
-                "I don't have an opinion. Please don't take okizeme situations into consideration."
-            ]
+            "answers":{
+                "aggressive-prefer": "I aggressively dash in, looking for a followup mixup.",
+                "defensive-prefer": "I take it safe and reset to neutral in a favorable position.",
+                "versatile-prefer": "I would like a character that has options for both.",
+                "neutral": "I don't have an opinion. Please don't take okizeme situations into consideration."
+            },
+            "answer-key": "gameplan-okizeme"
         },
         {
             "id": 8,
             "question":"Would you want to play a character focused around setups/pattern play?",
-            "answers":[
-                "Absolutely! Please try to recommend me a character that focuses on setups.",
-                "I prefer setups, but it doesn't take priority over other options.",
-                "I hate setups! Please try to recommend me characters that don't have setups as their focus.",
-                "I prefer no setups, but I am willing to play a setup oriented character.",
-                "I don't really have an opinion. Please don't take setups into consideration."
-            ]
+            "answers":{
+                "setups-prioritize": "Absolutely! Please try to recommend me a character that focuses on setups.",
+                "setups-prefer": "I prefer setups, but it doesn't take priority over other options.",
+                "setups-hate": "I hate setups! Please try to recommend me characters that don't have setups as their focus.",
+                "setups-unimpoortant": "I prefer no setups, but I am willing to play a setup oriented character.",
+                "neutral": "I don't really have an opinion. Please don't take setups into consideration."
+            },
+            "answer-key": "setups"
         },
         {
             "id": 9,
             "question":"Would you want to play a character with lots of stances?",
-            "answers":[
-                "Stances are great, please try to recommend me a stance heavy character.",
-                "I prefer having stances, but it doesn't take priority over other options.",
-                "I hate stance. Please try to recommend me characters that aren't stance heavy.",
-                "I prefer having no stances, but I am willing to play a character with stances.",
-                "I don't really have an opinion. Please don't take stances into consideration."
-            ]
+            "answers":{
+                "stance-heavy-prioritize": "Stances are great, please try to recommend me a stance heavy character.",
+                "stance-heavy-prefer": "I prefer having stances, but it doesn't take priority over other options.",
+                "stance-heavy-hate": "I hate stance. Please try to recommend me characters that aren't stance heavy.",
+                "stance-heavy-unimportant": "I prefer having no stances, but I am willing to play a character with stances.",
+                "neutral": "I don't really have an opinion. Please don't take stances into consideration."
+            },
+            "answer-key": "stance-heavy"
         },
         {
             "id": 10,
             "question":"Do you value your characters' built in movement? (backdash/sidestep)",
-            "answers":[
-                "Yes, I think movement is very important",
-                "To an extent, characters with bad movement are frustrating to play.",
-                "It's not something I feel strongly about, please don't take movement into consideration."
-            ]
+            "answers":{
+                "movement-prioritize": "Yes, I think movement is very important",
+                "movement-prefer": "To an extent, characters with bad movement are frustrating to play.",
+                "neutral": "It's not something I feel strongly about, please don't take movement into consideration."
+            },
+            "answer-key": "movement"
         },
         {
             "id": 11,
             "question":"Would you prefer a character with built in evasion in their moveset? ",
-            "answers":[
-                "Yes, please prioritize a character with high evasion",
-                "I would enjoy high evasion, but it's not a priority for me.",
-                "I don't really have an opinion. Please don't take built-in evasion into consideration."
-            ]
+            "answers":{
+                "evasion-prioritize": "Yes, please prioritize a character with high evasion",
+                "evasion-prefer": "I would enjoy high evasion, but it's not a priority for me.",
+                "neutral": "I don't really have an opinion. Please don't take built-in evasion into consideration."
+            },
+            "answer-key": "evasion"
         },
         {
             "id": 12,
             "question":"Recommend me characters that are: \n(Tiers are subjective, all characters are playable.)",
-            "answers":[
-                "High tier only (regular TWT Ro 8 appearances, OP characters).",
-                "Mid tier only(good characters with some flaws).",
-                "Low tier only(characters with noticeable flaws).",
-                "No low tiers.",
-                "No high tiers.",
-                "I don't care about tiers, please don't take it into consideration."
-            ]
+            "answers":{
+                "tier-1-prioritize": "High tier only (regular TWT Ro 8 appearances, OP characters).",
+                "tier-2-3-prioritize": "Mid tier only(good characters with some flaws).",
+                "tier-4-5-prioritize": "Low tier only(characters with noticeable flaws).",
+                "tier-1-2-3-prioritize": "No low tiers.",
+                "tier-2-3-4-5-prioritize": "No high tiers.",
+                "neutral": "I don't care about tiers, please don't take it into consideration."
+            },
+            "answer-key": "tier"
         },
         {
             "id": 13,
             "question":"One last thing, do you have preference on character difficulty?\n(Difficulty is subjective, all characters are hard at first.)",
-            "answers":[
-                "I prefer characters that I can learn the basics with. (simpler gameplan & execution)",
-                "I prefer characters that have a easier execution(commands) but harder gameplan.",
-                "I prefer characters that have a easier gameplan but harder execution(commands).",
-                "I prefer characters that have challenging execution and gameplan.",
-                "I don't have a preference on character difficulty.",
-                "Choose a \"beginner friendly\"character for me. I understand this is subjective."
-            ]
+            "answers":{
+                "gameplan-level-1-2-prioritize": "I prefer characters that I can learn the basics with.",
+                "gameplan-level-3-4-prioritize": "I prefer characters that have challenging execution and gameplan.",
+                "neutral": "I don't have a preference on character difficulty.",
+                "beginner-friendly-prioritize": "Choose a \"beginner friendly\"character for me. I understand this is subjective."
+            },
+            "answer-key": "gameplan-level"
         }
     ]
 }

@@ -5,10 +5,15 @@
 export const store = {
     state: {
         currentQuestion: 0,
+        answeredQuestion: 0,
         currentStatus: "Skip"
     },
     nextButton(){
         this.state.currentQuestion++;
+        if(this.state.currentStatus == "Next"){
+            this.state.answeredQuestion++;
+        }
+        console.log("Has answered: "+ this.state.answeredQuestion + "questions so far");
         this.state.currentStatus = "Skip";
     },
     backButton(){
@@ -19,5 +24,3 @@ export const store = {
         this.state.currentStatus = "Next";
     }
 }
-
-//submit button will: route to character page at the end.

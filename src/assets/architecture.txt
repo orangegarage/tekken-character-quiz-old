@@ -1,21 +1,21 @@
 "name": "string",
-"dlc": "none, s1,s2,s3"
+"dlc": "no/yes"
 "photo": "img link",
 "sex": "male or female",
 "tutorial": "youtube link",
 "execution": "hard/medium/easy",
 "tier":"S(Tournament staple) ~ D(Bad)", (1 2 3 4 5)
 "movement": "best/good/ok/bad",
-"gameplan_focus": "combo/movement/aggression/defense/versatile",
-"gameplan_focus2": "combo/movement/aggression/defense/versatile",
-"gameplan_okizeme": "aggressive/defensive/neutral",
-"gameplan_offensive_options": "whiff_punish/counterhit/mixup/grab/plus_frame/poke/versatile", (approach the opponent)
-"gameplan_offensive_options2": "whiff_punish/counterhit/mixup/grab/plus_frame/poke/versatile", (open people up)
-"setups": "important/not_important",
+"gameplan-focus": "combo/movement/aggression/defense/versatile",
+"gameplan-focus2": "combo/movement/aggression/defense/versatile",
+"gameplan-okizeme": "aggressive/defensive/neutral",
+"gameplan-offensive-options": "whiff-punish/counterhit/mixup/grab/plus-frame/poke/versatile", (approach the opponent)
+"gameplan-offensive-options2": "whiff-punish/counterhit/mixup/grab/plus-frame/poke/versatile", (open people up)
+"setups": "important/not-important",
 "evasion": "high/medium/low",
-"stance_heavy": "yes/no"
-"gameplan_level": "1/2/3/4"
-"beginner_friendly": "yes"
+"stance-heavy": "yes/no"
+"gameplan-level": "1/2/3/4"
+"beginner-friendly": "yes"
 
 
 JSON Template:
@@ -30,18 +30,18 @@ JSON Template:
             "execution": "",
             "tier":"",
             "movement":"",
-            "gameplan_focus": "",
-            "gameplan_focus2": "",
-            "gameplan_okizeme": "",
-            "gameplan_offensive_options": "",
-            "gameplan_offensive_options2": "", 
+            "gameplan-focus": "",
+            "gameplan-focus2": "",
+            "gameplan-okizeme": "",
+            "gameplan-offensive-options": "",
+            "gameplan-offensive-options2": "", 
             "setups": "",
             "evasion": "",
-            "stance_heavy": "",
-            "gameplan_level":,
-            "beginner_friendly": "",
-            "flavortext_eng": "",
-            "flavortext_kr": ""
+            "stance-heavy": "",
+            "gameplan-level":,
+            "beginner-friendly": "",
+            "flavortext-eng": "",
+            "flavortext-kr": ""
         }
     ]
 
