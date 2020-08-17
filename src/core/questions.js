@@ -23,6 +23,9 @@ export const store = {
         }
         else if(this.state.currentQuestion>= this.state.totalQuestions-1){
                 this.state.currentQuestion = this.state.totalQuestions-1;
+                if(this.state.currentStatus == "Submit"){
+                    this.state.answeredQuestion++;
+                }
                 window.open("#/recommendation", "_self");
         }
         console.log(this.state.currentQuestion);

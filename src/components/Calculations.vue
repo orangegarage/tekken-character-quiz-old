@@ -1,13 +1,15 @@
 <template>
     <div class = "recommendation">
-        {{storeState.picked}}
+        {{quizData}}
+        {{picked}}<br>
+        {{quizQuestions}}
     </div>
 </template>
 
 <script>
-import questions from '@/components/Questions.vue';
 import quiz from "@/assets/quiz.json";
-import {store} from "../core/questions.js";
+import {store} from "@/core/questions.js";
+import characters from "@/assets/characters.json";
 // use a filter to get all json objects
 // iterate through and assign them values?
 // 1 variable for all stuff?
@@ -16,8 +18,16 @@ import {store} from "../core/questions.js";
 export default {
     data() {
         return {
-            storeState: store.state
+            storeState: store.state,
+            category: "",
+            sleectCharacter: [],
+            quizData: quiz.questions.filter(questions => questions.answers == 'store.state.picked'),
+            picked: store.state.picked,
+            quizQuestions: quiz.questions[12].answers.filter(d => d.questions[12].answers.includes("I prefer"))
         };
+    },
+    methods: {
+
     }
 }
 </script>
