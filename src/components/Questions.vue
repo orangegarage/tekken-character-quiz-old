@@ -8,7 +8,7 @@
             <!-- item in items, item (alias for array element), items (source array)-->
             <ul>
                 <li class="answers" v-for= "(value, key) in storeState.jsonQuestion[storeState.currentQuestion].answers" v-bind:key="value" v-on:click="answerClick()">
-                    <input type="radio" name = "radioAnswer" v-bind:id = "'answer-'+ key" v-bind:value="value" v-model.lazy="storeState.picked">
+                    <input type="radio" name = "radioAnswer" v-bind:id = "'answer-'+ key" v-bind:value="key" v-model.lazy="storeState.picked">
                     <label v-bind:for ="'answer-'+ key">{{value}}</label>
                 </li>
             </ul>
@@ -30,17 +30,20 @@
 
 
 <script>
+import quiz from "../assets/quiz.json";
 import {store} from "../core/questions.js";
 
 export default {
     data() {
         return {
             storeState: store.state,
+            quizData: quiz.questions[0].answers[''] //right now I'm trying to put value where key should be, need to access key by value
         };
     },
     methods: {
         nextButtonClick(){
             store.nextButton();
+            console.log("quizData: " + this.quizData);
         },
         backButtonClick(){
             store.backButton();

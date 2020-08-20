@@ -1,8 +1,7 @@
 <template>
     <div class = "recommendation">
-        {{quizData}}
-        {{picked}}<br>
-        {{quizQuestions}}
+        {{picked}}
+        
     </div>
 </template>
 
@@ -21,9 +20,7 @@ export default {
             storeState: store.state,
             category: "",
             sleectCharacter: [],
-            quizData: quiz.questions.filter(questions => questions.answers == 'store.state.picked'),
-            picked: store.state.picked,
-            quizQuestions: quiz.questions[12].answers.filter(d => d.questions[12].answers.includes("I prefer"))
+            picked: store.state.picked
         };
     },
     methods: {
