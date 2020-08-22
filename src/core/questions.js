@@ -14,8 +14,9 @@ export const store = {
         totalQuestions: quiz.questions.length
     },
     nextButton(){
+        this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
         if(this.state.chosenTraits[this.state.currentQuestion+1] != null){
-            console.log("already chosen");
+            console.log("already chosen: "+ this.state.chosenTraits[this.state.currentQuestion+1]);
             this.state.picked = this.state.chosenTraits[this.state.currentQuestion+1];
         }
         if(this.state.currentQuestion>= this.state.totalQuestions-1){
@@ -23,18 +24,18 @@ export const store = {
             this.state.currentQuestion = this.state.totalQuestions-1;
             window.open("#/recommendation", "_self");
         }
-        this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
         this.state.currentQuestion++;
         console.log(this.state.chosenTraits);
         this.state.currentStatus = "Skip";
     },
 
     backButton(){
-        if(this.state.chosenTraits[this.state.currentQuestion-1] != ""){
-            console.log("already chosen");
-            this.state.picked = this.state.chosenTraits[this.state.currentQuestion-1];
-        }
         this.state.currentQuestion--;
+        if(this.state.chosenTraits[this.state.currentQuestion] != null){
+            console.log("already chosen: "+ this.state.chosenTraits[this.state.currentQuestion]);
+            this.state.picked = this.state.chosenTraits[this.state.currentQuestion];
+        }
+        
         if(this.state.currentQuestion <= 0){
             console.log("this is the first question");
             this.state.currentQuestion = 0;

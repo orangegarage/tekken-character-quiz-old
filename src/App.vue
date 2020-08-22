@@ -98,11 +98,11 @@ li:hover {
 .quiz{
   margin: 0;
   padding: 0;
-  font-size: 130%;
+  font-size: 3vh;
   min-height:45vh;
 }
 .button{
-  font-size: 120%;
+  font-size: 3vh;
   color: white;
   background-color: transparent;
   border-style: none;
@@ -110,8 +110,8 @@ li:hover {
 
 .quiz-nav {
   display: inline-block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1rem;
+  height: 1rem;
 }
 /* Make radio button default clicked based on index. */
 </style>
