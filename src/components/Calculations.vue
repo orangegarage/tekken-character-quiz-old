@@ -19,7 +19,6 @@ export default {
         return {
             storeState: store.state,
             category: "",
-            sleectCharacter: [],
             picked: store.state.picked
         };
     },

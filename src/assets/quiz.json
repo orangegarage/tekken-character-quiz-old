@@ -18,7 +18,7 @@
             "answers": {
                 "neutral": "Absolutely, I am willing to buy DLC if the character fits my playstyle.",
                 "base-prefer": "I'm ok with it, but please prioritize non-DLC characters.",
-                "base-priroritize": "Please recommend me characters in the base game. I don't want to buy DLC."
+                "base-prioritize": "Please recommend me characters in the base game. I don't want to buy DLC."
             },
             "answer-key": "dlc"
         },

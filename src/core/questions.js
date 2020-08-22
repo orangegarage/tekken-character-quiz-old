@@ -6,41 +6,37 @@ import quiz from "../assets/quiz.json";
 export const store = {
     state: {
         currentQuestion: 0,
-        answeredQuestion: 0,
+        // answeredQuestion: 0,
         currentStatus: "Skip",
         picked: "",
+        chosenTraits: [],
         jsonQuestion: quiz.questions,
         totalQuestions: quiz.questions.length
     },
     nextButton(){
-        this.state.currentQuestion++;
-        if(this.state.currentStatus == "Next"){
-            this.state.answeredQuestion++;
+        if(this.state.chosenTraits[this.state.currentQuestion+1] != null){
+            console.log("already chosen");
+            this.state.picked = this.state.chosenTraits[this.state.currentQuestion+1];
         }
-        else if(this.state.currentQuestion == this.state.totalQuestions-1){
-            console.log("this is the last question"); 
+        if(this.state.currentQuestion>= this.state.totalQuestions-1){
             this.state.currentStatus = "Submit";
+            this.state.currentQuestion = this.state.totalQuestions-1;
+            window.open("#/recommendation", "_self");
         }
-        else if(this.state.currentQuestion>= this.state.totalQuestions-1){
-                this.state.currentQuestion = this.state.totalQuestions-1;
-                if(this.state.currentStatus == "Submit"){
-                    this.state.answeredQuestion++;
-                }
-                window.open("#/recommendation", "_self");
-        }
-        console.log(this.state.currentQuestion);
-        console.log("total Questions: " + this.state.totalQuestions);
-        console.log("Has answered: "+ this.state.answeredQuestion + " out of " + this.state.totalQuestions + " questions so far");
+        this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
+        this.state.currentQuestion++;
+        console.log(this.state.chosenTraits);
         this.state.currentStatus = "Skip";
     },
+
     backButton(){
-        this.state.currentQuestion--;
-        this.state.currentStatus = "Skip";
-        console.log(this.state.currentQuestion);
-        if(this.state.currentQuestion == 0){
-            console.log("this is the first question");
+        if(this.state.chosenTraits[this.state.currentQuestion-1] != ""){
+            console.log("already chosen");
+            this.state.picked = this.state.chosenTraits[this.state.currentQuestion-1];
         }
-        else if(this.state.currentQuestion<=0){
+        this.state.currentQuestion--;
+        if(this.state.currentQuestion <= 0){
+            console.log("this is the first question");
             this.state.currentQuestion = 0;
         }
     },
