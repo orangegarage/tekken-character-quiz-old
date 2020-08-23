@@ -2,6 +2,7 @@
 // pass in index of question, and the function related to that question
 //question component will run that function soon as person chooses answer and return the list of characters.
 import quiz from "../assets/quiz.json";
+import characters from "../assets/characters.json";
 
 export const store = {
     state: {
@@ -12,22 +13,23 @@ export const store = {
         chosenTraits: [],
         jsonQuestion: quiz.questions,
         totalQuestions: quiz.questions.length,
-        final:""
+        jsonCharacters: characters.characters,
+        final: null
     },
     nextButton(){
         this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
         if(this.state.chosenTraits[this.state.currentQuestion+1] != null){
             console.log("already chosen: "+ this.state.chosenTraits[this.state.currentQuestion+1]);
             this.state.picked = this.state.chosenTraits[this.state.currentQuestion+1];
+            console.log(this.state.chosenTraits);
         }
         if(this.state.currentQuestion>= this.state.totalQuestions-1){
             this.state.currentStatus = "Submit";
             this.state.currentQuestion = this.state.totalQuestions-1;
             window.open("#/recommendation", "_self");
-            this.pointAssign();//need to fix where this goes
+            this.pointAssign();//need to fix where this goes- wait no i don't
         }
         this.state.currentQuestion++;
-        console.log(this.state.chosenTraits);
         this.state.currentStatus = "Skip";
     },
 

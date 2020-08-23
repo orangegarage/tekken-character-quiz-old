@@ -9,7 +9,7 @@
 <script>
 import quiz from "@/assets/quiz.json";
 import {store} from "@/core/questions.js";
-import characters from "@/assets/characters.json";
+
 // use a filter to get all json objects
 // iterate through and assign them values?
 // 1 variable for all stuff?
@@ -21,7 +21,6 @@ export default {
             storeState: store.state,
             category: "",
             picked: store.state.picked,
-            traits: characters.characters,
         };
     },
     methods: {
