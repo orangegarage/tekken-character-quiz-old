@@ -131,11 +131,11 @@
         },
         {
             "id": 12,
-            "question":"Recommend me characters that are: \n(Tiers are subjective, all characters are playable.)",
+            "question":"Do you have any tier preferences?: \n(Tiers are subjective, all characters are playable.)",
             "answers":{
-                "tier-1-prioritize": "High tier only (regular TWT Ro 8 appearances, OP characters).",
-                "tier-2-3-prioritize": "Mid tier only(good characters with some flaws).",
-                "tier-4-5-prioritize": "Low tier only(characters with noticeable flaws).",
+                "tier-1-prioritize": "Top tiers (regular TWT Ro 8 appearances, OP characters).",
+                "tier-2-3-prioritize": "Mid tiers (good characters with some flaws).",
+                "tier-4-5-prioritize": "Low tiers (characters with noticeable flaws).",
                 "tier-1-2-3-prioritize": "No low tiers.",
                 "tier-2-3-4-5-prioritize": "No high tiers.",
                 "neutral": "I don't care about tiers, please don't take it into consideration."

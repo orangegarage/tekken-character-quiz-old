@@ -68,10 +68,13 @@ ul {
 
 .questions{
   margin-bottom: 2em;
+  font-size:130%;
+  font-weight:bold;
   white-space:pre-wrap;
 }
 .answers{
   margin-top:1em;
+  /* font-size:110%; */
 }
 .next{
   margin-top:2em;

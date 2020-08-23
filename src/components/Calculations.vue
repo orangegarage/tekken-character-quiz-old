@@ -1,7 +1,7 @@
 <template>
     <div class = "recommendation">
-        {{picked}}
-        
+        {{picked}}<br>
+        {{storeState.chosenTraits}}
     </div>
 </template>
 
