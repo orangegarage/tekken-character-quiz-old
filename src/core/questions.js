@@ -24,7 +24,7 @@ export const store = {
             this.state.currentStatus = "Submit";
             this.state.currentQuestion = this.state.totalQuestions-1;
             window.open("#/recommendation", "_self");
-            this.pointAssign();
+            this.pointAssign();//need to fix where this goes
         }
         this.state.currentQuestion++;
         console.log(this.state.chosenTraits);
