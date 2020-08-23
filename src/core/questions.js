@@ -8,10 +8,11 @@ export const store = {
         currentQuestion: 0,
         // answeredQuestion: 0,
         currentStatus: "Skip",
-        picked: "",
+        picked: null,
         chosenTraits: [],
         jsonQuestion: quiz.questions,
-        totalQuestions: quiz.questions.length
+        totalQuestions: quiz.questions.length,
+        final:""
     },
     nextButton(){
         this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
@@ -23,6 +24,7 @@ export const store = {
             this.state.currentStatus = "Submit";
             this.state.currentQuestion = this.state.totalQuestions-1;
             window.open("#/recommendation", "_self");
+            this.pointAssign();
         }
         this.state.currentQuestion++;
         console.log(this.state.chosenTraits);
@@ -46,6 +48,12 @@ export const store = {
         if(this.state.currentQuestion+1 == this.state.jsonQuestion.length){
             // alert("this is the last question");
             this.state.currentStatus = "Submit";
+        }
+    },
+    pointAssign(){
+        for(var i=0; i< this.state.totalQuestions;i++){
+            console.log("hi"+ i);
+            this.final = i;
         }
     }
 }

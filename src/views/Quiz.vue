@@ -10,7 +10,7 @@ import Questions from '@/components/Questions.vue' //import from component
 export default {
     name: 'Quiz',
     components: { 
-        Questions,
+        Questions
     }
 }
 </script>

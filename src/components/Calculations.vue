@@ -1,7 +1,8 @@
 <template>
     <div class = "recommendation">
         {{picked}}<br>
-        {{storeState.chosenTraits}}
+        {{storeState.chosenTraits}}<br>
+        {{storeState.final}}
     </div>
 </template>
 
@@ -19,11 +20,11 @@ export default {
         return {
             storeState: store.state,
             category: "",
-            picked: store.state.picked
+            picked: store.state.picked,
+            traits: characters.characters,
         };
     },
     methods: {
-
     }
 }
 </script>
