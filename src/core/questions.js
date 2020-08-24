@@ -14,7 +14,7 @@ export const store = {
         jsonQuestion: quiz.questions,
         totalQuestions: quiz.questions.length,
         jsonCharacters: characters.characters,
-        final: null
+        final: 0
     },
     nextButton(){
         this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
@@ -28,6 +28,7 @@ export const store = {
             this.state.currentQuestion = this.state.totalQuestions-1;
             window.open("#/recommendation", "_self");
             this.pointAssign();//need to fix where this goes- wait no i don't
+            
         }
         this.state.currentQuestion++;
         this.state.currentStatus = "Skip";
@@ -39,7 +40,10 @@ export const store = {
             console.log("already chosen: "+ this.state.chosenTraits[this.state.currentQuestion]);
             this.state.picked = this.state.chosenTraits[this.state.currentQuestion];
         }
-        
+        else{
+            this.state.currentStatus = "Skip";
+        }
+
         if(this.state.currentQuestion <= 0){
             console.log("this is the first question");
             this.state.currentQuestion = 0;
@@ -53,9 +57,13 @@ export const store = {
         }
     },
     pointAssign(){
-        for(var i=0; i< this.state.totalQuestions;i++){
-            console.log("hi"+ i);
-            this.final = i;
+        for(var i=0; i< this.state.chosenTraits.length;i++){ 
+            for(var j=0; j<this.state.totalQuestions;j++){
+                if(this.state.chosenTraits[i].indexOf(this.state.jsonCharacters[j].tags[i])){ //need it to contain,maybe will have to be other way round, split the strings
+                    console.log("update");
+                    final++;
+                }
+            }
         }
     }
 }

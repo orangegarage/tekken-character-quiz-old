@@ -19,31 +19,29 @@
 
 
 JSON Template:
-    "":[
         {
-            
-            "name": "",
-            "dlc": "",
-            "photo": "",
-            "sex": "",
-            "tutorial": "",
-            "execution": "",
-            "tier":"",
-            "movement":"",
-            "gameplan-focus": "",
-            "gameplan-focus2": "",
-            "gameplan-okizeme": "",
-            "gameplan-offensive-options": "",
-            "gameplan-offensive-options2": "", 
-            "setups": "",
-            "evasion": "",
-            "stance-heavy": "",
-            "gameplan-level":,
-            "beginner-friendly": "",
-            "flavortext-eng": "",
-            "flavortext-kr": ""
+            "name": ,
+            "dlc": ,
+            "photo": ,
+            "gender": ,
+            "tutorial": ,
+            "execution": ,
+            "tier": ,
+            "movetier": ,
+            "gameplan-focus": ,
+            "gameplan-focus2": ,
+            "gameplan-okizeme": ,
+            "gameplan-offensive-options": ,
+            "gameplan-offensive-options2": , 
+            "setups": ,
+            "evasion": ,
+            "stance": ,
+            "gameplan-level": ,
+            "beginner-friendly": ,
+            "tags": [],
+            "flavortext-eng": "lorem",
+            "flavortext-kr": "lorem"
         }
-    ]
 
 selection:
 "prioritize(attribute, value)"
@@ -59,6 +57,8 @@ quiz.json template
 
             ]
         }
+
+
 
 
 aggressive Oki characters: Julia, kazuya, king, ak, marduk, anna, nina

@@ -30,7 +30,7 @@
                 "movement-prioritize": "Dashing in and out of range as I chip my opponent down.",
                 "aggression-prioritize": "Getting close and personal with my opponent through aggression.",
                 "defense-prioritize": "Waiting for my opponent to make mistakes that I can capitalize on.",
-                "versatile-prioritize": "I enjoy everything, please choose a versatile character for me."
+                "versatilegoal-prioritize": "I enjoy everything, please choose a versatile character for me."
             },
             "answer-key": "gameplan-focus"
         },
@@ -42,7 +42,7 @@
                 "movement-prefer": "Dashing in and out of range as I chip my opponent down.",
                 "aggression-prefer": "Getting close and personal with my opponent through aggression.",
                 "defense-prefer": "Waiting for my opponent to make mistakes that I can capitalize on.",
-                "versatile-prefer": "I enjoy everything, please choose a versatile character for me."
+                "versatilegoal-prefer": "I enjoy everything, please choose a versatile character for me."
             },
             "answer-key": "gameplan-focus2"
         },
@@ -56,7 +56,7 @@
                 "grab-prioritize": "Grappling and throwing is the way to go - you can't break them all.",
                 "plus-frame-prioritize": "Mindgames from plus frames that will suffocate the opponent to death.",
                 "poke-prioritize": "Poking down the opponent down with a series of low risk moves.",
-                "versatile-prioritize": "So many options, I would like a character that can specialize in everything."
+                "versatileoffense-prioritize": "So many options, I would like a character that can specialize in everything."
             },
             "answer-key": "gameplan-offensive-options"
         },
@@ -70,7 +70,7 @@
                 "grab-prefer": "Grappling and throwing is the way to go - you can't break them all.",
                 "plus-frame-prefer": "Mindgames from plus frames that will suffocate the opponent to death.",
                 "poke-prefer": "Poking down the opponent down with a series of low risk moves.",
-                "versatile-prefer": "So many options, I would like a character that can specialize in everything."
+                "versatileoffense-prefer": "So many options, I would like a character that can specialize in everything."
             },
             "answer-key": "gameplan-offensive-options2"
         },
@@ -78,9 +78,9 @@
             "id": 7,
             "question":"The opponent is on the ground - what do you want to do? (Okizeme)",
             "answers":{
-                "aggressive-prefer": "I aggressively dash in, looking for a followup mixup.",
-                "defensive-prefer": "I take it safe and reset to neutral in a favorable position.",
-                "versatile-prefer": "I would like a character that has options for both.",
+                "aggressiveoki-prefer": "I aggressively dash in, looking for a followup mixup.",
+                "defensiveoki-prefer": "I take it safe and reset to neutral in a favorable position.",
+                "versatileoki-prefer": "I would like a character that has options for both.",
                 "neutral": "I don't have an opinion. Please don't take okizeme situations into consideration."
             },
             "answer-key": "gameplan-okizeme"
@@ -89,10 +89,10 @@
             "id": 8,
             "question":"Would you want to play a character focused around setups/pattern play?",
             "answers":{
-                "setups-prioritize": "Absolutely! Please try to recommend me a character that focuses on setups.",
-                "setups-prefer": "I prefer setups, but it doesn't take priority over other options.",
-                "setups-hate": "I hate setups! Please try to recommend me characters that don't have setups as their focus.",
-                "setups-unimpoortant": "I prefer no setups, but I am willing to play a setup oriented character.",
+                "setups-depend-prioritize": "Absolutely! Please try to recommend me a character that focuses on setups.",
+                "setups-depend-prefer": "I prefer setups, but it doesn't take priority over other options.",
+                "setups-unimportant-prioritize": "I hate setups! Please try to recommend me characters that don't have setups as their focus.",
+                "setups-unimpoortant-prefer": "I prefer no setups, but I am willing to play a setup oriented character.",
                 "neutral": "I don't really have an opinion. Please don't take setups into consideration."
             },
             "answer-key": "setups"
@@ -103,8 +103,8 @@
             "answers":{
                 "stance-heavy-prioritize": "Stances are great, please try to recommend me a stance heavy character.",
                 "stance-heavy-prefer": "I prefer having stances, but it doesn't take priority over other options.",
-                "stance-heavy-hate": "I hate stance. Please try to recommend me characters that aren't stance heavy.",
-                "stance-heavy-unimportant": "I prefer having no stances, but I am willing to play a character with stances.",
+                "stance-light-prioritize": "I hate stances. Please try to recommend me characters that aren't stance heavy.",
+                "stance-light-prefer": "I prefer having no stances, but I am willing to play a character with stances.",
                 "neutral": "I don't really have an opinion. Please don't take stances into consideration."
             },
             "answer-key": "stance-heavy"
@@ -113,8 +113,8 @@
             "id": 10,
             "question":"Do you value your characters' built in movement? (backdash/sidestep)",
             "answers":{
-                "movement-prioritize": "Yes, I think movement is very important",
-                "movement-prefer": "To an extent, characters with bad movement are frustrating to play.",
+                "movetier-high-prioritize": "Yes, I think having top tier movement is very important",
+                "movetier-high-prefer": "A little, but having top tier movement is not my priority.",
                 "neutral": "It's not something I feel strongly about, please don't take movement into consideration."
             },
             "answer-key": "movement"
@@ -123,8 +123,8 @@
             "id": 11,
             "question":"Would you prefer a character with built in evasion in their moveset? ",
             "answers":{
-                "evasion-prioritize": "Yes, please prioritize a character with high evasion",
-                "evasion-prefer": "I would enjoy high evasion, but it's not a priority for me.",
+                "evasion-high-prioritize": "Yes, please prioritize a character with high evasion",
+                "evasion-high-prefer": "I would enjoy high evasion, but it's not a priority for me.",
                 "neutral": "I don't really have an opinion. Please don't take built-in evasion into consideration."
             },
             "answer-key": "evasion"
@@ -133,12 +133,12 @@
             "id": 12,
             "question":"Do you have any tier preferences?: \n(Tiers are subjective, all characters are playable.)",
             "answers":{
-                "tier-1-prioritize": "Top tiers (regular TWT Ro 8 appearances, OP characters).",
-                "tier-2-3-prioritize": "Mid tiers (good characters with some flaws).",
-                "tier-4-5-prioritize": "Low tiers (characters with noticeable flaws).",
-                "tier-1-2-3-prioritize": "No low tiers.",
-                "tier-2-3-4-5-prioritize": "No high tiers.",
-                "neutral": "I don't care about tiers, please don't take it into consideration."
+                "tier-high-prioritize": "Top tiers (regular TWT Ro 8 appearances, OP characters).",
+                "tier-mid-prioritize": "High-mid tiers (good characters with some flaws).",
+                "tier-low-prioritize": "lower tiers (characters with noticeable flaws).",
+                "tier-midhigh-prioritize": "No low tiers.",
+                "tier-midlow-prioritize": "No high tiers.",
+                "neutral": "I don't have a strong opinion on tiers, please don't take it into consideration."
             },
             "answer-key": "tier"
         },
@@ -146,8 +146,8 @@
             "id": 13,
             "question":"One last thing, do you have preference on character difficulty?\n(Difficulty is subjective, all characters are hard at first.)",
             "answers":{
-                "gameplan-level-1-2-prioritize": "I prefer characters that I can learn the basics with.",
-                "gameplan-level-3-4-prioritize": "I prefer characters that have challenging execution and gameplan.",
+                "gameplan-level-low-prefer": "I prefer characters that I can learn the basics with.",
+                "gameplan-level-high-prefer": "I prefer characters that have challenging execution and gameplan.",
                 "neutral": "I don't have a preference on character difficulty.",
                 "beginner-friendly-prioritize": "Choose a \"beginner friendly\"character for me. I understand this is subjective."
             },
