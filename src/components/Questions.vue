@@ -41,7 +41,14 @@ export default {
     },
     methods: {
         nextButtonClick(){
+            
             store.nextButton();
+            if(this.storeState.currentQuestion > this.storeState.totalQuestions-1){
+                this.storeState.currentQuestion = this.storeState.totalQuestions-1;
+                //now everythign should work
+                //ok it works
+                this.$router.push({path: '/recommendation'});
+            }
         },
         backButtonClick(){
             store.backButton();

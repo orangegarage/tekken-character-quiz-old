@@ -3,6 +3,7 @@
 //question component will run that function soon as person chooses answer and return the list of characters.
 import quiz from "../assets/quiz.json";
 import characters from "../assets/characters.json";
+import Recommendation from "../views/Recommendation.vue";
 
 export const store = {
     state: {
@@ -14,23 +15,24 @@ export const store = {
         jsonQuestion: quiz.questions,
         totalQuestions: quiz.questions.length,
         jsonCharacters: characters.characters,
-        final: 0
+        final: []
     },
     nextButton(){
+        // console.log(this.state.currentQuestion);
         this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
         if(this.state.chosenTraits[this.state.currentQuestion+1] != null){
             console.log("already chosen: "+ this.state.chosenTraits[this.state.currentQuestion+1]);
             this.state.picked = this.state.chosenTraits[this.state.currentQuestion+1];
-            console.log(this.state.chosenTraits);
-        }
-        if(this.state.currentQuestion>= this.state.totalQuestions-1){
-            this.state.currentStatus = "Submit";
-            this.state.currentQuestion = this.state.totalQuestions-1;
-            window.open("#/recommendation", "_self");
-            this.pointAssign();//need to fix where this goes- wait no i don't
-            
+            // console.log(this.state.chosenTraits);
         }
         this.state.currentQuestion++;
+        
+        if(this.state.currentQuestion > this.state.totalQuestions-1){
+            this.state.currentStatus = "Submit";
+            
+            this.pointAssign();//need to fix where this goes- wait no i don't
+        }
+        this.state.picked = null;
         this.state.currentStatus = "Skip";
     },
 
@@ -57,13 +59,29 @@ export const store = {
         }
     },
     pointAssign(){
+        var score = 0;
         for(var i=0; i< this.state.jsonCharacters.length;i++){ 
+            var name = this.state.jsonCharacters[i].name;
+            console.log("Character: "+ name);
             for(var j=0;j<this.state.chosenTraits.length;j++){
-                // var indextrait = this.state.chosenTraits.find(a => a.includes(this.state.jsonCharacters[j].tags[i]));
-                // if(indextrait != undefined){ //need it to contain,maybe will have to be other way round, split the strings
-                //     console.log(indextrait);
-                // }
-                console.log("Character: "+ this.state.jsonCharacters[i].name+ " - " +this.state.jsonCharacters[i].tags[j]);
+                var originalTraits = this.state.jsonCharacters[i].tags[j];
+                if(this.state.chosenTraits[j]&&this.state.chosenTraits[j].includes(originalTraits)){ //see if any traits line up with a char
+                    //then we check if it is 'prioritize' or 'prefer'
+                    if(this.state.chosenTraits[j].includes("prioritize")){
+                        console.log(name +" +10");
+                        //need to actually assign points now lmao
+                        //json file update or array update?
+                        this.state.final[i] = [name, score];
+                        score += 10;
+                        console.log(this.state.final[i]);
+                    }
+                    else if(this.state.chosenTraits[j].includes("prefer")){
+                        console.log(name + " +5");
+                    }
+                }
+                // console.log("traits: " + this.state.jsonCharacters[i].tags[j]);
+                //var commonTrait = this.state.chosenTraits.find(a => a.includes(this.state.jsonCharacters[i].tags[j]));
+                //maybe declare var at start of function to decide its non assigned value
             }
         }
     }

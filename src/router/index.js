@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Quiz from '../views/Quiz.vue'
 import Recommendation from '../views/Recommendation.vue'
+
 Vue.use(VueRouter)
 
   const routes = [
@@ -27,7 +28,7 @@ Vue.use(VueRouter)
   {
     path: '/recommendation',
     name: 'Recommendation',
-    component: () => import('../views/Recommendation.vue')
+    component: Recommendation
   }
   
 ]
