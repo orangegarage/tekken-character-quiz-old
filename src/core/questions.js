@@ -57,12 +57,13 @@ export const store = {
         }
     },
     pointAssign(){
-        for(var i=0; i< this.state.chosenTraits.length;i++){ 
-            for(var j=0; j<this.state.totalQuestions;j++){
-                if(this.state.chosenTraits[i].indexOf(this.state.jsonCharacters[j].tags[i])){ //need it to contain,maybe will have to be other way round, split the strings
-                    console.log("update");
-                    final++;
-                }
+        for(var i=0; i< this.state.jsonCharacters.length;i++){ 
+            for(var j=0;j<this.state.chosenTraits.length;j++){
+                // var indextrait = this.state.chosenTraits.find(a => a.includes(this.state.jsonCharacters[j].tags[i]));
+                // if(indextrait != undefined){ //need it to contain,maybe will have to be other way round, split the strings
+                //     console.log(indextrait);
+                // }
+                console.log("Character: "+ this.state.jsonCharacters[i].name+ " - " +this.state.jsonCharacters[i].tags[j]);
             }
         }
     }
