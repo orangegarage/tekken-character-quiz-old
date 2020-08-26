@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import quiz from "@/assets/quiz.json";
+// import quiz from "@/assets/quiz.json";
 import {store} from "@/core/questions.js";
 
 // use a filter to get all json objects

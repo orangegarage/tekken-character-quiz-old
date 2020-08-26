@@ -92,7 +92,7 @@
                 "setups-depend-prioritize": "Absolutely! Please try to recommend me a character that focuses on setups.",
                 "setups-depend-prefer": "I prefer setups, but it doesn't take priority over other options.",
                 "setups-unimportant-prioritize": "I hate setups! Please try to recommend me characters that don't have setups as their focus.",
-                "setups-unimpoortant-prefer": "I prefer no setups, but I am willing to play a setup oriented character.",
+                "setups-unimportant-prefer": "I prefer no setups, but I am willing to play a setup oriented character.",
                 "neutral": "I don't really have an opinion. Please don't take setups into consideration."
             },
             "answer-key": "setups"
