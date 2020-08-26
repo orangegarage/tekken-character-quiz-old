@@ -30,7 +30,7 @@
 
 
 <script>
-import quiz from "../assets/quiz.json";
+// import quiz from "../assets/quiz.json";
 import {store} from "../core/questions.js";
 
 export default {

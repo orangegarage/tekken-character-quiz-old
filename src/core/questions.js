@@ -70,16 +70,19 @@ export const store = {
         // Modify jsonCharacters directly, no need to create a new object for this if it will have the same structure as jsonCharacters. It won't modify the original json.
         this.state.jsonCharacters = this.state.jsonCharacters.map(character => {
             // The number of tags the character has that were found in prioritizedTraits
-            const characterPrioritizedTraits = character.tags.filter(tag => tag===prioritizedTraits).length;
-            const characterPreferredTraits = character.tags.filter(tag => tag===preferredTraits).length;
+            const characterPrioritizedTraits = character.tags.filter(tag => prioritizedTraits.includes(tag)).length;
+            const characterPreferredTraits = character.tags.filter(tag => preferredTraits.includes(tag)).length;
             character.score = characterPrioritizedTraits * 10 + characterPreferredTraits * 5;
+            return character;
         });
 
-        const characterHighestScore = Math.max(this.state.jsonCharacters.map(character => character.score), 0);
-        console.log(characterHighestScore);
+        const characterHighestScore = Math.max(...this.state.jsonCharacters.map(character => character.score), 0);
+        console.log("CharacterHighestScore: "+ characterHighestScore);
         // Or to show multiple recommendations
         const charactersSortedHighestScores = this.state.jsonCharacters.sort((a, b) => b.score - a.score);
-        console.log(charactersSortedHighestScores);
+        const justTheScores = this.state.jsonCharacters.sort((a, b) => b.score - a.score).map(char => char.score);
+        console.log("justTheScores: "+ justTheScores);
+        console.log("charactersSortedHighestScores: " + charactersSortedHighestScores);
         // this.state.final = characterHighestScore;
         // var score = 0;
         // for(var i=0; i< this.state.jsonCharacters.length;i++){ 

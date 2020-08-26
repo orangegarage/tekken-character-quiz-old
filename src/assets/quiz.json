@@ -89,8 +89,8 @@
             "id": 8,
             "question":"Would you want to play a character focused around setups/pattern play?",
             "answers":{
-                "setups-depend-prioritize": "Absolutely! Please try to recommend me a character that focuses on setups.",
-                "setups-depend-prefer": "I prefer setups, but it doesn't take priority over other options.",
+                "setups-important-prioritize": "Absolutely! Please try to recommend me a character that focuses on setups.",
+                "setups-important-prefer": "I prefer setups, but it doesn't take priority over other options.",
                 "setups-unimportant-prioritize": "I hate setups! Please try to recommend me characters that don't have setups as their focus.",
                 "setups-unimportant-prefer": "I prefer no setups, but I am willing to play a setup oriented character.",
                 "neutral": "I don't really have an opinion. Please don't take setups into consideration."
