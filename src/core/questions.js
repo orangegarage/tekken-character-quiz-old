@@ -33,7 +33,6 @@ export const store = {
         }
         if(this.state.currentQuestion > this.state.totalQuestions-1){
             this.state.currentStatus = "Submit";
-            
             this.pointAssign();//need to fix where this goes- wait no i don't
         }
     },
@@ -71,8 +70,8 @@ export const store = {
         // Modify jsonCharacters directly, no need to create a new object for this if it will have the same structure as jsonCharacters. It won't modify the original json.
         this.state.jsonCharacters = this.state.jsonCharacters.map(character => {
             // The number of tags the character has that were found in prioritizedTraits
-            const characterPrioritizedTraits = character.tags.filter(tag => prioritizedTraits(tag)).length;
-            const characterPreferredTraits = character.tags.filter(tag => preferredTraits(tag)).length;
+            const characterPrioritizedTraits = character.tags.filter(tag => tag===prioritizedTraits).length;
+            const characterPreferredTraits = character.tags.filter(tag => tag===preferredTraits).length;
             character.score = characterPrioritizedTraits * 10 + characterPreferredTraits * 5;
         });
 
