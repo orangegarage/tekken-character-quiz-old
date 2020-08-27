@@ -62,52 +62,38 @@ export const store = {
     pointAssign(){
         // List of traits that were prioritized, with the 'prioritize' removed
         console.log("point assign start");
-        const prioritizedTraits = this.state.chosenTraits.filter(trait => trait.includes("prioritize")).map(trait => trait.replace("prioritize", ""));
-
+        const prioritizedTraits = this.state.chosenTraits.filter(trait => trait.includes("prioritize")).map(trait => trait.replace("-prioritize", ""));
+        console.log("prioritized traits: " + prioritizedTraits);
         // Same thing but for preferred traits
-        const preferredTraits = this.state.chosenTraits.filter(trait => trait.includes("prefer")).map(trait => trait.replace("prefer", ""));
+        const preferredTraits = this.state.chosenTraits.filter(trait => trait.includes("prefer")).map(trait => trait.replace("-prefer", ""));
+        console.log("preferred traits: "+ preferredTraits);
 
         // Modify jsonCharacters directly, no need to create a new object for this if it will have the same structure as jsonCharacters. It won't modify the original json.
         this.state.jsonCharacters = this.state.jsonCharacters.map(character => {
             // The number of tags the character has that were found in prioritizedTraits
             const characterPrioritizedTraits = character.tags.filter(tag => prioritizedTraits.includes(tag)).length;
+            console.log("prioritized length: " + characterPrioritizedTraits);
+
             const characterPreferredTraits = character.tags.filter(tag => preferredTraits.includes(tag)).length;
+            console.log("preferred length: " + characterPreferredTraits); 
+
             character.score = characterPrioritizedTraits * 10 + characterPreferredTraits * 5;
+            console.log("character score: "+ character.score);
             return character;
         });
 
         const characterHighestScore = Math.max(...this.state.jsonCharacters.map(character => character.score), 0);
         console.log("CharacterHighestScore: "+ characterHighestScore);
+        console.log(characterHighestScore);
+
         // Or to show multiple recommendations
+
         const charactersSortedHighestScores = this.state.jsonCharacters.sort((a, b) => b.score - a.score);
         const justTheScores = this.state.jsonCharacters.sort((a, b) => b.score - a.score).map(char => char.score);
-        console.log("justTheScores: "+ justTheScores);
-        console.log("charactersSortedHighestScores: " + charactersSortedHighestScores);
-        // this.state.final = characterHighestScore;
-        // var score = 0;
-        // for(var i=0; i< this.state.jsonCharacters.length;i++){ 
-        //     var name = this.state.jsonCharacters[i].name;
-        //     console.log("Character: "+ name);
-        //     for(var j=0;j<this.state.chosenTraits.length;j++){
-        //         var originalTraits = this.state.jsonCharacters[i].tags[j];
-        //         if(this.state.chosenTraits[j]&&this.state.chosenTraits[j].includes(originalTraits)){ //see if any traits line up with a char
-        //             //then we check if it is 'prioritize' or 'prefer'
-        //             if(this.state.chosenTraits[j].includes("prioritize")){
-        //                 console.log(name +" +10");
-        //                 //need to actually assign points now lmao
-        //                 //json file update or array update?
-        //                 this.state.final[i] = [name, score];
-        //                 score += 10;
-        //                 console.log(this.state.final[i]);
-        //             }
-        //             else if(this.state.chosenTraits[j].includes("prefer")){
-        //                 console.log(name + " +5");
-        //             }
-        //         }
-        //         // console.log("traits: " + this.state.jsonCharacters[i].tags[j]);
-        //         //var commonTrait = this.state.chosenTraits.find(a => a.includes(this.state.jsonCharacters[i].tags[j]));
-        //         //maybe declare var at start of function to decide its non assigned value
-        //     }
-        // }
+        // console.log("justTheScores: "+ justTheScores);
+        // console.log("charactersSortedHighestScores: " + charactersSortedHighestScores);
+        console.log(justTheScores);
+        console.log(charactersSortedHighestScores);
+        // declare new var assign store state based on character to it and return it in the final vue 
     }
 }
