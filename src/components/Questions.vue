@@ -41,12 +41,12 @@ export default {
     },
     methods: {
         nextButtonClick(){
-            
             store.nextButton();
             if(this.storeState.currentQuestion > this.storeState.totalQuestions-1){
                 this.storeState.currentQuestion = this.storeState.totalQuestions-1;
-                //now everythign should work
+                //now everything should work
                 //ok it works
+                console.log(this.storeState.currentQuestion);
                 this.$router.push({path: '/recommendation'});
             }
         },
@@ -57,7 +57,16 @@ export default {
             store.answerAsButton();
         },
         navClick(key){
+            // store.nextButton();
+            // console.log(this.storeState.chosenTraits);
+            this.storeState.chosenTraits[this.storeState.currentQuestion] = this.storeState.picked;
             this.storeState.currentQuestion = key;
+            
+            if(this.storeState.chosenTraits[this.storeState.currentQuestion] == null || this.storeState.chosenTraits[this.storeState.currentQuestion] == " "){
+                this.storeState.picked = " ";
+                this.storeState.currentStatus = "Skip";
+            }
+            console.log(this.storeState.chosenTraits);
         }
     }
 }

@@ -10,7 +10,7 @@ export const store = {
         currentQuestion: 0,
         // answeredQuestion: 0,
         currentStatus: "Skip",
-        picked: null,
+        picked: " ",
         chosenTraits: [],
         jsonQuestion: quiz.questions,
         totalQuestions: quiz.questions.length,
@@ -21,29 +21,29 @@ export const store = {
         // console.log(this.state.currentQuestion);
         if(this.state.chosenTraits[this.state.currentQuestion+1] != null){
             console.log("already chosen: "+ this.state.chosenTraits[this.state.currentQuestion+1]);
-            this.state.picked = this.state.chosenTraits[this.state.currentQuestion+1];
-            // console.log(this.state.chosenTraits);
+            this.state.picked = this.state.chosenTraits[this.state.currentQuestion+1];   
         }
+        console.log(this.state.chosenTraits);
 
         this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
+        
         this.state.currentQuestion++;
-        if(this.state.chosenTraits[this.state.currentQuestion] == null){
-            this.state.picked = null;
+        if(this.state.chosenTraits[this.state.currentQuestion] == null || this.state.chosenTraits[this.state.currentQuestion] == " "){
+            this.state.picked = " ";
             this.state.currentStatus = "Skip";
         }
         if(this.state.currentQuestion > this.state.totalQuestions-1){
             this.state.currentStatus = "Submit";
             this.pointAssign();//need to fix where this goes- wait no i don't
+            //have pointAssign deal with 'null' cases
         }
     },
-
     backButton(){
         this.state.currentQuestion--;
         if(this.state.chosenTraits[this.state.currentQuestion] != null){
-            console.log("already chosen: "+ this.state.chosenTraits[this.state.currentQuestion]);
             this.state.picked = this.state.chosenTraits[this.state.currentQuestion];
         }
-        else{
+        if (this.state.chosenTraits[this.state.currentQuestion] == null || this.state.chosenTraits[this.state.currentQuestion] == " "){
             this.state.currentStatus = "Skip";
         }
 
@@ -64,7 +64,7 @@ export const store = {
         console.log("point assign start");
         const prioritizedTraits = this.state.chosenTraits.filter(trait => trait.includes("prioritize")).map(trait => trait.replace("-prioritize", ""));
         console.log("prioritized traits: " + prioritizedTraits);
-        // Same thing but for preferred traits
+        // Same thing but f     r preferred traits
         const preferredTraits = this.state.chosenTraits.filter(trait => trait.includes("prefer")).map(trait => trait.replace("-prefer", ""));
         console.log("preferred traits: "+ preferredTraits);
 
@@ -94,6 +94,9 @@ export const store = {
         // console.log("charactersSortedHighestScores: " + charactersSortedHighestScores);
         console.log(justTheScores);
         console.log(charactersSortedHighestScores);
-        // declare new var assign store state based on character to it and return it in the final vue 
+        this.state.final = [charactersSortedHighestScores[0].name, charactersSortedHighestScores[1].name, charactersSortedHighestScores[2].name]
+        // declare new var assign store state based on character to it and return it in the final vue
+        // getCharactersSortedHighestScores. getJustTheScores
+
     }
 }
