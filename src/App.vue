@@ -116,5 +116,8 @@ li:hover {
   width: 1.3em;
   height: 1.3em;
 }
+.top3 { 
+  white-space:pre-wrap;
+}
 /* Make radio button default clicked based on index. */
 </style>

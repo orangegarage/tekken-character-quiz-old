@@ -9,8 +9,7 @@
                 "girl-prioritize": "I strongly prefer a female character.",
                 "girl-prefer": "I prefer a female character, but it's not essential.",
                 "neutral": "I don't lean either way. Recommend me a character without considering this."
-            },
-            "answer-key": "gender"
+            }
         },
         {
             "id": 2,
@@ -18,9 +17,9 @@
             "answers": {
                 "neutral": "Absolutely, I am willing to buy DLC if the character fits my playstyle.",
                 "base-prefer": "I'm ok with it, but please prioritize non-DLC characters.",
-                "base-prioritize": "Please recommend me characters in the base game. I don't want to buy DLC."
-            },
-            "answer-key": "dlc"
+                "base-prioritize": "Please prioritize characters in the base game. I don't want to buy DLC.",
+                "dlc-prioritize": "I actually want to try a character in the DLC, prioritize DLC characters."
+            }
         },
         {
             "id": 3,
@@ -31,8 +30,7 @@
                 "aggression-prioritize": "Getting close and personal with my opponent through aggression.",
                 "defense-prioritize": "Waiting for my opponent to make mistakes that I can capitalize on.",
                 "versatilegoal-prioritize": "I enjoy everything, please choose a versatile character for me."
-            },
-            "answer-key": "gameplan-focus"
+            }
         },
         {
             "id": 4,
@@ -43,8 +41,7 @@
                 "aggression-prefer": "Getting close and personal with my opponent through aggression.",
                 "defense-prefer": "Waiting for my opponent to make mistakes that I can capitalize on.",
                 "versatilegoal-prefer": "I enjoy everything, please choose a versatile character for me."
-            },
-            "answer-key": "gameplan-focus2"
+            }
         },
         {
             "id": 5,
@@ -57,8 +54,7 @@
                 "plus-frame-prioritize": "Mindgames from plus frames that will suffocate the opponent to death.",
                 "poke-prioritize": "Poking down the opponent down with a series of low risk moves.",
                 "versatileoffense-prioritize": "So many options, I would like a character that can specialize in everything."
-            },
-            "answer-key": "gameplan-offensive-options"
+            }
         },
         {
             "id": 6,
@@ -71,8 +67,7 @@
                 "plus-frame-prefer": "Mindgames from plus frames that will suffocate the opponent to death.",
                 "poke-prefer": "Poking down the opponent down with a series of low risk moves.",
                 "versatileoffense-prefer": "So many options, I would like a character that can specialize in everything."
-            },
-            "answer-key": "gameplan-offensive-options2"
+            }
         },
         {
             "id": 7,
@@ -82,8 +77,7 @@
                 "defensiveoki-prefer": "I take it safe and reset to neutral in a favorable position.",
                 "versatileoki-prefer": "I would like a character that has options for both.",
                 "neutral": "I don't have an opinion. Please don't take okizeme situations into consideration."
-            },
-            "answer-key": "gameplan-okizeme"
+            }
         },
         {
             "id": 8,
@@ -94,8 +88,7 @@
                 "setups-unimportant-prioritize": "I hate setups! Please try to recommend me characters that don't have setups as their focus.",
                 "setups-unimportant-prefer": "I prefer no setups, but I am willing to play a setup oriented character.",
                 "neutral": "I don't really have an opinion. Please don't take setups into consideration."
-            },
-            "answer-key": "setups"
+            }
         },
         {
             "id": 9,
@@ -106,28 +99,25 @@
                 "stance-light-prioritize": "I hate stances. Please try to recommend me characters that aren't stance heavy.",
                 "stance-light-prefer": "I prefer having no stances, but I am willing to play a character with stances.",
                 "neutral": "I don't really have an opinion. Please don't take stances into consideration."
-            },
-            "answer-key": "stance-heavy"
+            }
         },
         {
             "id": 10,
             "question":"Do you value your characters' built in movement? (backdash/sidestep)",
             "answers":{
                 "movetier-high-prioritize": "Yes, I think having top tier movement is very important",
-                "movetier-high-prefer": "A little, but having top tier movement is not my priority.",
+                "movetier-midhigh-prioritize": "A little, just don't recommend me characters with bad movement.",
                 "neutral": "It's not something I feel strongly about, please don't take movement into consideration."
-            },
-            "answer-key": "movement"
+            }
         },
         {
             "id": 11,
             "question":"Would you prefer a character with built in evasion in their moveset? ",
             "answers":{
                 "evasion-high-prioritize": "Yes, please prioritize a character with high evasion",
-                "evasion-high-prefer": "I would enjoy high evasion, but it's not a priority for me.",
+                "evasion-midhigh-prioritize": "A little, just don't recommend me characters with bad evasion.",
                 "neutral": "I don't really have an opinion. Please don't take built-in evasion into consideration."
-            },
-            "answer-key": "evasion"
+            }
         },
         {
             "id": 12,
@@ -139,8 +129,7 @@
                 "tier-midhigh-prioritize": "No low tiers.",
                 "tier-midlow-prioritize": "No high tiers.",
                 "neutral": "I don't have a strong opinion on tiers, please don't take it into consideration."
-            },
-            "answer-key": "tier"
+            }
         },
         {
             "id": 13,
@@ -150,8 +139,7 @@
                 "gameplan-level-high-prefer": "I prefer characters that have challenging execution and gameplan.",
                 "neutral": "I don't have a preference on character difficulty.",
                 "beginner-friendly-prioritize": "Choose a \"beginner friendly\"character for me. I understand this is subjective."
-            },
-            "answer-key": "gameplan-level"
+            }
         }
     ]
 }

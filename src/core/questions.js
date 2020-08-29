@@ -15,19 +15,18 @@ export const store = {
         jsonQuestion: quiz.questions,
         totalQuestions: quiz.questions.length,
         jsonCharacters: characters.characters,
-        final: ""
+        final: []
     },
     nextButton(){
         // console.log(this.state.currentQuestion);
-        if(this.state.chosenTraits[this.state.currentQuestion+1] != null){
-            console.log("already chosen: "+ this.state.chosenTraits[this.state.currentQuestion+1]);
-            this.state.picked = this.state.chosenTraits[this.state.currentQuestion+1];   
+        this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
+        this.state.currentQuestion++;
+        if(this.state.chosenTraits[this.state.currentQuestion] != null){
+            console.log("already chosen: "+ this.state.chosenTraits[this.state.currentQuestion]);
+            this.state.picked = this.state.chosenTraits[this.state.currentQuestion];   
         }
         console.log(this.state.chosenTraits);
 
-        this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
-        
-        this.state.currentQuestion++;
         if(this.state.chosenTraits[this.state.currentQuestion] == null || this.state.chosenTraits[this.state.currentQuestion] == " "){
             this.state.picked = " ";
             this.state.currentStatus = "Skip";
@@ -64,7 +63,7 @@ export const store = {
         console.log("point assign start");
         const prioritizedTraits = this.state.chosenTraits.filter(trait => trait.includes("prioritize")).map(trait => trait.replace("-prioritize", ""));
         console.log("prioritized traits: " + prioritizedTraits);
-        // Same thing but f     r preferred traits
+        // Same thing but for preferred traits
         const preferredTraits = this.state.chosenTraits.filter(trait => trait.includes("prefer")).map(trait => trait.replace("-prefer", ""));
         console.log("preferred traits: "+ preferredTraits);
 
@@ -90,13 +89,9 @@ export const store = {
 
         const charactersSortedHighestScores = this.state.jsonCharacters.sort((a, b) => b.score - a.score);
         const justTheScores = this.state.jsonCharacters.sort((a, b) => b.score - a.score).map(char => char.score);
-        // console.log("justTheScores: "+ justTheScores);
-        // console.log("charactersSortedHighestScores: " + charactersSortedHighestScores);
-        console.log(justTheScores);
+        console.log("justTheScores: "+ justTheScores);
         console.log(charactersSortedHighestScores);
-        this.state.final = [charactersSortedHighestScores[0].name, charactersSortedHighestScores[1].name, charactersSortedHighestScores[2].name]
-        // declare new var assign store state based on character to it and return it in the final vue
-        // getCharactersSortedHighestScores. getJustTheScores
-
+        this.state.final = charactersSortedHighestScores;
+        
     }
 }

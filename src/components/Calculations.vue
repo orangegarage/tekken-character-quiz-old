@@ -2,7 +2,17 @@
     <div class = "recommendation">
         {{picked}}<br>
         {{storeState.chosenTraits}}<br>
-        {{storeState.final}}
+        <div class = "top3">
+            <ul>
+                <li class = "characters" v-for= "index in 3" :key=index>
+                    {{index}}. {{storeState.final[index].name}}<br>
+                    {{storeState.final[index]['flavortext-eng']}}
+                    <br>
+                    <br>
+                    <br>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
 
