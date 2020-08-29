@@ -139,7 +139,7 @@
             "stance": "heavy",
             "gameplan-level": "4",
             "beginner-friendly": "no",
-            "tags": [],
+            "tags": ["lorem"],
             "flavortext-eng": "lorem",
             "flavortext-kr": "lorem"
         },
