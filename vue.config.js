@@ -1,5 +1,7 @@
 module.exports = {
     lintOnSave: false,
     productionSourceMap: false,
-    publicPath: '/tekken-character-quiz/'
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/my-project/'
+    : '/'
 };
