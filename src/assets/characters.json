@@ -121,6 +121,30 @@
         },
 
         {
+            "name": "Katarina",
+            "dlc": "base",
+            "photo": "",
+            "gender": "girl",
+            "tutorial": "",
+            "execution": "easy",
+            "tier": "3",
+            "movetier": "ok",
+            "gameplan-focus": "aggression",
+            "gameplan-focus2": "aggression",
+            "gameplan-okizeme": "defensive",
+            "gameplan-offensive-options": "versatileoffense",
+            "gameplan-offensive-options2": "counterhit", 
+            "setups": "not-important",
+            "evasion": "medium",
+            "stance": "light",
+            "gameplan-level": "2",
+            "beginner-friendly": "yes",
+            "tags": ["lorem"],
+            "flavortext-eng": "lorem",
+            "flavortext-kr": "lorem"
+        },
+
+        {
             "name": "Steve",
             "dlc": "base",
             "photo": "",
