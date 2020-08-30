@@ -130,7 +130,7 @@
             "tier": "3",
             "movetier": "ok",
             "gameplan-focus": "aggression",
-            "gameplan-focus2": "aggression",
+            "gameplan-focus2": "versatile",
             "gameplan-okizeme": "defensive",
             "gameplan-offensive-options": "versatileoffense",
             "gameplan-offensive-options2": "counterhit", 
@@ -139,8 +139,8 @@
             "stance": "light",
             "gameplan-level": "2",
             "beginner-friendly": "yes",
-            "tags": ["lorem"],
-            "flavortext-eng": "lorem",
+            "tags": ["girl", "base", "versatilegoal", "aggression", "counterhit", "versatileoffense", "defensiveoki", "setups-unimportant", "stance-light", "movetier-mid", "movetier-midhigh", "evasion-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low", "beginner-friendly"],
+            "flavortext-eng": "",
             "flavortext-kr": "lorem"
         },
 

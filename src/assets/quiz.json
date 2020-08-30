@@ -25,10 +25,10 @@
             "id": 3,
             "question":"During a round, what would be your primary goal/something you enjoy most?",
             "answers":{
-                "combo-prioritize": "Landing flashy, high damage combos to take the lead.",
-                "movement-prioritize": "Dashing in and out of range as I chip my opponent down.",
-                "aggression-prioritize": "Getting close and personal with my opponent through aggression.",
-                "defense-prioritize": "Waiting for my opponent to make mistakes that I can capitalize on.",
+                "combo-prioritize": "Landing flashy, high damage combos.",
+                "movement-prioritize": "Dashing in and out of range of my opponent's moves.",
+                "aggression-prioritize": "Getting aggressively close to my opponent.",
+                "defense-prioritize": "Waiting for my opponent to make mistakes.",
                 "versatilegoal-prioritize": "I enjoy everything, please choose a versatile character for me."
             }
         },
@@ -36,35 +36,35 @@
             "id": 4,
             "question":"What would be your secondary goal/something you enjoy next? (Choose the same thing to double down)",
             "answers":{
-                "combo-prefer": "Landing flashy, high damage combos to take the lead.",
-                "movement-prefer": "Dashing in and out of range as I chip my opponent down.",
-                "aggression-prefer": "Getting close and personal with my opponent through aggression.",
-                "defense-prefer": "Waiting for my opponent to make mistakes that I can capitalize on.",
+                "combo-prefer": "Landing flashy, high damage combos.",
+                "movement-prefer": "Dashing in and out of range of my opponent's moves.",
+                "aggression-prefer": "Getting aggressively close to my opponent.",
+                "defense-prefer": "Waiting for my opponent to make mistakes.",
                 "versatilegoal-prefer": "I enjoy everything, please choose a versatile character for me."
             }
         },
         {
             "id": 5,
-            "question":"What would be your favorite offensive method?",
+            "question":"Do you have a preferred way to attack the opponent?",
             "answers":{
-                "whiff-punish-prioritize": "Striking the moment the opponent overextends and whiffs a move.",
-                "counterhit-prioritize": "A devastating counterhit when my opponent tries to attack.",
-                "mixup-prioritize": "Aggressive mixups that will keep them guessing.",
-                "grab-prioritize": "Grappling and throwing is the way to go - you can't break them all.",
-                "plus-frame-prioritize": "Mindgames from plus frames that will suffocate the opponent to death.",
+                "whiff-punish-prioritize": "Attacking when the opponent makes a mistake and misses a move.",
+                "counterhit-prioritize": "Landing a counterhit when my opponent tries to attack.",
+                "mixup-prioritize": "Aggressive mixups(50/50) that will keep them guessing.",
+                "grab-prioritize": "Grappling and throwing - they can't break them all.",
+                "plus-frame-prioritize": "Pressuring with plus frame moves (big/slower moves that stagger the opponent).",
                 "poke-prioritize": "Poking down the opponent down with a series of low risk moves.",
                 "versatileoffense-prioritize": "So many options, I would like a character that can specialize in everything."
             }
         },
         {
             "id": 6,
-            "question":"What would be your next preferred offensive method? (Choose the same thing to double down)",
+            "question":"What would be the next preferred way to attack the opponent? (Choose the same thing to double down)",
             "answers":{
-                "whiff-punish-prefer": "Striking the moment the opponent overextends and whiffs a move.",
-                "counterhit-prefer": "A devastating counterhit when my opponent tries to attack.",
-                "mixup-prefer": "Aggressive mixups that will keep them guessing.",
-                "grab-prefer": "Grappling and throwing is the way to go - you can't break them all.",
-                "plus-frame-prefer": "Mindgames from plus frames that will suffocate the opponent to death.",
+                "whiff-punish-prefer": "Attacking when the opponent makes a mistake and misses a move.",
+                "counterhit-prefer": "Landing a counterhit when my opponent tries to attack.",
+                "mixup-prefer": "Aggressive mixups(50/50) that will keep them guessing.",
+                "grab-prefer": "Grappling and throwing - they can't break them all.",
+                "plus-frame-prefer": "Pressuring with plus frame moves (big/slower moves that stagger the opponent).",
                 "poke-prefer": "Poking down the opponent down with a series of low risk moves.",
                 "versatileoffense-prefer": "So many options, I would like a character that can specialize in everything."
             }
@@ -74,25 +74,25 @@
             "question":"The opponent is on the ground - what do you want to do? (Okizeme)",
             "answers":{
                 "aggressiveoki-prefer": "I aggressively dash in, looking for a followup mixup.",
-                "defensiveoki-prefer": "I take it safe and reset to neutral in a favorable position.",
+                "defensiveoki-prefer": "I take it safe and reset to a neutral position.",
                 "versatileoki-prefer": "I would like a character that has options for both.",
                 "neutral": "I don't have an opinion. Please don't take okizeme situations into consideration."
             }
         },
         {
             "id": 8,
-            "question":"Would you want to play a character focused around setups/pattern play?",
+            "question":"Would you want to play a character focused around setups?",
             "answers":{
                 "setups-important-prioritize": "Absolutely! Please try to recommend me a character that focuses on setups.",
                 "setups-important-prefer": "I prefer setups, but it doesn't take priority over other options.",
                 "setups-unimportant-prioritize": "I hate setups! Please try to recommend me characters that don't have setups as their focus.",
                 "setups-unimportant-prefer": "I prefer no setups, but I am willing to play a setup oriented character.",
-                "neutral": "I don't really have an opinion. Please don't take setups into consideration."
+                "neutral": "I don't really have an opinion/I'm not familiar with setups"
             }
         },
         {
             "id": 9,
-            "question":"Would you want to play a character with lots of stances?",
+            "question":"Would you want to play a character with lots of stances (attack styles)?",
             "answers":{
                 "stance-heavy-prioritize": "Stances are great, please try to recommend me a stance heavy character.",
                 "stance-heavy-prefer": "I prefer having stances, but it doesn't take priority over other options.",
@@ -121,7 +121,7 @@
         },
         {
             "id": 12,
-            "question":"Do you have any tier preferences?: \n(Tiers are subjective, all characters are playable.)",
+            "question":"Do you have any character tier/ranking preferences?: \n(Tiers are subjective, all characters are playable.)",
             "answers":{
                 "tier-high-prioritize": "Top tiers (regular TWT Ro 8 appearances, OP characters).",
                 "tier-mid-prioritize": "High-mid tiers (good characters with some flaws).",
