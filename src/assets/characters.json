@@ -25,6 +25,30 @@
         },
 
         {
+            "name": "Anna",
+            "dlc": "dlc",
+            "photo": "",
+            "gender": "girl",
+            "tutorial": "",
+            "execution": "mid",
+            "tier": "4",
+            "movetier": "high",
+            "gameplan-focus": "aggression",
+            "gameplan-focus2": "combo",
+            "gameplan-okizeme": "aggressive",
+            "gameplan-offensive-options": "mixup",
+            "gameplan-offensive-options2": "whiff-punish", 
+            "setups": "heavy",
+            "evasion": "high",
+            "stance": "light",
+            "gameplan-level": "4",
+            "beginner-friendly": "no",
+            "tags": ["girl"],
+            "flavortext-eng": "lorem",
+            "flavortext-kr": "lorem"
+        },
+
+        {
             "name": "Hwoarang",
             "dlc": "base",
             "photo": "img/HwoarangTk7.png",
@@ -123,9 +147,9 @@
         {
             "name": "Katarina",
             "dlc": "base",
-            "photo": "",
+            "photo": "lorem",
             "gender": "girl",
-            "tutorial": "",
+            "tutorial": "lorem",
             "execution": "easy",
             "tier": "3",
             "movetier": "ok",
@@ -139,17 +163,17 @@
             "stance": "light",
             "gameplan-level": "2",
             "beginner-friendly": "yes",
-            "tags": ["girl", "base", "versatilegoal", "aggression", "counterhit", "versatileoffense", "defensiveoki", "setups-unimportant", "stance-light", "movetier-mid", "movetier-midhigh", "evasion-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low", "beginner-friendly"],
-            "flavortext-eng": "",
+            "tags": ["girl", "base", "versatilegoal", "aggression", "counterhit", "versatileoffense", "defensiveoki", "setups-unimportant", "stance-light", "movetier-mid", "movetier-midhigh", "evasion-mid", "evasion-midhigh", "evasion-midlow", "tier-midhigh", "tier-midlow", "gameplan-level-low", "beginner-friendly"],
+            "flavortext-eng": "Katarina is a newcomer in Tekken 7, entering the Iron Fist Tournament for money to find her missing adoptive father.\nDespite being from Brazil, Katarina uses Savate, a French kickboxing style of combat.\nTrue to her combat style, Katarina’s emphasis comes from her amazing foot strings that she can cancel out of into harrier stance.\nHer fast counterhit moves and long legs give her the edge over many characters in aggressive, close combat as well as the more defensive neutral position.\nHowever, many of her good lows are slow and risky, and her harrier stance is extremely vulnerable to sidestep right.\nDue to this, not many people play Katarina on a professional level after her S2 nerfs.\nHowever, Katarina’s easy, powerful combos and simple but effective playstyle continues to make her a very solid choice for beginning players.\nRecommended players: Mokujun, Rangchu, Knee, Ghirlanda",
             "flavortext-kr": "lorem"
         },
 
         {
             "name": "Steve",
             "dlc": "base",
-            "photo": "",
+            "photo": "lorem",
             "gender": "guy",
-            "tutorial": "",
+            "tutorial": "lorem",
             "execution": "hard",
             "tier": "1",
             "movetier": "high",
@@ -159,12 +183,12 @@
             "gameplan-offensive-options": "counterhit",
             "gameplan-offensive-options2": "versatile", 
             "setups": "not-important",
-            "evasion": "mid",
+            "evasion": "high",
             "stance": "heavy",
             "gameplan-level": "4",
             "beginner-friendly": "no",
-            "tags": ["lorem"],
-            "flavortext-eng": "lorem",
+            "tags": ["guy", "base", "versatilegoal", "versatileoffense", "counterhit", "defensiveoki", "setups-unimportant", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-high", "evasion-midhigh", "tier-high", "tier-midhigh", "gameplan-level-high"],
+            "flavortext-eng": "steve",
             "flavortext-kr": "lorem"
         },
 
@@ -187,7 +211,7 @@
             "stance": "heavy",
             "gameplan-level": "4",
             "beginner-friendly": "no",
-            "tags": ["girl", "base", "aggression", "combo", "mixup", "counterhit", "aggressiveoki", "setups-important", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-high", "evasion-midhigh", "tier-midhgh", "tier-midlow", "gameplan-level-high"],
+            "tags": ["girl", "base", "aggression", "combo", "mixup", "counterhit", "aggressiveoki", "setups-important", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-high", "evasion-midhigh", "tier-midhigh", "tier-midlow", "gameplan-level-high"],
             "flavortext-eng": "Ling Xiaoyu is a high schooler dreaming of building her own amusement park one day.\nHer whereabouts are currently unknown since she left home to find her missing friend, Jin Kazama.\nXiaoyu is a setup heavy, stance reliant character whose true potential comes from her evasion in Phoenix stance and back-turn mixups.\nHer phoenix stance puts her close to the ground, giving the perfect chance to counterhit over-eager opponents who throw out moves at the slightest frame advantage.\nThe amazing evasion in phoenix stance also gives Xiaoyu an edge over most characters in close combat as well.\nTo compensate, many of Xiaoyu’s neutral, fast moves are shorter in range, making it hard to actually get into range to start her dangerous mixups.\nIn the current professional meta, characters with good neutrals take heavy priority, putting Xiaoyu in a middling tier.\nWhile Xiaoyu doesn’t have particularly hard execution, her playstyle relying heavily on stance based combat makes her unrecommended for beginners.\nHowever, if you enjoy the aggressive, in your face gamestyle, and take pride in being able to get close enough to land those mixups, go on ahead.\nRecommended players: Sodam, P.Ling, Tanukana, Yuyu, Wecka",
             "flavortext-kr": "lorem"
         }

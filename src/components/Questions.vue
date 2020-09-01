@@ -5,6 +5,7 @@
             <p class = "questions">
                     {{storeState.jsonQuestion[storeState.currentQuestion].id}}. {{storeState.jsonQuestion[storeState.currentQuestion].question}}    
             </p>
+            
             <!-- item in items, item (alias for array element), items (source array)-->
             <ul>
                 <li class="answers" v-for= "(value, key) in storeState.jsonQuestion[storeState.currentQuestion].answers" v-bind:key="value" v-on:click="answerClick()">

@@ -20,6 +20,7 @@ export const store = {
     nextButton(){
         // console.log(this.state.currentQuestion);
         this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
+        console.log(this.state.picked);
         this.state.currentQuestion++;
         if(this.state.chosenTraits[this.state.currentQuestion] != null){
             console.log("already chosen: "+ this.state.chosenTraits[this.state.currentQuestion]);

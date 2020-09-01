@@ -1,6 +1,10 @@
 <template>
     <div class = "quiz">
+        <transition
+            name="fade"
+            mode="out-in">
         <Questions/>
+        </transition>
     </div>
 </template>
 
