@@ -4,10 +4,10 @@
             "id": 1,
             "question": "Do you prefer a male or female character?",
             "answers": {
-                "guy-prioritize": "I strongly prefer a male character.",
-                "guy-prefer": "I prefer a male character, but it's not essential.",
-                "girl-prioritize": "I strongly prefer a female character.",
-                "girl-prefer": "I prefer a female character, but it's not essential.",
+                "male-prioritize": "I strongly prefer a male character.",
+                "male-prefer": "I prefer a male character, but it's not essential.",
+                "female-prioritize": "I strongly prefer a female character.",
+                "female-prefer": "I prefer a female character, but it's not essential.",
                 "neutral": "I don't lean either way. Recommend me a character without considering this."
             }
         },
@@ -75,7 +75,7 @@
             "answers":{
                 "aggressiveoki-prefer": "I aggressively dash in, looking for a followup mixup.",
                 "defensiveoki-prefer": "I take it safe and reset to a neutral position.",
-                "versatileoki-prefer": "I would like a character that has options for both.",
+                "versatileoki-prefer": "I would like a character that benefits from both options equally.",
                 "neutral": "I don't have an opinion. Please don't take okizeme situations into consideration."
             }
         },
