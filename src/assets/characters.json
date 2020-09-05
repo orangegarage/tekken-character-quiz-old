@@ -310,6 +310,30 @@
             "tags": ["female", "base", "aggression", "combo", "mixup", "counterhit", "aggressiveoki", "setups-important", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-high", "evasion-midhigh", "tier-midhigh", "tier-midlow", "gameplan-level-high"],
             "flavortext-eng": "Ling Xiaoyu is a high schooler dreaming of building her own amusement park one day.\nHer whereabouts are currently unknown since she left home to find her missing friend, Jin Kazama.\nXiaoyu is a setup heavy, stance reliant character whose true potential comes from her evasion in Phoenix stance and back-turn mixups.\nHer phoenix stance puts her close to the ground, giving the perfect chance to counterhit over-eager opponents who throw out moves at the slightest frame advantage.\nThe amazing evasion in phoenix stance also gives Xiaoyu an edge over most characters in close combat as well.\nTo compensate, many of Xiaoyu’s neutral, fast moves are shorter in range, making it hard to actually get into range to start her dangerous mixups.\nIn the current professional meta, characters with good neutrals take heavy priority, putting Xiaoyu in a middling tier.\nWhile Xiaoyu doesn’t have particularly hard execution, her playstyle relying heavily on stance based combat makes her unrecommended for beginners.\nHowever, if you enjoy the aggressive, in your face gamestyle, and take pride in being able to get close enough to land those mixups, go on ahead.\nRecommended players: Sodam, P.Ling, Tanukana, Yuyu, Wecka",
             "flavortext-kr": "lorem"
+        },
+
+        {
+            "name": "Zafina",
+            "dlc": "dlc",
+            "photo": "img",
+            "gender": "female",
+            "tutorial": "9ra",
+            "execution": "easy",
+            "tier": "",
+            "movetier": "high",
+            "gameplan-focus": "defense",
+            "gameplan-focus2": "movement",
+            "gameplan-okizeme": "defensive",
+            "gameplan-offensive-options": "poke",
+            "gameplan-offensive-options2": "whiff-punish", 
+            "setups": "kinda..? low yes high no",
+            "evasion": "high",
+            "stance": "kinda..? low yes high no",
+            "gameplan-level": "high",
+            "beginner-friendly": "yes",
+            "tags": [],
+            "flavortext-eng": "lorem",
+            "flavortext-kr": "lorem"
         }
         
     ]
