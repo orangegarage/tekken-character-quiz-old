@@ -27,8 +27,8 @@
             "answers":{
                 "combo-prioritize": "Landing flashy, high damage combos.",
                 "movement-prioritize": "Dashing in and out of range of my opponent's moves.",
-                "aggression-prioritize": "Getting aggressively close to my opponent.",
-                "defense-prioritize": "Waiting for my opponent to make mistakes.",
+                "aggression-prioritize": "Getting aggressive at my opponent.",
+                "defense-prioritize": "Defending my opponent's attacks.",
                 "versatilegoal-prioritize": "I enjoy everything, please choose a versatile character for me."
             }
         },
@@ -39,7 +39,7 @@
                 "combo-prefer": "Landing flashy, high damage combos.",
                 "movement-prefer": "Dashing in and out of range of my opponent's moves.",
                 "aggression-prefer": "Getting aggressively close to my opponent.",
-                "defense-prefer": "Waiting for my opponent to make mistakes.",
+                "defense-prefer": "Defending my opponent's attacks.",
                 "versatilegoal-prefer": "I enjoy everything, please choose a versatile character for me."
             }
         },
@@ -107,8 +107,8 @@
             "id": 10,
             "question":"Do you value your characters' built in movement? (backdash/sidestep)",
             "answers":{
-                "movetier-high-prioritize": "Yes, I think having top tier movement is very important",
-                "movetier-midhigh-prioritize": "A little, just don't recommend me characters with bad movement.",
+                "movetier-high-prioritize": "Yes, I think having good movement is very important",
+                "movetier-midhigh-prefer": "A little, just don't recommend me characters with bad movement.",
                 "neutral": "It's not something I feel strongly about, please don't take movement into consideration."
             }
         },
@@ -117,17 +117,17 @@
             "question":"Would you prefer a character with built in evasion in their moveset? ",
             "answers":{
                 "evasion-high-prioritize": "Yes, please prioritize a character with high evasion",
-                "evasion-midhigh-prioritize": "A little, just don't recommend me characters with bad evasion.",
+                "evasion-midhigh-prefer": "A little, I would enjoy a character that has evasive options.",
                 "neutral": "I don't really have an opinion. Please don't take built-in evasion into consideration."
             }
         },
         {
             "id": 12,
-            "question":"Do you have any character tier/ranking preferences?: \n(Tiers are subjective, all characters are playable.)",
+            "question":"Do you care about character tiers?: \n(Tiers are subjective, all characters are playable.)",
             "answers":{
-                "tier-high-prioritize": "Top tiers (regular TWT Ro 8 appearances, OP characters).",
-                "tier-mid-prioritize": "High-mid tiers (good characters with some flaws).",
-                "tier-low-prioritize": "lower tiers (characters with noticeable flaws).",
+                "tier-high-prioritize": "High tiers (good characters on top of the leaderboards) prioritize.",
+                "tier-mid-prioritize": "Mid tiers (good characters with some flaws) prioritize.",
+                "tier-low-prioritize": "Lower tiers (characters with noticeable flaws) prioritize.",
                 "tier-midhigh-prioritize": "No low tiers.",
                 "tier-midlow-prioritize": "No high tiers.",
                 "neutral": "I don't have a strong opinion on tiers, please don't take it into consideration."
@@ -137,10 +137,10 @@
             "id": 13,
             "question":"One last thing, do you have preference on character difficulty?\n(Difficulty is subjective, all characters are hard at first.)",
             "answers":{
-                "gameplan-level-low-prefer": "I prefer characters that I can learn the basics with.",
-                "gameplan-level-high-prefer": "I prefer characters that have challenging execution and gameplan.",
-                "neutral": "I don't have a preference on character difficulty.",
-                "beginner-friendly-prioritize": "Choose a \"beginner friendly\"character for me. I understand this is subjective."
+                "gameplan-level-low-prioritize": "Recommend me easier characters that I can start learning Tekken with.",
+                "gameplan-level-high-prioritize": "Recommend me characters that have challenging execution and gameplan.",
+                "neutral": "I don't have a strong preference on character difficulty.",
+                "beginner-friendly-prioritize": "I'm trying out fighting games for the first time. Choose a \"beginner friendly\"character for me.\nI understand this is subjective."
             }
         }
     ]

@@ -17,6 +17,12 @@
 "gameplan-level": "1/2/3/4"
 "beginner-friendly": "yes"
 
+INSTRUCTIONS ON DETERMINING TIERS in TAGS
+Tier 1: tier-high, tier-midhigh
+Tier 2: tier-mid, tier midhigh
+Tier 3: tier-mid, tier midhigh, tier midlow
+Tier 4: tier-mid, tier-midlow
+Tier 5: tier-low, tier-midlow
 
 JSON Template:
         {
