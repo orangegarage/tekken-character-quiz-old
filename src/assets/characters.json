@@ -311,6 +311,30 @@
             "flavortext-eng": "Hailing from South Korea, Hwoarang constantly strives to become better his skills and ultimately defeat Jin Kazama, his long-standing rival.\nHwoarang is a character who can suffocate the opponent through his free-flowing aggression, trapping them in an endless vortex of punches and kicks.\nOpponents who can't escape this pressure will inevitably find themselves up in the air after getting hit by a just frame skyrocket.\nFunnily enough, Hwoarang also has great grappling options, which don't make him a grappler, but supplements his mixups and potentially setting up a base for his Okizeme.\nHwoarang offers great versatility in his combos and offense, but his moves and stances leave him vulnerable to sidesteps and well-telegraphed counters.\nBecause of his high risk, high reward moveset, Hwoarang players must know when to pause and resume aggression on the fly, sometimes even in the middle of a mixup.\nDue to his multiple stances and associated execution and gameplan difficulty, Hwoarang is not recommended to newer players.\nHowever, if you enjoy flashy, high damage combos and smooth, flowing aggression, Hwoarang might prove to be worth grinding your life into.\nRecommended players: Yeonarang, TKMuse, Rest, Knee, MacRoya",
             "flavortext-kr": "lorem ipsum"
         },
+        
+        {
+            "name": "",
+            "dlc": "",
+            "photo": "img",
+            "gender": "",
+            "tutorial": "9ra",
+            "execution": "",
+            "tier": "",
+            "movetier": "",
+            "gameplan-focus": "",
+            "gameplan-focus2": "",
+            "gameplan-offensive-options": "",
+            "gameplan-offensive-options2": "", 
+            "gameplan-okizeme": "",
+            "setups": "",
+            "evasion": "",
+            "stance": "",
+            "gameplan-level": "",
+            "beginner-friendly": "",
+            "tags": [],
+            "flavortext-eng": "lorem",
+            "flavortext-kr": "lorem"
+        },
 
         {
             "name": "Jack",

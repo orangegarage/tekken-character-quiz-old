@@ -72,10 +72,10 @@ export const store = {
         this.state.jsonCharacters = this.state.jsonCharacters.map(character => {
             // The number of tags the character has that were found in prioritizedTraits
             const characterPrioritizedTraits = character.tags.filter(tag => prioritizedTraits.includes(tag)).length;
-            console.log("prioritized length: " + characterPrioritizedTraits);
+            // console.log("prioritized length: " + characterPrioritizedTraits);
 
             const characterPreferredTraits = character.tags.filter(tag => preferredTraits.includes(tag)).length;
-            console.log("preferred length: " + characterPreferredTraits); 
+            // console.log("preferred length: " + characterPreferredTraits); 
 
             character.score = characterPrioritizedTraits * 10 + characterPreferredTraits * 5;
             console.log("character score: "+ character.score);
