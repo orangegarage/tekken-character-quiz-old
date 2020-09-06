@@ -32,7 +32,7 @@
     <h3>Frameworks/Plugins</h3>
     <ul>
       <li><a href="https://vuejs.org/" target="_blank" rel="noopener">vueJS</a></li>
-      <li><a href="https://bulma.io/" target="_blank" rel="noopener">Bulma CSS</a></li>
+      <li><a href="https://kazupon.github.io/vue-i18n/" target="_blank" rel="noopener">vue-i18n</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
     </ul>

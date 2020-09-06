@@ -53,6 +53,7 @@
                 "grab-prioritize": "Grappling and throwing - they can't break them all.",
                 "plus-frame-prioritize": "Pressuring with plus frame moves (big/slower moves that stagger the opponent).",
                 "poke-prioritize": "Poking down the opponent down with a series of low risk moves.",
+                "turtle-prioritize": "Attack? I just turtle until the clock runs out and keep the opponent away from me",
                 "versatileoffense-prioritize": "So many options, I would like a character that can specialize in everything."
             }
         },
@@ -66,6 +67,7 @@
                 "grab-prefer": "Grappling and throwing - they can't break them all.",
                 "plus-frame-prefer": "Pressuring with plus frame moves (big/slower moves that stagger the opponent).",
                 "poke-prefer": "Poking down the opponent down with a series of low risk moves.",
+                "turtle-prefer": "Attack? I just turtle until the clock runs out and keep the opponent away from me",
                 "versatileoffense-prefer": "So many options, I would like a character that can specialize in everything."
             }
         },
