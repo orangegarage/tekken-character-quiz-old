@@ -1,7 +1,5 @@
 <template>
     <div class = "recommendation">
-        {{picked}}<br>
-        {{storeState.chosenTraits}}<br>
         <div class = "top3">
             <ul>
                 <li class = "characters" v-for= "index in 3" :key=index>
@@ -13,6 +11,7 @@
                 </li>
             </ul>
         </div>
+        {{storeState.chosenTraits}}<br>
     </div>
 </template>
 
