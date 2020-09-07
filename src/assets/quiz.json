@@ -125,7 +125,7 @@
             "id": 12,
             "question":"Do you care about character tiers?: \n(Tiers are subjective, all characters are playable.)",
             "answers":{
-                "tier-high-prioritize": "High tiers (good characters on top of the leaderboards) prioritize.",
+                "tier-high-prioritize": "High tiers (OP characters, top rated characters) prioritize.",
                 "tier-mid-prioritize": "Mid tiers (good characters with some flaws) prioritize.",
                 "tier-low-prioritize": "Lower tiers (characters with noticeable flaws) prioritize.",
                 "tier-midhigh-prioritize": "No low tiers.",
