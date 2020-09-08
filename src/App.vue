@@ -1,18 +1,52 @@
 <template>
   <div id="app">
-    <nav id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/quiz">Take the Quiz</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <transition
-      name = "fade"
-      mode = "out-in">
-    <router-view/>
-    </transition>
+    <div id ="navbar">
+        <nav id="nav">
+          <router-link to="/">Home</router-link> |
+          <router-link to="/quiz">Take the Quiz</router-link> |
+          <router-link to="/about">About</router-link> |
+          <div class = "dropdown">
+              <button class="dropbtn">
+                <img src="./assets/language.svg" alt="language" width="50em">
+                <!-- <img src="./assets/caret-down.svg" alt="caretdown" width="10em"> -->
+              </button>
+              <div class = "dropdown-content">
+                <button v-for = "(lang,value) in languages" v-bind:key="value" id="languageButton" v-on:click="changeLocale(value)">{{value}}</button>
+              </div>
+          </div>
+        </nav>
+
+        <transition
+          name = "fade"
+          mode = "out-in">
+        <router-view/>
+        </transition>
+    </div>
   </div>
 </template>
 
+<script>
+import i18n from '@/assets/i18n.js'
+import lang from '@/assets/i18n.js'
+
+export default {
+  name: 'HelloWorld',
+  data(){
+    return{
+      languages: {
+        en: lang.en,
+        kr: lang.kr,
+      }
+    };
+  },
+  methods: {
+    changeLocale(locale) {
+      console.log("locale change to: " + locale);
+      i18n.locale = locale;    
+    }
+  }
+}
+</script>
 
 <style>
 
@@ -29,6 +63,7 @@
 }
 
 body {
+  white-space:pre-wrap;
   background-color: #696969;
   text-align: center;
   -webkit-touch-callout: none; /* iOS Safari */
@@ -50,11 +85,12 @@ body {
 #nav {
   padding: 30px;
   font-size:1.5em;
-}
-
-#nav a {
   font-weight: bold;
+
+}
+#nav a {
   color: white;
+  text-decoration: none;
 }
 
 #nav a.router-link-exact-active {
@@ -109,6 +145,15 @@ li:hover {
   color: white;
   background-color: transparent;
   border-style: none;
+}
+.dropbtn{
+  width:3em;
+  height:1.5em;
+  /* background-color: transparent; */
+  font-size: 1em;
+  font-weight:bold;
+  color:white;
+  border:none;
 }
 
 .quiz-nav {

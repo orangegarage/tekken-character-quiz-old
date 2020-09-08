@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1>{{ $t('main.welcome') }}</h1>
     <p>
       <b>-Don't be pressured to pick a particular character because of this quiz-</b>
     </p>
@@ -19,14 +19,14 @@
 
     <h3>Questions/Feedback:</h3>
     <ul>
-      <li><a href="https://github.com/orangegarage/tekken-character-quiz" target="_blank" rel="noopener">Source Code</a></li>
+      <li><a href="https://github.com/orangegarage/tekken-character-quiz" target="_blank" rel="noopener">Github</a></li>
       <li><a href="https://twitter.com/jincontroller" target="_blank" rel="noopener">Twitter</a></li>
     </ul>
     
     <h3>Starting Resources:</h3>
     <ul>
       <li><a href="https://www.reddit.com/r/Tekken/comments/699xxr/general_information_faq/">English</a></li>
-      <li><a href="https://gall.dcinside.com/m/tekken7/73843">Korean</a></li>
+      <li><a href="https://gall.dcinside.com/m/tekken7/73843">한국어</a></li>
     </ul>
     
     <h3>Frameworks/Plugins</h3>
@@ -38,15 +38,6 @@
     </ul>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
-}
-</script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
