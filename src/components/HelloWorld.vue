@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ $t('main.welcome') }}</h1>
     <p>
-      <b>-Don't be pressured to pick a particular character because of this quiz-</b>
+      <b>{{ $t('main.1p') }}</b>
     </p>
       <p>
         This quiz will try to choose the character you will enjoy playing based on your playstyle and other preferences.<br>

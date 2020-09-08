@@ -1,6 +1,7 @@
 {
     "main":
     {
-        "welcome": "Welcome to the Tekken 7 Character Selection Quiz!"
+        "welcome": "Welcome to the Tekken 7 Character Selection Quiz!",
+        "1p": "-Don't be pressured to pick a particular character because of this quiz-"
     }
 }
