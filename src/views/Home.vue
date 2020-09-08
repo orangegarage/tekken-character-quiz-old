@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/tekken7.png">
-    <HelloWorld msg="Welcome to the Tekken 7 Character Selection Quiz"/>
+    <HelloWorld/>
   </div>
 </template>
 

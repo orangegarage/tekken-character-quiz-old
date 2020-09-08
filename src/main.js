@@ -1,10 +1,14 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
+import helloWorldI18n from '@/assets/helloWorldI18';
 
 Vue.config.productionTip = false
 
+
+
 new Vue({
-  router,
+  router, helloWorldI18n,
   render: h => h (App)
 }).$mount('#app')
+
