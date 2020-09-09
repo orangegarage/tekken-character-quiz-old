@@ -5,36 +5,17 @@
       <b>{{ $t('main.1p') }}</b>
     </p>
       <p>
-        This quiz will try to choose the character you will enjoy playing based on your playstyle and other preferences.<br>
-        There are no right or wrong answers to the questions - it is only to gauge your preference.<br>
-        This quiz is meant to serve as a guide to narrow down options for you when you are feeling overwhelmed.<br>
-        If you already have different character in mind, go for it. The only way to know for sure is to play.<br>
-        Please feel free to leave feedback on the links provided below.<br>
-        Have fun!
+        {{ $t('main.introParagraph') }}
       </p>
 
     <p>
-      <router-link to="/quiz"><b>Take the Quiz</b></router-link>
+      <router-link to="/quiz"><b>{{ $t('main.takeQuiz') }}</b></router-link>
     </p>
 
-    <h3>Questions/Feedback:</h3>
+    <h3>{{ $t('main.feedbackLink') }}:</h3>
     <ul>
-      <li><a href="https://github.com/orangegarage/tekken-character-quiz" target="_blank" rel="noopener">Github</a></li>
-      <li><a href="https://twitter.com/jincontroller" target="_blank" rel="noopener">Twitter</a></li>
-    </ul>
-    
-    <h3>Starting Resources:</h3>
-    <ul>
-      <li><a href="https://www.reddit.com/r/Tekken/comments/699xxr/general_information_faq/">English</a></li>
-      <li><a href="https://gall.dcinside.com/m/tekken7/73843">한국어</a></li>
-    </ul>
-    
-    <h3>Frameworks/Plugins</h3>
-    <ul>
-      <li><a href="https://vuejs.org/" target="_blank" rel="noopener">vueJS</a></li>
-      <li><a href="https://kazupon.github.io/vue-i18n/" target="_blank" rel="noopener">vue-i18n</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
+      <li><a href="https://github.com/orangegarage/tekken-character-quiz" target="_blank" rel="noopener">{{ $t('main.githubLink')}}</a></li>
+      <li><a href="https://twitter.com/jincontroller" target="_blank" rel="noopener">{{ $t('main.twtLink') }}</a></li>
     </ul>
   </div>
 </template>

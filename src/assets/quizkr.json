@@ -2,13 +2,13 @@
     "questions": [
         {
             "id": 1,
-            "question": "Do you prefer a male or female character?",
+            "question": "캐릭터 성별 취향이 있으신가요?",
             "answers": {
-                "male-prioritize": "I strongly prefer a male character.",
-                "male-prefer": "I prefer a male character, but it's not essential.",
-                "female-prioritize": "I strongly prefer a female character.",
-                "female-prefer": "I prefer a female character, but it's not essential.",
-                "neutral": "I don't lean either way. Recommend me a character without considering this."
+                "male-prioritize": "남캐를 우선적으로 골라주세요.",
+                "male-prefer": "남캐가 좋지만, 중요하진 않아요.",
+                "female-prioritize": "여캐를 우선적으로 골라주세요",
+                "female-prefer": "여캐가 좋지만, 중요하진 않아요.",
+                "neutral": "성별을 신경쓰지 않아요."
             }
         },
         {

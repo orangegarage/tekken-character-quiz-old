@@ -5,6 +5,7 @@
             <p class = "questions">
                     {{storeState.jsonQuestion[storeState.currentQuestion].id}}. {{storeState.jsonQuestion[storeState.currentQuestion].question}}    
             </p>
+             <!-- {{$t(storeState.jsonQuestion[storeState.currentQuestion].question)}} -->
             
             <!-- item in items, item (alias for array element), items (source array)-->
             <ul>
@@ -13,7 +14,7 @@
                     <label v-bind:for ="'answer-'+ key">{{value}}</label>
                 </li>
             </ul>
-            <span>Picked: {{storeState.picked}}</span>
+            <!-- <span>Picked: {{storeState.picked}}</span> -->
             <!-- on nextbutton click, filter picked then filter the filtered to cast? -->
         </div>
 

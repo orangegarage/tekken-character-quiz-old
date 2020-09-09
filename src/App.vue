@@ -2,17 +2,13 @@
   <div id="app">
     <div id ="navbar">
         <nav id="nav">
-          <router-link to="/">Home</router-link> |
-          <router-link to="/quiz">Take the Quiz</router-link> |
-          <router-link to="/about">About</router-link> |
+          <router-link to="/">{{ $t('navbar.home') }}</router-link> |
+          <router-link to="/quiz">{{ $t('navbar.takeQuiz') }}</router-link> |
+          <router-link to="/about">{{ $t('navbar.about') }}</router-link> |
           <div class = "dropdown">
-              <button class="dropbtn">
+              <button class="langbtn" v-on:click="changeLocale()">
                 <img src="./assets/language.svg" alt="language" width="50em">
-                <!-- <img src="./assets/caret-down.svg" alt="caretdown" width="10em"> -->
               </button>
-              <div class = "dropdown-content">
-                <button v-for = "(lang,value) in languages" v-bind:key="value" id="languageButton" v-on:click="changeLocale(value)">{{value}}</button>
-              </div>
           </div>
         </nav>
 
@@ -27,22 +23,19 @@
 
 <script>
 import i18n from '@/assets/i18n.js'
-import lang from '@/assets/i18n.js'
+// import lang from '@/assets/i18n.js'
 
 export default {
   name: 'HelloWorld',
-  data(){
-    return{
-      languages: {
-        en: lang.en,
-        kr: lang.kr,
-      }
-    };
-  },
   methods: {
-    changeLocale(locale) {
-      console.log("locale change to: " + locale);
-      i18n.locale = locale;    
+    changeLocale() {
+      if(i18n.locale == 'kr'){
+        i18n.locale = 'en';
+      }
+      else{
+        i18n.locale = 'kr';
+      }
+      //i18n.locale = locale;
     }
   }
 }
@@ -96,10 +89,26 @@ body {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+#navbar .dropdown{
+  display:inline-block;
+}
 
 ul {
   list-style-type: none;
   padding-inline-start: 0;
+}
+
+.hello{
+  margin-bottom: 5em;
+}
+
+.hello a {
+  color: #42b983;
+}
+.hello li{
+  display: inline-block;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .questions{
@@ -119,6 +128,13 @@ ul {
 li:hover {
   color:#42b983;
   /* color: #e4464a; */
+}
+
+.langbtn{
+  color:white;
+  background-color:transparent;
+  vertical-align: middle;
+  border:none;
 }
 
 .qna input[type="radio"] {
@@ -146,21 +162,12 @@ li:hover {
   background-color: transparent;
   border-style: none;
 }
-.dropbtn{
-  width:3em;
-  height:1.5em;
-  /* background-color: transparent; */
-  font-size: 1em;
-  font-weight:bold;
-  color:white;
-  border:none;
-}
-
 .quiz-nav {
   display: inline-block;
   width: 1.3em;
   height: 1.3em;
 }
+
 .top3 { 
   white-space:pre-wrap;
 }

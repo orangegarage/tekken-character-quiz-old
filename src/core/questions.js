@@ -35,7 +35,6 @@ export const store = {
         if(this.state.currentQuestion > this.state.totalQuestions-1){
             this.state.currentStatus = "Submit";
             this.pointAssign();//need to fix where this goes- wait no i don't
-            //have pointAssign deal with 'null' cases
         }
     },
     backButton(){
