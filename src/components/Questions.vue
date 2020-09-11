@@ -10,8 +10,8 @@
             <!-- item in items, item (alias for array element), items (source array)-->
             <ul>
                 <li class="answers" v-for= "(value, key) in storeState.jsonQuestion[storeState.currentQuestion].answers" v-bind:key="value" v-on:click="answerClick()">
-                    <input type="radio" name = "radioAnswer" v-bind:id = "'answer-'+ key" v-bind:value="key" v-model="storeState.picked">
-                    <label v-bind:for ="'answer-'+ key">{{value}}</label>
+                    <input type="radio" name = "radioAnswer" v-bind:id = "'answer-'+ key" v-bind:value="value" v-model="storeState.picked">
+                    <label v-bind:for ="'answer-'+ key">{{$t('answers.'+value)}}</label>
                 </li>
             </ul>
             <!-- <span>Picked: {{storeState.picked}}</span> -->
