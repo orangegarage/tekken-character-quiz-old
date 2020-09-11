@@ -2,7 +2,7 @@
     "questions": [
         {
             "id": 1,
-            "question": "Do you prefer a male or female character?",
+            "question": "q1",
             "answers": [
                 "male-prioritize",
                 "male-prefer",
@@ -13,7 +13,7 @@
         },
         {
             "id": 2,
-            "question": "Do you want DLC characters, including crossovers, recommended to you?",
+            "question": "q2",
             "answers": [
                 "neutral-dlc",
                 "base-prefer",
@@ -23,7 +23,7 @@
         },
         {
             "id": 3,
-            "question":"During a round, what would be your primary goal/something you enjoy most?",
+            "question": "q3",
             "answers":[
                 "combo-prioritize",
                 "movement-prioritize",
@@ -34,7 +34,7 @@
         },
         {
             "id": 4,
-            "question":"What would be your secondary goal/something you enjoy next? (Choose the same thing to double down)",
+            "question": "q4",
             "answers":[
                 "combo-prefer",
                 "movement-prefer",
@@ -45,7 +45,7 @@
         },
         {
             "id": 5,
-            "question":"Do you have a preferred way to attack the opponent?",
+            "question": "q5",
             "answers":[
                 "whiff-punish-prioritize",
                 "counterhit-prioritize",
@@ -58,7 +58,7 @@
         },
         {
             "id": 6,
-            "question":"What would be the next preferred way to attack the opponent? (Choose the same thing to double down)",
+            "question": "q6",
             "answers":[
                 "whiff-punish-prefer",
                 "counterhit-prefer",
@@ -71,7 +71,7 @@
         },
         {
             "id": 7,
-            "question":"The opponent is on the ground - what do you want to do? (Okizeme)",
+            "question": "q7",
             "answers":[
                 "aggressiveoki-prefer",
                 "defensiveoki-prefer",
@@ -81,7 +81,7 @@
         },
         {
             "id": 8,
-            "question":"Would you want to play a character focused around setups?",
+            "question": "q8",
             "answers":[
                 "setups-important-prioritize",
                 "setups-important-prefer",
@@ -92,7 +92,7 @@
         },
         {
             "id": 9,
-            "question":"Would you want to play a character with lots of stances (attack styles)?",
+            "question": "q9",
             "answers":[
                 "stance-heavy-prioritize",
                 "stance-heavy-prefer",
@@ -103,7 +103,7 @@
         },
         {
             "id": 10,
-            "question":"Do you value your characters' built in movement? (backdash/sidestep)",
+            "question": "q10",
             "answers":[
                 "movetier-high-prioritize",
                 "movetier-midhigh-prefer",
@@ -112,7 +112,7 @@
         },
         {
             "id": 11,
-            "question":"Would you prefer a character with built in evasion in their moveset? ",
+            "question": "q11",
             "answers":[
                 "evasion-high-prioritize",
                 "evasion-midhigh-prefer",
@@ -121,7 +121,7 @@
         },
         {
             "id": 12,
-            "question":"Do you care about character tiers?: \n(Tiers are subjective, all characters are playable.)",
+            "question": "q12",
             "answers":[
                 "tier-high-prioritize",
                 "tier-mid-prioritize",
@@ -133,7 +133,7 @@
         },
         {
             "id": 13,
-            "question":"One last thing, do you have preference on character difficulty?\n(Difficulty is subjective, all characters are hard at first.)",
+            "question": "q13",
             "answers":[
                 "gameplan-level-low-prioritize",
                 "gameplan-level-high-prioritize",

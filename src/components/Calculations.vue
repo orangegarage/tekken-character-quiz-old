@@ -4,14 +4,15 @@
             <ul>
                 <li class = "characters" v-for= "index in 3" :key=index>
                     {{index}}. {{storeState.final[index].name}}<br>
-                    {{storeState.final[index]['flavortext-eng']}}
+                    {{$t('flavortexts.'+storeState.final[index].name)}}
                     <br>
                     <br>
                     <br>
                 </li>
             </ul>
         </div>
-        {{storeState.chosenTraits}}<br>
+        <br>
+        {{storeState.chosenTraits}}
     </div>
 </template>
 
