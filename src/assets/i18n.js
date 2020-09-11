@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import kr from '@/assets/kr.json';
 import en from '@/assets/en.json';
-import quiz from '@/assets/quiz.json';
+// import quiz from '@/assets/quiz.json';
 import VueI18n from 'vue-i18n'
 
 Vue.use(VueI18n);
 
 const lang = {
-    en: en, quiz,
+    en: en,
     kr: kr  //imported from json
 }
 
