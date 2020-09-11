@@ -3,7 +3,7 @@
         <div class = "qna">
             <p class ="total-questions">{{storeState.jsonQuestion[storeState.currentQuestion].id}} of {{storeState.totalQuestions}}</p>
             <p class = "questions">
-                    {{storeState.jsonQuestion[storeState.currentQuestion].id}}. {{storeState.jsonQuestion[storeState.currentQuestion].question}}    
+                    {{storeState.jsonQuestion[storeState.currentQuestion].id}}. {{$t('questions.'+storeState.jsonQuestion[storeState.currentQuestion].question)}}    
             </p>
              <!-- {{$t(storeState.jsonQuestion[storeState.currentQuestion].question)}} -->
             
