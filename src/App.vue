@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div id ="navbar">
+    <div id = "navbar">
         <nav id="nav">
           <router-link to="/">{{ $t('navbar.home') }}</router-link> |
           <router-link to="/quiz">{{ $t('navbar.takeQuiz') }}</router-link> |
@@ -11,13 +11,13 @@
               </button>
           </div>
         </nav>
+    </div>
 
         <transition
           name = "fade"
           mode = "out-in">
         <router-view/>
         </transition>
-    </div>
   </div>
 </template>
 
@@ -172,4 +172,18 @@ li:hover {
   white-space:pre-wrap;
 }
 /* Make radio button default clicked based on index. */
+
+@media only screen and (max-width: 600px){
+  .next {
+    white-space: nowrap;
+    font-size: 100%;
+  }
+  .quiz-nav {
+    width:.8em;
+    height:.8em;
+  }
+  .button {
+    font-size:100%;
+  }
+}
 </style>

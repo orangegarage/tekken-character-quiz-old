@@ -32,8 +32,6 @@ JSON Template:
             "gender": "",
             "tutorial": "9ra",
             "execution": "",
-            "tier": "",
-            "movetier": "",
             "gameplan-focus": "",
             "gameplan-focus2": "",
             "gameplan-offensive-options": "",
@@ -42,11 +40,11 @@ JSON Template:
             "setups": "",
             "evasion": "",
             "stance": "",
+            "movetier": "",
+            "tier": "",
             "gameplan-level": "",
             "beginner-friendly": "",
-            "tags": [],
-            "flavortext-eng": "lorem",
-            "flavortext-kr": "lorem"
+            "tags": []
         }
 
 selection:
