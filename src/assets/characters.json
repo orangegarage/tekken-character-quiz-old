@@ -1,7 +1,7 @@
 {
     "characters": [
         {
-            "name": "Alisa",
+            "name": "Alisa Bosconovitch",
             "dlc": "base",
             "photo": "img/AlisaBosconovitchTk7.png",
             "gender": "female",
@@ -23,7 +23,7 @@
         },
 
         {
-            "name": "Akuma",
+            "name": "Akuma / Gouki",
             "dlc": "base",
             "photo": "img",
             "gender": "male",
@@ -45,7 +45,7 @@
         },
 
         {
-            "name": "Anna",
+            "name": "Anna Williams",
             "dlc": "dlc",
             "photo": "img",
             "gender": "female",
@@ -90,7 +90,7 @@
         },
         
         {
-            "name": "Asuka",
+            "name": "Asuka Kazama",
             "dlc": "base",
             "photo": "img",
             "gender": "female",
@@ -112,7 +112,7 @@
         },
 
         {
-            "name": "Bob",
+            "name": "Bob (Robert Richards)",
             "dlc": "base",
             "photo": "img",
             "gender": "male",
@@ -134,7 +134,7 @@
         },
 
         {
-            "name": "Bryan",
+            "name": "Bryan Fury",
             "dlc": "base",
             "photo": "img",
             "gender": "male",
@@ -156,7 +156,7 @@
         },
 
         {
-            "name": "Claudio",
+            "name": "Claudio Serafino",
             "dlc": "base",
             "photo": "img",
             "gender": "male",
@@ -200,7 +200,7 @@
         },
 
         {
-            "name": "Eddy",
+            "name": "Eddy Gordo",
             "dlc": "base",
             "photo": "img",
             "gender": "male",
@@ -244,7 +244,7 @@
         },
 
         {
-            "name": "Feng",
+            "name": "Feng Wei",
             "dlc": "base",
             "photo": "img",
             "gender": "male",
@@ -288,7 +288,7 @@
         },
 
         {
-            "name": "Geese",
+            "name": "Geese Howard",
             "dlc": "dlc",
             "photo": "img",
             "gender": "male",
@@ -332,7 +332,7 @@
         },
         
         {
-            "name": "Heihachi",
+            "name": "Heihachi Mishima",
             "dlc": "base",
             "photo": "img",
             "gender": "male",
@@ -376,7 +376,7 @@
         },
         
         {
-            "name": "Jack",
+            "name": "Jack - 7",
             "dlc": "base",
             "photo": "img/JackTk7.png",
             "gender": "male",
@@ -398,7 +398,7 @@
         },
 
         {
-            "name": "Jin",
+            "name": "Jin Kazama",
             "dlc": "base",
             "photo": "img",
             "gender": "male",
@@ -420,7 +420,7 @@
         },
 
         {
-            "name": "Julia",
+            "name": "Julia Chang",
             "dlc": "yes",
             "photo": "img/JuliaChangTk7.png",
             "gender": "female",
@@ -442,7 +442,7 @@
         },
 
         {
-            "name": "Kazuya",
+            "name": "Kazuya Mishima",
             "dlc": "base",
             "photo": "img/KazuyaMishimaTk7.png",
             "gender": "male",
@@ -464,7 +464,7 @@
         },
 
         {
-            "name": "Katarina",
+            "name": "Katarina Alvez",
             "dlc": "base",
             "photo": "lorem",
             "gender": "female",
@@ -486,7 +486,7 @@
         },
         
         {
-            "name": "Kazumi",
+            "name": "Kazumi Hachijo Mishima",
             "dlc": "base",
             "photo": "img",
             "gender": "female",
@@ -574,7 +574,7 @@
         },
 
         {
-            "name": "Lars",
+            "name": "Lars Alexanderson",
             "dlc": "base",
             "photo": "img",
             "gender": "male",
@@ -596,7 +596,7 @@
         },
 
         {
-            "name": "Leroy",
+            "name": "Leroy Smith",
             "dlc": "dlc",
             "photo": "img",
             "gender": "male",
@@ -618,7 +618,51 @@
         },
 
         {
-            "name": "Steve",
+            "name": "Lee Chaolan",
+            "dlc": "base",
+            "photo": "img",
+            "gender": "male",
+            "tutorial": "9ra",
+            "execution": "hard",
+            "gameplan-focus": "defense",
+            "gameplan-focus2": "combo",
+            "gameplan-offensive-options": "poke",
+            "gameplan-offensive-options2": "counterhit", 
+            "gameplan-okizeme": "aggressiveoki",
+            "setups": "not important",
+            "evasion": "mid",
+            "stance": "light",
+            "movetier": "midhigh",
+            "tier": "3",
+            "gameplan-level": "high",
+            "beginner-friendly": "no",
+            "tags": ["male", "base", "defense", "combo", "poke", "counterhit", "aggressiveoki", "setups-unimportant", "evasion-mid", "stance-light", "movetier-midhigh", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-high"]
+        },
+
+        {
+            "name": "Lei Wulong",
+            "dlc": "dlc",
+            "photo": "img",
+            "gender": "male",
+            "tutorial": "9ra",
+            "execution": "easy",
+            "gameplan-focus": "defense",
+            "gameplan-focus2": "movement",
+            "gameplan-offensive-options": "poke",
+            "gameplan-offensive-options2": "mixup", 
+            "gameplan-okizeme": "versatile",
+            "setups": "important",
+            "evasion": "high",
+            "stance": "heavy",
+            "movetier": "midhigh",
+            "tier": "4",
+            "gameplan-level": "2",
+            "beginner-friendly": "no",
+            "tags": ["male", "dlc", "defense", "movement", "poke", "mixup", "versatileoki", "setups-important", "evasion-high", "evasion-midhigh", "stance-heavy", "movetier-high", "movetier-midhigh", "tier-midlow", "tier-mid", "gameplan-level-low"]
+        },
+
+        {
+            "name": "Steve Fox",
             "dlc": "base",
             "photo": "lorem",
             "gender": "male",
@@ -640,7 +684,7 @@
         },
 
         {
-            "name": "Xiaoyu",
+            "name": "Ling Xiaoyu",
             "dlc": "base",
             "photo": "img/LingXiaoyuTk7.png",
             "gender": "female",
