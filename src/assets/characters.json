@@ -528,31 +528,9 @@
             "beginner-friendly": "no",
             "tags": ["male", "base", "versatilegoal", "aggression", "grab", "mixup", "aggressiveoki", "setups-important", "evasion-midhigh","stance-light", "movetier-high", "movetier-midhigh", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low"]
         },
-
-        {
-            "name": "Kuma",
-            "dlc": "base",
-            "photo": "img",
-            "gender": "male",
-            "tutorial": "9ra",
-            "execution": "easy",
-            "gameplan-focus": "defense",
-            "gameplan-focus2": "movement",
-            "gameplan-offensive-options": "poke",
-            "gameplan-offensive-options2": "whiff-punish", 
-            "gameplan-okizeme": "aggressive",
-            "setups": "unimportant",
-            "evasion": "mid",
-            "stance": "light/mid",
-            "movetier": "mid",
-            "tier": "5",
-            "gameplan-level": "2",
-            "beginner-friendly": "no",
-            "tags": ["male", "base","defense","movement","poke","whiff-punish","aggressiveoki","setups-unimportant","evasion-mid","evasion-midhigh","stance-light","movetier-midhigh", "movetier-mid", "movetier-midlow", "tier-low","tier-midlow", "gameplan-level-low"]
-        },
         
         {
-            "name": "Panda",
+            "name": "Kuma / Panda",
             "dlc": "base",
             "photo": "img",
             "gender": "female",
@@ -570,11 +548,11 @@
             "tier": "5",
             "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["female", "base","defense","movement","poke","whiff-punish","aggressiveoki","setups-unimportant","evasion-mid","evasion-midhigh","stance-light","movetier-midhigh", "movetier-mid", "movetier-midlow", "tier-low","tier-midlow", "gameplan-level-low"]
+            "tags": ["female", "male", "base","defense","movement","poke","whiff-punish","aggressiveoki","setups-unimportant","evasion-mid","evasion-midhigh","stance-light","movetier-midhigh", "movetier-mid", "movetier-midlow", "tier-low","tier-midlow", "gameplan-level-low"]
         },
 
         {
-            "name": "Lars Alexanderson",
+            "name": "Lars Alexandersson",
             "dlc": "base",
             "photo": "img",
             "gender": "male",
@@ -662,6 +640,28 @@
         },
 
         {
+            "name": "Leo Kliesen",
+            "dlc": "base",
+            "photo": "img",
+            "gender": "female + male",
+            "tutorial": "9ra",
+            "execution": "",
+            "gameplan-focus": "",
+            "gameplan-focus2": "",
+            "gameplan-offensive-options": "",
+            "gameplan-offensive-options2": "", 
+            "gameplan-okizeme": "",
+            "setups": "",
+            "evasion": "",
+            "stance": "",
+            "movetier": "",
+            "tier": "",
+            "gameplan-level": "",
+            "beginner-friendly": "",
+            "tags": ["female", "male"]
+        },
+
+        {
             "name": "Steve Fox",
             "dlc": "base",
             "photo": "lorem",
@@ -680,7 +680,7 @@
             "stance": "heavy",
             "gameplan-level": "4",
             "beginner-friendly": "no",
-            "tags": ["male", "base", "versatilegoal", "aggression", "versatileoffense", "counterhit", "defensiveoki", "setups-unimportant", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-high", "evasion-midhigh", "tier-high", "tier-midhigh", "gameplan-level-high"]
+            "tags": ["male", "base", "versatilegoal", "aggression", "versatileoffense", "counterhit", "defensiveoki", "setups-unimportant", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-midhigh", "tier-high", "tier-midhigh", "gameplan-level-high"]
         },
 
         {
