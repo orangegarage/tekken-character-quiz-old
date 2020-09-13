@@ -54,7 +54,7 @@
             "tier": "4",
             "movetier": "high",
             "gameplan-focus": "aggression",
-            "gameplan-focus2": "combo",
+            "gameplan-focus2": "aggression",
             "gameplan-okizeme": "aggressive",
             "gameplan-offensive-options": "mixup",
             "gameplan-offensive-options2": "counterhit", 
@@ -63,7 +63,7 @@
             "stance": "mid",
             "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["female", "dlc", "aggression", "combo", "mixup", "counterhit", "aggressiveoki", "setups-important", "stance-heavy", "stance-mid", "movetier-high", "movetier-midhigh", "tier-low", "tier-midlow"]
+            "tags": ["female", "dlc", "aggression", "mixup", "counterhit", "aggressiveoki", "setups-important", "stance-heavy", "stance-mid", "movetier-high", "movetier-midhigh", "tier-low", "tier-midlow"]
 
         },
 
@@ -571,6 +571,50 @@
             "gameplan-level": "2",
             "beginner-friendly": "no",
             "tags": ["female", "base","defense","movement","poke","whiff-punish","aggressiveoki","setups-unimportant","evasion-mid","evasion-midhigh","stance-light","movetier-midhigh", "movetier-mid", "movetier-midlow", "tier-low","tier-midlow", "gameplan-level-low"]
+        },
+
+        {
+            "name": "Lars",
+            "dlc": "base",
+            "photo": "img",
+            "gender": "male",
+            "tutorial": "9ra",
+            "execution": "hard",
+            "gameplan-focus": "versatile",
+            "gameplan-focus2": "versatile",
+            "gameplan-offensive-options": "versatile",
+            "gameplan-offensive-options2": "versatile", 
+            "gameplan-okizeme": "defensive",
+            "setups": "unimportant",
+            "evasion": "mid",
+            "stance": "light",
+            "movetier": "midhigh",
+            "tier": "5",
+            "gameplan-level": "high",
+            "beginner-friendly": "no",
+            "tags": ["male", "base", "versatilegoal", "versatileoffense", "defensiveoki", "setups-unimportant", "evasion-mid", "evasion-midhigh", "evasion-midlow", "stance-light", "movetier-mid", "movetier-midlow", "movetier-midhigh", "tier-low", "tier-midlow", "gameplan-level-low"]
+        },
+
+        {
+            "name": "Leroy",
+            "dlc": "dlc",
+            "photo": "img",
+            "gender": "male",
+            "tutorial": "9ra",
+            "execution": "easy",
+            "gameplan-focus": "versatile",
+            "gameplan-focus2": "veratile",
+            "gameplan-offensive-options": "versatile",
+            "gameplan-offensive-options2": "verstaile", 
+            "gameplan-okizeme": "versatile",
+            "setups": "unimportant",
+            "evasion": "low",
+            "stance": "light",
+            "movetier": "midhigh",
+            "tier": "1",
+            "gameplan-level": "low",
+            "beginner-friendly": "yes",
+            "tags": ["male", "dlc", "versatilegoal", "versatileoffense", "versatileoki", "setups-unimportant", "evasion-low", "stance-light", "movetier-midhigh", "movetier-mid", "gameplan-level-low", "beginner-friendly", "tier-high", "tier-midhigh"]
         },
 
         {

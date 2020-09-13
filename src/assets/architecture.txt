@@ -27,7 +27,7 @@ Tier 5: tier-low, tier-midlow
 JSON Template:
         {
             "name": "",
-            "dlc": "base",
+            "dlc": "",
             "photo": "img",
             "gender": "",
             "tutorial": "9ra",
