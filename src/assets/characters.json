@@ -428,17 +428,17 @@
             "execution": "mid",
             "gameplan-focus": "aggression",
             "gameplan-focus2": "aggression",
-            "gameplan-offensive-options": "poke",
-            "gameplan-offensive-options2": "counterhit", 
+            "gameplan-offensive-options": "versatileoffense",
+            "gameplan-offensive-options2": "poke", 
             "gameplan-okizeme": "defensive",
             "setups": "unimportant",
-            "evasion": "low",
+            "evasion": "midhigh (어퍼사기, 존풍)",
             "stance": "light",
             "movetier": "mid",
             "tier": "3",
             "gameplan-level": "mid",
             "beginner-friendly": "no",
-            "tags": ["female", "base", "aggression", "poke", "counterhit", "versatileoki", "setups-unimportant", "evasion-low", "stance-light", "movetier-midhigh", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low"]
+            "tags": ["female", "base", "aggression", "poke", "versatileoffense", "versatileoki", "setups-unimportant", "evasion-midhigh", "stance-light", "movetier-midhigh", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low"]
         },
 
         {
