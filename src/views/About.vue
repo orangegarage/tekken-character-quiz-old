@@ -22,7 +22,7 @@
     </div>
     <h1>Special thanks to...</h1>
     <h3>bigcookie, GenaFurLy, LoseAgainMan(또졌다맨), Merv202</h3>
-    <h4>WhoAmI, 네간리얼쑨, Kane, AStr8pro</h4>
+    <h4>WhoAmI, 네간리얼쑨, 리틀브로, Kane, AStr8pro</h4>
     <p>...and you!</p>
 
   </div>

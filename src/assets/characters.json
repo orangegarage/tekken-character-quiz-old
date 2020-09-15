@@ -772,6 +772,28 @@
         },
 
         {
+            "name": "Craig Marduk",
+            "dlc": "dlc",
+            "photo": "img",
+            "gender": "male",
+            "tutorial": "9ra",
+            "execution": "low",
+            "gameplan-focus": "defense",
+            "gameplan-focus2": "movement",
+            "gameplan-offensive-options": "grab",
+            "gameplan-offensive-options2": "mixup", 
+            "gameplan-okizeme": "aggressive",
+            "setups": "important",
+            "evasion": "low",
+            "stance": "light",
+            "movetier": "midhigh",
+            "tier": "2",
+            "gameplan-level": "low",
+            "beginner-friendly": "yes",
+            "tags": ["male", "dlc", "defense", "movement", "grab", "poke", "aggressiveoki", "setups-important", "evasion-low", "stance-light", "movetier-midhigh", "tier-midhigh", "tier-mid", "beginner-friendly", "gameplan-level-low"]
+        },
+
+        {
             "name": "Miguel Caballero Rojo",
             "dlc": "base",
             "photo": "img",
@@ -813,6 +835,28 @@
             "gameplan-level": "low",
             "beginner-friendly": "yes",
             "tags": ["male", "dlc", "aggression", "movement", "whiff-punish", "versatileoffense", "defensiveoki", "setups-unimportant", "stance-light", "evasion-midhigh", "movetier-midhigh", "movetier-high", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low", "beginner-friendly"]
+        },
+
+        {
+            "name": "Nina Williams",
+            "dlc": "base",
+            "photo": "img",
+            "gender": "female",
+            "tutorial": "9ra",
+            "execution": "high",
+            "gameplan-focus": "aggression",
+            "gameplan-focus2": "movement",
+            "gameplan-offensive-options": "poke",
+            "gameplan-offensive-options2": "combo", 
+            "gameplan-okizeme": "versatileoki",
+            "setups": "unimportant",
+            "evasion": "low",
+            "stance": "light",
+            "movetier": "high",
+            "tier": "2",
+            "gameplan-level": "hard",
+            "beginner-friendly": "no",
+            "tags": ["female", "base", "aggression","movement", "poke", "combo", "versatileoki", "setups-unimportant", "stance-light", "movetier-midhigh", "movetier-high", "evasion-low", "tier-midhigh", "tier-mid", "gameplan-level-high"]
         },
 
         {
