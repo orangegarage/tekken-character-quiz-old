@@ -48,7 +48,7 @@ export default {
                 this.storeState.currentQuestion = this.storeState.totalQuestions-1;
                 //now everything should work
                 //ok it works
-                console.log(this.storeState.currentQuestion);
+                // console.log(this.storeState.currentQuestion);
                 this.$router.push({path: '/recommendation'});
             }
         },
@@ -59,18 +59,14 @@ export default {
             store.answerAsButton();
         },
         navClick(key){
-            // console.log(this.storeState.chosenTraits);
-            console.log("going to a new question? Saving current answer: "+this.storeState.picked);
             this.storeState.chosenTraits[this.storeState.currentQuestion] = this.storeState.picked;
-            console.log("new chosenTraits array: " + this.storeState.chosenTraits);
-            console.log("you clicked button number: " + key);
-            
-
+            // console.log("new chosenTraits array: " + this.storeState.chosenTraits);
+            // console.log("you clicked button number: " + key);
             //nbuttonnav being overwritten by " "" v for not reading the previosuly existing value?
             this.storeState.currentQuestion = key; //update currentquestion
             this.storeState.picked = this.storeState.chosenTraits[key]; //maybe this will solve? test tmrw
             if(this.storeState.chosenTraits[this.storeState.currentQuestion] == null || this.storeState.chosenTraits[this.storeState.currentQuestion] == " "){
-                console.log("the new question has nothing in it right now");
+                // console.log("the new question has nothing in it right now");
                 this.storeState.picked = " ";
                 this.storeState.currentStatus = "Skip";
             }

@@ -420,6 +420,28 @@
         },
 
         {
+            "name": "Josie Rizal",
+            "dlc": "base",
+            "photo": "img",
+            "gender": "female",
+            "tutorial": "9ra",
+            "execution": "mid",
+            "gameplan-focus": "aggression",
+            "gameplan-focus2": "aggression",
+            "gameplan-offensive-options": "poke",
+            "gameplan-offensive-options2": "counterhit", 
+            "gameplan-okizeme": "defensive",
+            "setups": "unimportant",
+            "evasion": "low",
+            "stance": "light",
+            "movetier": "mid",
+            "tier": "3",
+            "gameplan-level": "mid",
+            "beginner-friendly": "no",
+            "tags": ["female", "base", "aggression", "poke", "counterhit", "versatileoki", "setups-unimportant", "evasion-low", "stance-light", "movetier-midhigh", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low"]
+        },
+
+        {
             "name": "Julia Chang",
             "dlc": "yes",
             "photo": "img/JuliaChangTk7.png",
@@ -741,12 +763,12 @@
             "gameplan-okizeme": "aggressive",
             "setups": "important",
             "evasion": "high",
-            "stance": "light",
+            "stance": "light/heavy",
             "movetier": "high",
             "tier": "3",
             "gameplan-level": "high",
             "beginner-friendly": "no",
-            "tags": ["female", "base", "combo", "versatilegoal", "versatileoffense", "aggressiveoki", "setups-important", "evasion-midhigh", "evasion-high", "stance-light", "movetier-midhigh", "movetier-high", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-high"]
+            "tags": ["female", "base", "combo", "versatilegoal", "versatileoffense", "aggressiveoki", "setups-important", "evasion-midhigh", "evasion-high", "stance-light", "stance-heavy","movetier-midhigh", "movetier-high", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-high"]
         },
 
         {
@@ -791,6 +813,28 @@
             "gameplan-level": "low",
             "beginner-friendly": "yes",
             "tags": ["male", "dlc", "aggression", "movement", "whiff-punish", "versatileoffense", "defensiveoki", "setups-unimportant", "stance-light", "evasion-midhigh", "movetier-midhigh", "movetier-high", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low", "beginner-friendly"]
+        },
+
+        {
+            "name": "Noctis",
+            "dlc": "dlc",
+            "photo": "img",
+            "gender": "male",
+            "tutorial": "9ra",
+            "execution": "ez",
+            "gameplan-focus": "combo",
+            "gameplan-focus2": "aggression",
+            "gameplan-offensive-options": "plus-frame",
+            "gameplan-offensive-options2": "mixup", 
+            "gameplan-okizeme": "versatileoki",
+            "setups": "important",
+            "evasion": "low",
+            "stance": "light",
+            "movetier": "mid",
+            "tier": "4",
+            "gameplan-level": "ez",
+            "beginner-friendly": "yes",
+            "tags": ["male", "dlc", "aggression", "combo", "plus-frame", "mixup", "versatileoki", "setups-important", "evasion-mid", "movetier-mid", "stance-light", "tier-midlow", "tier-mid", "gameplan-level-low", "beginner-friendly"]
         },
 
         {
