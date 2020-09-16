@@ -913,7 +913,7 @@
             "gameplan-focus": "aggression",
             "gameplan-focus2": "versatile",
             "gameplan-offensive-options": "poke",
-            "gameplan-offensive-options2": "mixup", 
+            "gameplan-offensive-options2": "versatile", 
             "gameplan-okizeme": "defensive",
             "setups": "unimportant",
             "evasion": "low",
@@ -941,10 +941,10 @@
             "evasion": "low",
             "stance": "light",
             "movetier": "midhigh",
-            "tier": "2",
+            "tier": "3",
             "gameplan-level": "mid",
             "beginner-friendly": "no",
-            "tags": ["male", "base", "versatilegoal","versatileoffense", "aggressiveoki","setups-unimportant","stance-light","evasion-low","movetier-midhigh", "tier-mid","tier-midhigh","gameplan-level-low"]
+            "tags": ["male", "base", "versatilegoal","versatileoffense", "aggressiveoki","setups-unimportant","stance-light","evasion-low","movetier-midhigh", "tier-mid","tier-midhigh", "tier-midlow","gameplan-level-low"]
         },
 
         {
@@ -1010,7 +1010,7 @@
             "stance": "light",
             "gameplan-level": "high",
             "beginner-friendly": "yes",
-            "tags": ["female", "dlc", "movement", "versatilegoal", "poke", "versatileoffense", "defensiveoki", "setups-unimportant", "stance-light", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-high", "evasion-midhigh", "tier-high", "tier-midhigh", "gameplan-level-high", "beginner-friendly"]
+            "tags": ["female", "dlc", "movement", "versatilegoal", "poke", "versatileoffense", "defensiveoki", "setups-unimportant", "stance-light", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-high", "evasion-midhigh", "tier-high", "tier-midhigh", "gameplan-level-high", "gameplan-level-low", "beginner-friendly"]
         }
         
     ]

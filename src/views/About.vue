@@ -20,10 +20,12 @@
         <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
       </ul>
     </div>
+    <div class= "specialthanks">
     <h1>Special thanks to...</h1>
-    <h3>bigcookie, GenaFurLy, LoseAgainMan(또졌다맨), Merv202</h3>
+    <h3><a href = "https://glitch.com/@bigcookie" target="_blank">bigcookie</a>, <a href= "https://github.com/jenniferly" target="_blank">GenaFurLy</a>, <a href= "https://www.youtube.com/channel/UCGbtD4EH3UOmJR2AtjHr0kA" target="_blank">LoseAgainMan(또졌다맨)</a>, <a href= "https://www.twitch.tv/merv202">Merv202</a></h3>
     <h4>WhoAmI, 네간리얼쑨, 리틀브로, Kane, AStr8pro</h4>
     <p>...and you!</p>
+    </div>
 
   </div>
 </template>

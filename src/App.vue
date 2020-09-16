@@ -168,6 +168,11 @@ li:hover {
   height: 1.3em;
 }
 
+.specialthanks a{
+  color: #42b983;
+  text-decoration: none;
+}
+
 .top3 { 
   white-space:pre-wrap;
 }
