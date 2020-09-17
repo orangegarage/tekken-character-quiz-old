@@ -193,5 +193,8 @@ li:hover {
   li:hover{
     pointer-events: none;
   }
+  .quiz-nav{
+    display:none;
+  }
 }
 </style>
