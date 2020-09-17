@@ -121,7 +121,7 @@
             "tier": "3",
             "movetier": "mid",
             "gameplan-focus": "aggression",
-            "gameplan-focus2": "versatile",
+            "gameplan-focus2": "movement",
             "gameplan-okizeme": "versatile",
             "gameplan-offensive-options": "counterhit",
             "gameplan-offensive-options2": "mixup", 
@@ -130,7 +130,7 @@
             "stance": "light",
             "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["male", "base", "aggression","versatilegoal" , "movement", "counterhit", "mixup", "versatileoki" ,"setups-unimportant", "setups-important", "stance-light", "evasion-high", "evasion-midhigh", "movetier-high", "movetier-midhigh", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low"]
+            "tags": ["male", "base", "aggression", "movement", "counterhit", "mixup", "versatileoki" ,"setups-unimportant", "setups-important", "stance-light", "evasion-high", "evasion-midhigh", "movetier-high", "movetier-midhigh", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low"]
         },
 
         {
