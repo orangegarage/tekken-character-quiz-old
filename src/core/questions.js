@@ -76,8 +76,9 @@ export const store = {
             const characterPreferredTraits = character.tags.filter(tag => preferredTraits.includes(tag)).length;
             // console.log("preferred length: " + characterPreferredTraits); 
             const characterOnlyTraits = 1 + character.tags.filter(tag => onlyTraits.includes(tag)).length;
+            const onlyTraitTrueLength = character.tags.filter(tag => onlyTraits.includes(tag)).length
 
-            character.score = characterOnlyTraits*((characterOnlyTraits-1)*10 + characterPrioritizedTraits * 10 + characterPreferredTraits * 5);
+            character.score = characterOnlyTraits*((onlyTraitTrueLength)*10 + characterPrioritizedTraits * 10 + characterPreferredTraits * 5);
             console.log("character score: "+ character.score);
             return character;
         });
