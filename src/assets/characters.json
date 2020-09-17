@@ -566,11 +566,11 @@
             "setups": "unimportant",
             "evasion": "mid",
             "stance": "mid",
-            "movetier": "mid",
+            "movetier": "low",
             "tier": "5",
             "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["female", "male", "base","defense","movement","poke","whiff-punish","aggressiveoki","setups-unimportant","evasion-mid","evasion-midhigh","stance-light","movetier-midhigh", "movetier-mid", "movetier-midlow", "tier-low","tier-midlow", "gameplan-level-low"]
+            "tags": ["female", "male", "base","defense","movement","poke","whiff-punish","aggressiveoki","setups-unimportant","evasion-mid","evasion-midhigh","stance-light","movetier-low", "movetier-mid", "movetier-midlow", "tier-low","tier-midlow", "gameplan-level-low"]
         },
 
         {
