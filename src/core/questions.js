@@ -65,6 +65,7 @@ export const store = {
         console.log("prioritized traits: " + prioritizedTraits);
         // Same thing but for preferred traits
         const preferredTraits = this.state.chosenTraits.filter(trait => trait.includes("prefer")).map(trait => trait.replace("-prefer", ""));
+        const onlyTraits = this.state.chosenTraits.filter(trait => trait.includes("only")).map(trait => trait.replace("-only", ""));
         console.log("preferred traits: "+ preferredTraits);
 
         // Modify jsonCharacters directly, no need to create a new object for this if it will have the same structure as jsonCharacters. It won't modify the original json.
@@ -72,11 +73,11 @@ export const store = {
             // The number of tags the character has that were found in prioritizedTraits
             const characterPrioritizedTraits = character.tags.filter(tag => prioritizedTraits.includes(tag)).length;
             // console.log("prioritized length: " + characterPrioritizedTraits);
-
             const characterPreferredTraits = character.tags.filter(tag => preferredTraits.includes(tag)).length;
             // console.log("preferred length: " + characterPreferredTraits); 
+            const characterOnlyTraits = 1 + character.tags.filter(tag => onlyTraits.includes(tag)).length;
 
-            character.score = characterPrioritizedTraits * 10 + characterPreferredTraits * 5;
+            character.score = characterOnlyTraits*(characterPrioritizedTraits * 10 + characterPreferredTraits * 5);
             console.log("character score: "+ character.score);
             return character;
         });

@@ -38,15 +38,15 @@
     },
     "answers":
     {
-        "male-prioritize": "I strongly prefer a male character.",
-        "male-prefer": "I prefer a male character, but it's not essential.",
-        "female-prioritize": "I strongly prefer a female character.",
-        "female-prefer": "I prefer a female character, but it's not essential.",
+        "male-only": "I strongly prefer a male character.",
+        "male-prioritize": "I prefer a male character, but it's not essential.",
+        "female-only": "I strongly prefer a female character.",
+        "female-prioritize": "I prefer a female character, but it's not essential.",
         "neutral-gender": "I don't lean either way. Recommend me a character without considering this.",
         "neutral-dlc": "Absolutely, I am willing to buy DLC if the character fits my playstyle.",
-        "base-prefer": "I'm ok with it, but please prioritize non-DLC characters.",
-        "base-prioritize": "Please prioritize characters in the base game. I don't want to buy DLC.",
-        "dlc-prioritize": "I actually want to try a character in the DLC, prioritize DLC characters.",
+        "base-prioritize": "I'm ok with it, but please prioritize non-DLC characters.",
+        "base-only": "Please prioritize characters in the base game. I don't want to buy DLC.",
+        "dlc-only": "I actually want to try a character in the DLC, prioritize DLC characters.",
         "combo-prioritize": "Landing flashy, high damage combos.",
         "movement-prioritize": "Dashing in and out of range of my opponent's moves.",
         "aggression-prioritize": "Getting aggressive at my opponent.",
@@ -101,7 +101,7 @@
         "gameplan-level-low-prioritize": "Recommend me easier characters that I can start learning Tekken with.",
         "gameplan-level-high-prioritize": "Recommend me characters that have challenging execution and gameplan.",
         "neutral-gameplan-level": "I don't have a strong preference on character difficulty.",
-        "beginner-friendly-prioritize": "I'm trying out fighting games for the first time. Choose a \"beginner friendly\"character for me.\nI understand this is subjective."
+        "beginner-friendly-only": "I'm trying out fighting games for the first time. Choose a \"beginner friendly\"character for me.\nI understand this is subjective."
     },
     "flavortexts":
     {

@@ -38,15 +38,15 @@
     },
     "answers":
     {
-        "male-prioritize": "남캐를 우선적으로 추천해 주세요.",
-        "male-prefer": "남캐가 좋지만, 필수는 아닙니다.",
-        "female-prioritize": "여캐를 우선적으로 추천해 주세요.",
-        "female-prefer": "여캐가 좋지만, 필수는 아닙니다.",
+        "male-only": "남캐를 우선적으로 추천해 주세요.",
+        "male-prioritize": "남캐가 좋지만, 필수는 아닙니다.",
+        "female-only": "여캐를 우선적으로 추천해 주세요.",
+        "female-prioritized": "여캐가 좋지만, 필수는 아닙니다.",
         "neutral-gender": "성별을 고려하지 않고 추천해 주세요.",
         "neutral-dlc": "제 취향과 맞다면 DLC를 살 의향이 있습니다.",
-        "base-prefer": "DLC도 괜찮지만, 가급적이면 기본 게임의 캐릭터로 부탁드립니다.",
-        "base-prioritize": "DLC를 사고 싶지 않습니다. 기본 게임 캐릭터를 우선해 주세요.",
-        "dlc-prioritize": "저는 DLC 캐릭터를 해보고 싶어요. DLC 캐릭터를 우선해 주세요.",
+        "base-prioritize": "DLC도 괜찮지만, 가급적이면 기본 게임의 캐릭터로 부탁드립니다.",
+        "base-only": "DLC를 사고 싶지 않습니다. 기본 게임 캐릭터를 우선해 주세요.",
+        "dlc-only": "저는 DLC 캐릭터를 해보고 싶어요. DLC 캐릭터를 우선해 주세요.",
         "combo-prioritize": "멋진 고데미지 콤보를 제일 넣고 싶어요.",
         "movement-prioritize": "상대방과의 거리를 재며 기동성을 살리는 플레이가 최고예요.",
         "aggression-prioritize": "공격적으로 압박해 들어가는게 제일 재밌어요.",
@@ -101,7 +101,7 @@
         "gameplan-level-low-prioritize": "철권을 제대로 배워보고 싶어요. 철권의 기본을 배울 수 있는 캐릭터를 추천해 주세요.",
         "gameplan-level-high-prioritize": "운영이나 커맨드가 어려운 고난도 캐릭터를 추천해 주세요.",
         "neutral-gameplan-level": "캐릭터 난이도는 상관 없습니다/잘 모르겠습니다.",
-        "beginner-friendly-prioritize": "격투게임은 처음입니다. 초보자가 해도 편한 \"철린이용\" 캐릭터를 추천해 주세요.\n주관적이어도 상관없습니다."
+        "beginner-friendly-only": "격투게임은 처음입니다. 초보자가 해도 편한 \"철린이용\" 캐릭터를 추천해 주세요.\n주관적이어도 상관없습니다."
     },
     "flavortexts":
     {
