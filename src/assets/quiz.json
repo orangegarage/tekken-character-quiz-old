@@ -127,6 +127,16 @@
             "id": 12,
             "question": "q12",
             "answers":[
+                "2d-prioritize",
+                "3d-only",
+                "3d-prioritize",
+                "neutral-crossover"
+            ]
+        },
+        {
+            "id": 13,
+            "question": "q13",
+            "answers":[
                 "tier-high-prioritize",
                 "tier-mid-prioritize",
                 "tier-low-prioritize",
@@ -136,8 +146,8 @@
             ]
         },
         {
-            "id": 13,
-            "question": "q13",
+            "id": 14,
+            "question": "q14",
             "answers":[
                 "gameplan-level-low-prioritize",
                 "gameplan-level-high-prioritize",
