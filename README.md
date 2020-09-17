@@ -1,5 +1,12 @@
 # tekken-character-quiz
 
+## Special thanks
+```
+Technical Support: Bigcookie, GenaFurLy
+Tekken Data Support: LoseAgainMan, Merv202
+```
+
+
 ## Project setup
 ```
 npm install
