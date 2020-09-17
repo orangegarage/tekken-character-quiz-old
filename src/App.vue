@@ -190,5 +190,8 @@ li:hover {
   .button {
     font-size:100%;
   }
+  li:hover{
+    pointer-events: none;
+  }
 }
 </style>
