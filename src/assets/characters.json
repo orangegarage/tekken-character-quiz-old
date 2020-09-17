@@ -779,7 +779,7 @@
             "tutorial": "9ra",
             "execution": "low",
             "gameplan-focus": "defense",
-            "gameplan-focus2": "movement",
+            "gameplan-focus2": "versatile",
             "gameplan-offensive-options": "grab",
             "gameplan-offensive-options2": "mixup", 
             "gameplan-okizeme": "aggressive",
@@ -790,7 +790,7 @@
             "tier": "2",
             "gameplan-level": "low",
             "beginner-friendly": "yes",
-            "tags": ["male", "dlc", "defense", "movement", "grab", "poke", "aggressiveoki", "setups-important", "evasion-low", "stance-light", "movetier-midhigh", "tier-midhigh", "tier-mid", "beginner-friendly", "gameplan-level-low"]
+            "tags": ["male", "dlc", "defense", "versatilegoal", "grab", "poke", "aggressiveoki", "setups-important", "evasion-low", "stance-light", "movetier-midhigh", "tier-midhigh", "tier-mid", "beginner-friendly", "gameplan-level-low"]
         },
 
         {

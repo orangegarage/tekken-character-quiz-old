@@ -18,7 +18,7 @@ export const store = {
         final: []
     },
     nextButton(){
-        // console.log(this.state.currentQuestion);
+        // console.log(this.state.picked);
         this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
         console.log(this.state.picked);
         this.state.currentQuestion++;

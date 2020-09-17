@@ -29,7 +29,8 @@
                 "movement-prioritize",
                 "aggression-prioritize",
                 "defense-prioritize",
-                "versatilegoal-prioritize"
+                "versatilegoal-prioritize",
+                "neutralgoal"
             ]
         },
         {
@@ -40,7 +41,8 @@
                 "movement-prefer",
                 "aggression-prefer",
                 "defense-prefer",
-                "versatilegoal-prefer"
+                "versatilegoal-prefer",
+                "neutralgoal"
             ]
         },
         {
@@ -53,7 +55,8 @@
                 "grab-prioritize",
                 "plus-frame-prioritize",
                 "poke-prioritize",
-                "versatileoffense-prioritize"
+                "versatileoffense-prioritize",
+                "neutralgoal"
             ]
         },
         {
@@ -66,7 +69,8 @@
                 "grab-prefer",
                 "plus-frame-prefer",
                 "poke-prefer",
-                "versatileoffense-prefer"
+                "versatileoffense-prefer",
+                "neutralgoal"
             ]
         },
         {
