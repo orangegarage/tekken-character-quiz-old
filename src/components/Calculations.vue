@@ -6,14 +6,11 @@
                     {{index}}. {{storeState.final[index-1].name}}<br> 
                     <!-- index - 1 because array starts from 0 duh -->
                     {{$t('flavortexts.'+storeState.final[index-1].name)}}
-                    <br>
-                    <br>
-                    <br>
                 </li>
             </ul>
         </div>
         <br>
-        {{storeState.chosenTraits}}
+        <!-- {{storeState.chosenTraits}} -->
     </div>
 </template>
 
