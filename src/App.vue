@@ -87,7 +87,7 @@ body {
 }
 
 #nav a.router-link-exact-active {
-  color: #3282b8;
+  color: #ffbd69;
 }
 #navbar .dropdown{
   display:inline-block;
@@ -103,7 +103,7 @@ ul {
 }
 
 .hello a {
-  color: #3282b8;
+  color: #ffbd69;
 }
 .hello li{
   display: inline-block;
@@ -126,7 +126,7 @@ ul {
 }
 
 li:hover {
-  color:#3282b8;
+  color:#ffbd69;
   /* color: #e4464a; */
 }
 
@@ -141,7 +141,7 @@ li:hover {
   display: none;
 }
 .qna input[type="radio"]:checked+label{
-  color: #3282b8;
+  color: #ffbd69;
 }
 /* .qna label {
   border:1px solid black;
@@ -169,7 +169,7 @@ li:hover {
 }
 
 .specialthanks a{
-  color: #3282b8;
+  color: #ffbd69;
   text-decoration: none;
 }
 
