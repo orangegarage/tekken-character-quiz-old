@@ -18,7 +18,21 @@
     "about":
     {
         "resources": "Starting Resources",
-        "stack": "Frameworks/Plugins"
+        "stack": "Frameworks/Plugins",
+        "faq": "FAQ",
+        "faq1": "Who/What is this quiz for?",
+        "answer1": "This quiz is meant to serve as a guide for newer players to choose a starting/secondary character.",
+        "faq2": "How is the data for each character collected?",
+        "answer2": "I had the help of the community (refer to above). I sent out a questionnaire to them with questions asking for certain characters' strengths/weaknesses in each area the quiz asks answers for.\nI tried to ask people specifically about characters that I knew they knew a lot about (mains, secondaries).\nI took their answers and categorized (tagged) the charcters into identifiable traits, then cross-referenced them with Fergus's 'T7 character overviews'.\nLoseAgainMan, who makes beginner Tekken 7 content, and Merv, a Julia TGP, ended up giving me info for most characters, Giving me at least 3 opinions including Fergus' spreadsheet.\nIn the case of Eliza/Yoshimitsu I got the additional help from Chanel, a professional gamer in ROX Dragons.\nFor movement, I also considered the chart in cthor.me/backdashes.\nThank you everyone!",
+        "faq3": "Hey, I got my 3 characters, where should I go now?",
+        "answer3": "If you understand Korean, go to GuraTV.\nIf you aren't, I recommend trying out the links above to get you to a character Discord or a character specific video.\nAnakin's Redbull Academy is a new, good starting resourcce linked above.",
+        "faq4": "What is the algorithm for getting TOP 3?",
+        "answer4": "Each answer you choose is weighted Only/Prioritize/Prefer. Some questions only have 'prioritize' answers. Others have only 'prefer' answers. Some have a mix of both.\nAt the end of the quiz it takes how many of each choices you make and compares them to the tags of each character, computing the final score like this:\n(Only+1)*{(Prioritize+Only)*10 + Prefer*5)}\nThen we take the TOP 3 scores. If there are same scores, it's alphabetical order at that point. Yet another reason to name your kid Aardvark.",
+        "faq5": "I didn't get the character I was thinking of / I don't want to play this character.",
+        "answer5": "Hey, I'm glad you're already thinking of a character you enjoy playing!\nThe truth is a lot of Tekken characters are versatile and you can play them how you want.\nSome characters may be equipped to faciliate a certain playstyle, but it is never a truly binding thing.\nCharacters like Lei and Yoshimitsu especially have a huge variety of playstyles - it is almost unfair to categorize them, but the quiz system requires me to do it.\nI am glad you have a character you want to play already, and I wish you the best of luck!\nThe next time you are at a loss to find a character, I hope you remember this website and comeback.",
+        "faq6": "I wish the quiz should be longer/shorter.",
+        "answer6": "The focus of this quiz was to serve as a guide for newer players. As a result, I wanted to focus on keeping it short and as relevant as possible.\nIt may get more accurate results by checking for more fields or adding an importance slider for each question, but I feel that takes away from it being user friendly.\nTherefore, there are currently no further plans to expand the number of questions.\nHowever, individual questions are open to rephrasing based on what is the best way to represent a certain trait I want the user to answer for.\nThanks for taking the quiz and I hope you enjoyed the experience!",
+        "thanks": "Thank you!"
     },
     "questions":
     {

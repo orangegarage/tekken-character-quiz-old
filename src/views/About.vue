@@ -20,11 +20,29 @@
         <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
       </ul>
     </div>
+
     <div class= "specialthanks">
     <h1>Special thanks to...</h1>
     <h3><a href = "https://github.com/biggestcookie" target="_blank">bigcookie</a> | <a href= "https://twitter.com/genafurly" target="_blank">GenaFurLy</a> | <a href= "https://www.youtube.com/channel/UCGbtD4EH3UOmJR2AtjHr0kA" target="_blank">LoseAgainMan(또졌다맨)</a> | <a href= "https://www.twitch.tv/merv202">Merv202</a> | <a href= "https://twitter.com/tekkenchanel">ROX_Chanel(샤넬)</a></h3>
     <h4>WhoAmI, 네간리얼쑨, 리틀브로, Kane, AStr8pro</h4>
     <p>...and you!</p>
+    
+    </div>
+    <div class = "faq">
+      <h1>{{$t('about.faq')}}</h1>
+      <h3>1. {{$t('about.faq1')}}</h3>
+      <p>{{$t('about.answer1')}}</p>
+      <h3>2. {{$t('about.faq2')}}</h3>
+      <p>{{$t('about.answer2')}}</p>
+      <h3>3. {{$t('about.faq3')}}</h3>
+      <p>{{$t('about.answer3')}}</p>
+      <h3>4. {{$t('about.faq4')}}</h3>
+      <p>{{$t('about.answer4')}}</p>
+      <h3>5. {{$t('about.faq5')}}</h3>
+      <p>{{$t('about.answer5')}}</p> 
+      <h3>6. {{$t('about.faq6')}}</h3>
+      <p>{{$t('about.answer6')}}</p>
+      <h3>{{$t('about.thanks')}}</h3>
     </div>
 
   </div>

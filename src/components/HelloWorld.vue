@@ -16,6 +16,7 @@
     <ul>
       <li><a href="https://github.com/orangegarage/tekken-character-quiz" target="_blank" rel="noopener">{{ $t('main.githubLink')}}</a></li>
       <li><a href="https://twitter.com/jincontroller" target="_blank" rel="noopener">{{ $t('main.twtLink') }}</a></li>
+      <li><router-link to="/about">FAQ</router-link></li>
     </ul>
   </div>
 </template>

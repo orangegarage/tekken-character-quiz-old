@@ -168,6 +168,9 @@ li:hover {
   height: 1.3em;
 }
 
+.specialthanks{
+    margin-bottom: 5em;
+}
 .specialthanks a{
   color: #ffbd69;
   text-decoration: none;
