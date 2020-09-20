@@ -229,19 +229,19 @@
             "tutorial": "9ra",
             "execution": "hard",
             "gameplan-focus": "combo",
-            "gameplan-focus2": "movement",
+            "gameplan-focus2": "aggression",
             "gameplan-offensive-options": "mixup",
-            "gameplan-offensive-options2": "plus-frame", 
+            "gameplan-offensive-options2": "poke", 
             "gameplan-okizeme": "aggressive",
             "setups": "important",
-            "evasion": "high (jumping, sleeping?)",
+            "evasion": "low, even with divekick its not very good",
             "stance": "light",
-            "movetier": "high",
-            "tier": "4",
+            "movetier": "midlow - reason why she has low tier",
+            "tier": "3",
             "gameplan-level": "high",
             "beginner-friendly": "no",
             "2d3d": "2d",
-            "tags": ["2d", "female", "dlc", "movement", "combo", "mixup","plus-frame", "aggressiveoki", "setups-important", "stance-light", "evasion-high", "evasion-midhigh", "movetier-high", "movetier-midhigh", "tier-midlow", "tier-mid", "gameplan-level-high"]
+            "tags": ["2d", "female", "dlc", "movement", "combo", "mixup","poke", "aggressiveoki", "setups-important", "stance-light", "evasion-low", "movetier-midlow", "tier-midlow", "tier-mid", "tier-midhigh", "gameplan-level-high"]
         },
 
         {
@@ -1021,19 +1021,19 @@
             "gender": "male",
             "tutorial": "9ra",
             "execution": "mid",
-            "gameplan-focus": "aggression",
-            "gameplan-focus2": "aggression",
-            "gameplan-offensive-options": "counterhit",
+            "gameplan-focus": "defense",
+            "gameplan-focus2": "combos",
+            "gameplan-offensive-options": "versatile",
             "gameplan-offensive-options2": "mixup", 
             "gameplan-okizeme": "aggressiveoki",
             "setups": "important",
             "evasion": "high",
             "stance": "heavy",
             "movetier": "mid",
-            "tier": "4",
+            "tier": "3",
             "gameplan-level": "4",
             "beginner-friendly": "no",
-            "tags": ["3d", "male", "base", "aggression", "counterhit", "mixup", "aggressiveoki", "setups-important", "evasion-high", "evasion-midhigh", "movetier-mid", "stance-heavy", "tier-mid", "tier-midlow", "gameplan-level-high"]
+            "tags": ["3d", "male", "base", "defense", "combos", "versatileoffense", "mixup", "aggressiveoki", "setups-important", "evasion-high", "evasion-midhigh", "movetier-mid", "stance-heavy", "tier-mid", "tier-midlow", "tier-midhigh" ,"gameplan-level-high"]
         },
 
         {

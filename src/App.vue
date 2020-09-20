@@ -57,7 +57,7 @@ export default {
 
 body {
   white-space:pre-wrap;
-  background-color: #696969;
+  background-color: #1b262c;
   text-align: center;
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -72,7 +72,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: white;
+  color: #bbe1fa;
 }
 
 #nav {
@@ -82,12 +82,12 @@ body {
 
 }
 #nav a {
-  color: white;
+  color: #bbe1fa;
   text-decoration: none;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #3282b8;
 }
 #navbar .dropdown{
   display:inline-block;
@@ -103,7 +103,7 @@ ul {
 }
 
 .hello a {
-  color: #42b983;
+  color: #3282b8;
 }
 .hello li{
   display: inline-block;
@@ -126,12 +126,12 @@ ul {
 }
 
 li:hover {
-  color:#42b983;
+  color:#3282b8;
   /* color: #e4464a; */
 }
 
 .langbtn{
-  color:white;
+  color:#bbe1fa;
   background-color:transparent;
   vertical-align: middle;
   border:none;
@@ -141,7 +141,7 @@ li:hover {
   display: none;
 }
 .qna input[type="radio"]:checked+label{
-  color: #42b983;
+  color: #3282b8;
 }
 /* .qna label {
   border:1px solid black;
@@ -158,7 +158,7 @@ li:hover {
 }
 .button{
   font-size: 120%;
-  color: white;
+  color: #bbe1fa;
   background-color: transparent;
   border-style: none;
 }
@@ -169,7 +169,7 @@ li:hover {
 }
 
 .specialthanks a{
-  color: #42b983;
+  color: #3282b8;
   text-decoration: none;
 }
 
