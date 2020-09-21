@@ -179,6 +179,9 @@ li:hover {
 .top3 { 
   white-space:pre-wrap;
 }
+.faq{
+  margin-bottom: 5em;
+}
 /* Make radio button default clicked based on index. */
 
 @media only screen and (max-width: 600px){
