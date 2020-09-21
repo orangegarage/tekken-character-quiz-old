@@ -23,7 +23,7 @@
 
     <div class= "specialthanks">
     <h1>Special thanks to...</h1>
-    <h3><a href = "https://github.com/biggestcookie" target="_blank">bigcookie</a> | <a href= "https://twitter.com/genafurly" target="_blank">GenaFurLy</a> | <a href= "https://www.youtube.com/channel/UCGbtD4EH3UOmJR2AtjHr0kA" target="_blank">LoseAgainMan(또졌다맨)</a> | <a href= "https://www.twitch.tv/merv202">Merv202</a> | <a href= "https://twitter.com/tekkenchanel">ROX_Chanel(샤넬)</a></h3>
+    <h3><a href = "https://github.com/biggestcookie" target="_blank">bigcookie</a> | <a href= "https://twitter.com/genafurly" target="_blank">GenaFurLy</a> | <a href= "https://www.youtube.com/channel/UCGbtD4EH3UOmJR2AtjHr0kA" target="_blank">LoseAgainMan(또졌다맨)</a> | <a href= "https://www.youtube.com/channel/UCykrLI6gCNczfhY6pBEI9QA">Merv202</a> | <a href= "https://twitter.com/tekkenchanel">ROX_Chanel(샤넬)</a></h3>
     <h4>WhoAmI, 네간리얼쑨, 리틀브로, Kane, AStr8pro</h4>
     <p>...and you!</p>
     
