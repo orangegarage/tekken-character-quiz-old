@@ -60,13 +60,13 @@ export const store = {
     },
     pointAssign(){
         // List of traits that were prioritized, with the 'prioritize' removed
-        console.log("point assign start");
+        // console.log("point assign start");
         const prioritizedTraits = this.state.chosenTraits.filter(trait => trait.includes("prioritize")).map(trait => trait.replace("-prioritize", ""));
-        console.log("prioritized traits: " + prioritizedTraits);
+        // console.log("prioritized traits: " + prioritizedTraits);
         // Same thing but for preferred traits
         const preferredTraits = this.state.chosenTraits.filter(trait => trait.includes("prefer")).map(trait => trait.replace("-prefer", ""));
         const onlyTraits = this.state.chosenTraits.filter(trait => trait.includes("only")).map(trait => trait.replace("-only", ""));
-        console.log("preferred traits: "+ preferredTraits);
+        // console.log("preferred traits: "+ preferredTraits);
 
         // Modify jsonCharacters directly, no need to create a new object for this if it will have the same structure as jsonCharacters. It won't modify the original json.
         this.state.jsonCharacters = this.state.jsonCharacters.map(character => {

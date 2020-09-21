@@ -42,7 +42,7 @@
       <p>{{$t('about.answer5')}}</p> 
       <h3>6. {{$t('about.faq6')}}</h3>
       <p>{{$t('about.answer6')}}</p>
-      <h3>{{$t('about.thanks')}}</h3>
+      <h3><a href= "https://medium.com/@jjjinyong/vue-js-vue-cli-making-recommendations-based-on-quiz-questions-64f829aa3e02">{{$t('about.thanks')}}</a></h3>
     </div>
 
   </div>

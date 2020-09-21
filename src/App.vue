@@ -168,10 +168,10 @@ li:hover {
   height: 1.3em;
 }
 
-.specialthanks{
+.specialthanks, .faq{
     margin-bottom: 5em;
 }
-.specialthanks a{
+.specialthanks a, .faq a{
   color: #ffbd69;
   text-decoration: none;
 }
@@ -179,9 +179,8 @@ li:hover {
 .top3 { 
   white-space:pre-wrap;
 }
-.faq{
-  margin-bottom: 5em;
-}
+
+/* probably can consolidate this a lot better*/
 /* Make radio button default clicked based on index. */
 
 @media only screen and (max-width: 600px){
