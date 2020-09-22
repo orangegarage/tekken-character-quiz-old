@@ -59,11 +59,11 @@
             "gameplan-offensive-options": "mixup",
             "gameplan-offensive-options2": "counterhit", 
             "setups": "important",
-            "evasion": "high",
-            "stance": "mid",
+            "evasion": "midhigh",
+            "stance": "mid (call it light)",
             "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["3d","female", "dlc", "aggression", "mixup", "counterhit", "aggressiveoki", "setups-important", "stance-heavy", "stance-mid", "movetier-high", "movetier-midhigh", "tier-low", "tier-midlow"]
+            "tags": ["3d","female", "dlc", "aggression", "mixup", "counterhit", "aggressiveoki", "setups-important", "stance-light", "evasion-midhigh","movetier-high", "movetier-midhigh", "tier-low", "tier-midlow"]
 
         },
 
