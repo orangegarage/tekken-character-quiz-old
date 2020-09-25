@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Quiz from '../views/Quiz.vue'
-import Recommendation from '../views/Recommendation.vue'
+// import Recommendation from '../views/Recommendation.vue'
 
 Vue.use(VueRouter)
 
@@ -25,10 +25,11 @@ Vue.use(VueRouter)
     name: 'Quiz',
     component: Quiz
   },
+  // recommendation lazy loading bc else it tries to load pictures
   {
     path: '/recommendation',
     name: 'Recommendation',
-    component: Recommendation
+    component: () => import(/*webpackChunkName: "recommendation" */ '../views/Recommendation.vue')
   }
   
 ]

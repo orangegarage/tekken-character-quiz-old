@@ -180,6 +180,13 @@ li:hover {
   white-space:pre-wrap;
 }
 
+.resultingimg{
+  display: inline-block;
+}
+.resultingimg img{
+  width:50%;
+}
+
 /* probably can consolidate this a lot better*/
 /* Make radio button default clicked based on index. */
 
@@ -197,6 +204,10 @@ li:hover {
   }
   .quiz-nav{
     display:none;
+  }
+  .resultingimg img{
+    display:inline-block;
+    width:30%;
   }
 }
 </style>

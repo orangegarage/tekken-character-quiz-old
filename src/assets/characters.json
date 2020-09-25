@@ -3,7 +3,7 @@
         {
             "name": "Alisa Bosconovitch",
             "dlc": "base",
-            "photo": "img/AlisaBosconovitchTk7.png",
+            "photo": "/charimg/alisahead.png",
             "gender": "female",
             "tutorial": "https://youtu.be/pmn-VumrHo8",
             "execution": "easy",
@@ -25,7 +25,7 @@
         {
             "name": "Akuma / Gouki",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/akumahead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "high",
@@ -47,7 +47,7 @@
         {
             "name": "Anna Williams",
             "dlc": "dlc",
-            "photo": "img",
+            "photo": "/charimg/annahead.png",
             "gender": "female",
             "tutorial": "",
             "execution": "mid",
@@ -70,7 +70,7 @@
         {
             "name": "Armor King",
             "dlc": "dlc",
-            "photo": "img",
+            "photo": "/charimg/armorkinghead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "high",
@@ -92,7 +92,7 @@
         {
             "name": "Asuka Kazama",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/asukahead.png",
             "gender": "female",
             "tutorial": "9ra",
             "execution": "easy",
@@ -114,7 +114,7 @@
         {
             "name": "Bob (Robert Richards)",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/bobhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "hard",
@@ -136,7 +136,7 @@
         {
             "name": "Bryan Fury",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/bryanhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "mid",
@@ -158,7 +158,7 @@
         {
             "name": "Claudio Serafino",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/claudiohead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "low",
@@ -180,7 +180,7 @@
         {
             "name": "Devil Jin",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/deviljinhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "high",
@@ -202,7 +202,7 @@
         {
             "name": "Eddy Gordo",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/eddyhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "low",
@@ -224,7 +224,7 @@
         {
             "name": "Eliza",
             "dlc": "dlc",
-            "photo": "img",
+            "photo": "/charimg/elizahead.png",
             "gender": "female",
             "tutorial": "9ra",
             "execution": "hard",
@@ -247,7 +247,7 @@
         {
             "name": "Fahkumram",
             "dlc": "dlc",
-            "photo": "img",
+            "photo": "/charimg/fahkumramhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "2",
@@ -269,7 +269,7 @@
         {
             "name": "Feng Wei",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/fenghead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "2",
@@ -291,7 +291,7 @@
         {
             "name": "Gigas",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/gigashead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "low",
@@ -313,7 +313,7 @@
         {
             "name": "Geese Howard",
             "dlc": "dlc",
-            "photo": "img",
+            "photo": "/charimg/geesehead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "mid",
@@ -335,7 +335,7 @@
         {
             "name": "Ganryu",
             "dlc": "dlc",
-            "photo": "img",
+            "photo": "/charimg/ganryuhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "ez",
@@ -357,7 +357,7 @@
         {
             "name": "Heihachi Mishima",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/heihachihead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "hard",
@@ -379,7 +379,7 @@
         {
             "name": "Hwoarang",
             "dlc": "base",
-            "photo": "img/HwoarangTk7.png",
+            "photo": "/charimg/hwoaranghead.png",
             "gender": "male",
             "tutorial": "https://youtu.be/ZaafwJvaaGU",
             "execution": "hard",
@@ -401,7 +401,7 @@
         {
             "name": "Jack - 7",
             "dlc": "base",
-            "photo": "img/JackTk7.png",
+            "photo": "/charimg/jack7head.png",
             "gender": "male",
             "tutorial": "youtube link",
             "execution": "easy",
@@ -423,7 +423,7 @@
         {
             "name": "Jin Kazama",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/jinhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "mid/hard",
@@ -445,7 +445,7 @@
         {
             "name": "Josie Rizal",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/josiehead.png",
             "gender": "female",
             "tutorial": "9ra",
             "execution": "mid",
@@ -467,7 +467,7 @@
         {
             "name": "Julia Chang",
             "dlc": "yes",
-            "photo": "img/JuliaChangTk7.png",
+            "photo": "/charimg/juliahead.png",
             "gender": "female",
             "tutorial": "https://youtu.be/EEja-2a8o74",
             "execution": "medium",
@@ -489,7 +489,7 @@
         {
             "name": "Kazuya Mishima",
             "dlc": "base",
-            "photo": "img/KazuyaMishimaTk7.png",
+            "photo": "/charimg/kazuyahead.png",
             "gender": "male",
             "tutorial": "https://youtu.be/bIUhU2Xz5A0",
             "execution": "hard",
@@ -511,7 +511,7 @@
         {
             "name": "Katarina Alvez",
             "dlc": "base",
-            "photo": "lorem",
+            "photo": "/charimg/katarinahead.png",
             "gender": "female",
             "tutorial": "lorem",
             "execution": "easy",
@@ -533,7 +533,7 @@
         {
             "name": "Kazumi Hachijo Mishima",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/kazumihead.png",
             "gender": "female",
             "tutorial": "9ra",
             "execution": "low",
@@ -555,7 +555,7 @@
         {
             "name": "King",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/kinghead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "low",
@@ -577,7 +577,7 @@
         {
             "name": "Kuma / Panda",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/kumahead.png",
             "gender": "female",
             "tutorial": "9ra",
             "execution": "easy",
@@ -599,7 +599,7 @@
         {
             "name": "Lars Alexandersson",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/larshead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "hard",
@@ -621,7 +621,7 @@
         {
             "name": "Leroy Smith",
             "dlc": "dlc",
-            "photo": "img",
+            "photo": "/charimg/leroyhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "easy",
@@ -643,7 +643,7 @@
         {
             "name": "Lee Chaolan",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/leehead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "hard",
@@ -665,7 +665,7 @@
         {
             "name": "Lei Wulong",
             "dlc": "dlc",
-            "photo": "img",
+            "photo": "/charimg/leihead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "easy",
@@ -687,7 +687,7 @@
         {
             "name": "Leo Kliesen",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/leohead.png",
             "gender": "female + male",
             "tutorial": "9ra",
             "execution": "low",
@@ -709,7 +709,7 @@
         {
             "name": "Lili (Emile de Rochefort)",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/lilihead.png",
             "gender": "female",
             "tutorial": "9ra",
             "execution": "easy",
@@ -731,7 +731,7 @@
         {
             "name": "Lucky Chloe",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/luckyhead.png",
             "gender": "female",
             "tutorial": "9ra",
             "execution": "easy",
@@ -753,7 +753,7 @@
         {
             "name": "Marshall Law",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/lawhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "mid",
@@ -775,7 +775,7 @@
         {
             "name": "Master Raven",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/masterrravenhead.png",
             "gender": "female",
             "tutorial": "9ra",
             "execution": "hard",
@@ -797,7 +797,7 @@
         {
             "name": "Craig Marduk",
             "dlc": "dlc",
-            "photo": "img",
+            "photo": "/charimg/mardukhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "low",
@@ -819,7 +819,7 @@
         {
             "name": "Miguel Caballero Rojo",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/miguelhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "2",
@@ -841,7 +841,7 @@
         {
             "name": "Negan",
             "dlc": "dlc",
-            "photo": "img",
+            "photo": "/charimg/neganhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "low",
@@ -863,7 +863,7 @@
         {
             "name": "Nina Williams",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/ninahead.png",
             "gender": "female",
             "tutorial": "9ra",
             "execution": "high",
@@ -885,7 +885,7 @@
         {
             "name": "Noctis",
             "dlc": "dlc",
-            "photo": "img",
+            "photo": "/charimg/noctishead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "ez",
@@ -907,7 +907,7 @@
         {
             "name": "Paul Phoenix",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/paulhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "low",
@@ -929,7 +929,7 @@
         {
             "name": "Sergei Dragunov",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/dragunov.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "mid",
@@ -951,7 +951,7 @@
         {
             "name": "Shaheen",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/shaheenhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "easy",
@@ -973,7 +973,7 @@
         {
             "name": "Steve Fox",
             "dlc": "base",
-            "photo": "lorem",
+            "photo": "/charimg/stevehead.png",
             "gender": "male",
             "tutorial": "lorem",
             "execution": "hard",
@@ -995,7 +995,7 @@
         {
             "name": "Ling Xiaoyu",
             "dlc": "base",
-            "photo": "img/LingXiaoyuTk7.png",
+            "photo": "/charimg/linghead.png",
             "gender": "female",
             "tutorial": "",
             "execution": "medium",
@@ -1017,7 +1017,7 @@
         {
             "name": "Yoshimitsu",
             "dlc": "base",
-            "photo": "img",
+            "photo": "/charimg/yoshimitsuhead.png",
             "gender": "male",
             "tutorial": "9ra",
             "execution": "mid",
@@ -1039,7 +1039,7 @@
         {
             "name": "Zafina",
             "dlc": "dlc",
-            "photo": "img",
+            "photo": "/charimg/zafinahead.png",
             "gender": "female",
             "tutorial": "9ra",
             "execution": "easy",
