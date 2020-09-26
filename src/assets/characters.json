@@ -2,6 +2,7 @@
     "characters": [
         {
             "name": "Alisa Bosconovitch",
+            "shortname": "Alisa",
             "dlc": "base",
             "photo": "/charimg/alisahead.png",
             "gender": "female",
@@ -24,6 +25,7 @@
 
         {
             "name": "Akuma / Gouki",
+            "shortname": "Akuma",
             "dlc": "base",
             "photo": "/charimg/akumahead.png",
             "gender": "male",
@@ -46,6 +48,7 @@
 
         {
             "name": "Anna Williams",
+            "shortname": "Anna",
             "dlc": "dlc",
             "photo": "/charimg/annahead.png",
             "gender": "female",
@@ -69,6 +72,7 @@
 
         {
             "name": "Armor King",
+            "shortname": "AK",
             "dlc": "dlc",
             "photo": "/charimg/armorkinghead.png",
             "gender": "male",
@@ -91,6 +95,7 @@
         
         {
             "name": "Asuka Kazama",
+            "shortname": "Asuka",
             "dlc": "base",
             "photo": "/charimg/asukahead.png",
             "gender": "female",
@@ -113,6 +118,7 @@
 
         {
             "name": "Bob (Robert Richards)",
+            "shortname": "Bob",
             "dlc": "base",
             "photo": "/charimg/bobhead.png",
             "gender": "male",
@@ -135,6 +141,7 @@
 
         {
             "name": "Bryan Fury",
+            "shortname": "Bryan",
             "dlc": "base",
             "photo": "/charimg/bryanhead.png",
             "gender": "male",
@@ -157,6 +164,7 @@
 
         {
             "name": "Claudio Serafino",
+            "shortname": "Claudio",
             "dlc": "base",
             "photo": "/charimg/claudiohead.png",
             "gender": "male",
@@ -179,6 +187,7 @@
 
         {
             "name": "Devil Jin",
+            "shortname": "DVJ",
             "dlc": "base",
             "photo": "/charimg/deviljinhead.png",
             "gender": "male",
@@ -201,6 +210,7 @@
 
         {
             "name": "Eddy Gordo",
+            "shortname": "Eddy",
             "dlc": "base",
             "photo": "/charimg/eddyhead.png",
             "gender": "male",
@@ -223,6 +233,7 @@
         
         {
             "name": "Eliza",
+            "shortname": "Eliza",
             "dlc": "dlc",
             "photo": "/charimg/elizahead.png",
             "gender": "female",
@@ -246,6 +257,7 @@
 
         {
             "name": "Fahkumram",
+            "shortname": "Fahkumram",
             "dlc": "dlc",
             "photo": "/charimg/fahkumramhead.png",
             "gender": "male",
@@ -268,6 +280,7 @@
 
         {
             "name": "Feng Wei",
+            "shortname": "Feng",
             "dlc": "base",
             "photo": "/charimg/fenghead.png",
             "gender": "male",
@@ -290,6 +303,7 @@
 
         {
             "name": "Gigas",
+            "shortname": "Gigas",
             "dlc": "base",
             "photo": "/charimg/gigashead.png",
             "gender": "male",
@@ -312,6 +326,7 @@
 
         {
             "name": "Geese Howard",
+            "shortname": "Geese",
             "dlc": "dlc",
             "photo": "/charimg/geesehead.png",
             "gender": "male",
@@ -334,6 +349,7 @@
         
         {
             "name": "Ganryu",
+            "shortname": "Ganryu",
             "dlc": "dlc",
             "photo": "/charimg/ganryuhead.png",
             "gender": "male",
@@ -356,6 +372,7 @@
         
         {
             "name": "Heihachi Mishima",
+            "shortname": "Heihachi",
             "dlc": "base",
             "photo": "/charimg/heihachihead.png",
             "gender": "male",
@@ -378,6 +395,7 @@
 
         {
             "name": "Hwoarang",
+            "shortname": "Hwoarang",
             "dlc": "base",
             "photo": "/charimg/hwoaranghead.png",
             "gender": "male",
@@ -400,6 +418,7 @@
         
         {
             "name": "Jack - 7",
+            "shortname": "Jack",
             "dlc": "base",
             "photo": "/charimg/jack7head.png",
             "gender": "male",
@@ -422,6 +441,7 @@
 
         {
             "name": "Jin Kazama",
+            "shortname": "Jin",
             "dlc": "base",
             "photo": "/charimg/jinhead.png",
             "gender": "male",
@@ -444,6 +464,7 @@
 
         {
             "name": "Josie Rizal",
+            "shortname": "Josie",
             "dlc": "base",
             "photo": "/charimg/josiehead.png",
             "gender": "female",
@@ -466,6 +487,7 @@
 
         {
             "name": "Julia Chang",
+            "shortname": "Julia",
             "dlc": "yes",
             "photo": "/charimg/juliahead.png",
             "gender": "female",
@@ -488,6 +510,7 @@
 
         {
             "name": "Kazuya Mishima",
+            "shortname": "Kazuya",
             "dlc": "base",
             "photo": "/charimg/kazuyahead.png",
             "gender": "male",
@@ -510,6 +533,7 @@
 
         {
             "name": "Katarina Alvez",
+            "shortname": "Katarina",
             "dlc": "base",
             "photo": "/charimg/katarinahead.png",
             "gender": "female",
@@ -532,6 +556,7 @@
         
         {
             "name": "Kazumi Hachijo Mishima",
+            "shortname": "Kazumi",
             "dlc": "base",
             "photo": "/charimg/kazumihead.png",
             "gender": "female",
@@ -554,6 +579,7 @@
 
         {
             "name": "King",
+            "shortname": "King",
             "dlc": "base",
             "photo": "/charimg/kinghead.png",
             "gender": "male",
@@ -576,6 +602,7 @@
         
         {
             "name": "Kuma / Panda",
+            "shortname": "Bears",
             "dlc": "base",
             "photo": "/charimg/kumahead.png",
             "gender": "female",
@@ -598,6 +625,7 @@
 
         {
             "name": "Lars Alexandersson",
+            "shortname": "Lars",
             "dlc": "base",
             "photo": "/charimg/larshead.png",
             "gender": "male",
@@ -620,6 +648,7 @@
 
         {
             "name": "Leroy Smith",
+            "shortname": "Leroy",
             "dlc": "dlc",
             "photo": "/charimg/leroyhead.png",
             "gender": "male",
@@ -642,6 +671,7 @@
 
         {
             "name": "Lee Chaolan",
+            "shortname": "Lee",
             "dlc": "base",
             "photo": "/charimg/leehead.png",
             "gender": "male",
@@ -664,6 +694,7 @@
 
         {
             "name": "Lei Wulong",
+            "shortname": "Lei",
             "dlc": "dlc",
             "photo": "/charimg/leihead.png",
             "gender": "male",
@@ -686,6 +717,7 @@
 
         {
             "name": "Leo Kliesen",
+            "shortname": "Leo",
             "dlc": "base",
             "photo": "/charimg/leohead.png",
             "gender": "female + male",
@@ -708,6 +740,7 @@
 
         {
             "name": "Lili (Emile de Rochefort)",
+            "shortname": "Lili",
             "dlc": "base",
             "photo": "/charimg/lilihead.png",
             "gender": "female",
@@ -730,6 +763,7 @@
 
         {
             "name": "Lucky Chloe",
+            "shortname": "Lucky",
             "dlc": "base",
             "photo": "/charimg/luckyhead.png",
             "gender": "female",
@@ -752,6 +786,7 @@
 
         {
             "name": "Marshall Law",
+            "shortname": "Law",
             "dlc": "base",
             "photo": "/charimg/lawhead.png",
             "gender": "male",
@@ -774,6 +809,7 @@
 
         {
             "name": "Master Raven",
+            "shortname": "Raven",
             "dlc": "base",
             "photo": "/charimg/masterrravenhead.png",
             "gender": "female",
@@ -796,6 +832,7 @@
 
         {
             "name": "Craig Marduk",
+            "shortname": "Marduk",
             "dlc": "dlc",
             "photo": "/charimg/mardukhead.png",
             "gender": "male",
@@ -818,6 +855,7 @@
 
         {
             "name": "Miguel Caballero Rojo",
+            "shortname": "Miguel",
             "dlc": "base",
             "photo": "/charimg/miguelhead.png",
             "gender": "male",
@@ -840,6 +878,7 @@
 
         {
             "name": "Negan",
+            "shortname": "Negan",
             "dlc": "dlc",
             "photo": "/charimg/neganhead.png",
             "gender": "male",
@@ -862,6 +901,7 @@
 
         {
             "name": "Nina Williams",
+            "shortname": "Nina",
             "dlc": "base",
             "photo": "/charimg/ninahead.png",
             "gender": "female",
@@ -884,6 +924,7 @@
 
         {
             "name": "Noctis",
+            "shortname": "Noctis",
             "dlc": "dlc",
             "photo": "/charimg/noctishead.png",
             "gender": "male",
@@ -906,6 +947,7 @@
 
         {
             "name": "Paul Phoenix",
+            "shortname": "Paul",
             "dlc": "base",
             "photo": "/charimg/paulhead.png",
             "gender": "male",
@@ -928,6 +970,7 @@
 
         {
             "name": "Sergei Dragunov",
+            "shortname": "Dragunov",
             "dlc": "base",
             "photo": "/charimg/dragunov.png",
             "gender": "male",
@@ -950,6 +993,7 @@
 
         {
             "name": "Shaheen",
+            "shortname": "Shaheen",
             "dlc": "base",
             "photo": "/charimg/shaheenhead.png",
             "gender": "male",
@@ -972,6 +1016,7 @@
 
         {
             "name": "Steve Fox",
+            "shortname": "Steve",
             "dlc": "base",
             "photo": "/charimg/stevehead.png",
             "gender": "male",
@@ -994,6 +1039,7 @@
 
         {
             "name": "Ling Xiaoyu",
+            "shortname": "Xiaoyu",
             "dlc": "base",
             "photo": "/charimg/linghead.png",
             "gender": "female",
@@ -1016,6 +1062,7 @@
 
         {
             "name": "Yoshimitsu",
+            "shortname": "Yoshimitsu",
             "dlc": "base",
             "photo": "/charimg/yoshimitsuhead.png",
             "gender": "male",
@@ -1038,6 +1085,7 @@
 
         {
             "name": "Zafina",
+            "shortname": "Zafina",
             "dlc": "dlc",
             "photo": "/charimg/zafinahead.png",
             "gender": "female",

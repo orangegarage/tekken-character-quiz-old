@@ -205,9 +205,9 @@ li:hover {
   .quiz-nav{
     display:none;
   }
-  .resultingimg img{
-    display:inline-block;
-    width:30%;
+  .resultingimg{
+    width:33%;
   }
+
 }
 </style>

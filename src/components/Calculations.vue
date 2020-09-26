@@ -1,11 +1,14 @@
 <template>
     <div class = "recommendation">
         <div class = "top3">
-            <!-- <ul>
+            <ul>
                 <li class = "resultingimg" v-for= "index in 3" :key=index>
                     <img :src= getImg(storeState.final[index-1].photo) :alt=storeState.final[index-1].name>
+                    <br>{{index}}. {{$t('characters.'+storeState.final[index-1].shortname)}}
                 </li>
-            </ul> -->
+            </ul>
+            <br><br><br>
+            <!-- add padding l8r -->
             <ul>
                 <li class = "characters" v-for= "index in 3" :key=index>
                     {{index}}. {{storeState.final[index-1].name}}
