@@ -8,7 +8,7 @@ Vue.use(VueI18n);
 
 const lang = {
     en: en,
-    kr: kr  //imported from json
+    ko: kr  //imported from json - Korean is ko-kr and I just want to detect ko
 }
 
 const messages = Object.assign(lang);
@@ -16,8 +16,8 @@ const messages = Object.assign(lang);
 Vue.config.productionTip = false
 
 let i18n = new VueI18n({
-  locale: 'en',
-  fallbackLocale: 'kr',
+  locale: navigator.language.split('-')[0],
+  fallbackLocale: 'en',
   messages
 });
 
