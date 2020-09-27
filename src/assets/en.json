@@ -4,14 +4,14 @@
         "welcome": "Welcome to the Tekken 7 Character Selection Quiz!",
         "1p": "-Don't be pressured to pick a particular character because of this quiz-",
         "introParagraph":"This quiz will try to choose the character you will enjoy playing based on your playstyle and other preferences.\nThere are no right or wrong answers to the questions - it is only to gauge your preference.\nThis quiz is meant to serve as a guide to narrow down options for you when you are feeling overwhelmed.\nIf you already have different character in mind, go for it. The only way to know for sure is to play.\nPlease feel free to leave feedback on the links provided below.\nHave fun!",
-        "takeQuiz":"Quiz",
+        "takeQuiz":"Take the Quiz",
         "feedbackLink": "Questions/Feedback",
         "githubLink": "Github (Code)",
         "twtLink": "Twitter"
     },
     "navbar":
     {
-        "takeQuiz": "Take the Quiz",
+        "takeQuiz": "Quiz",
         "home": "Home",
         "about": "About"
     },
