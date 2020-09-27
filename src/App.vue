@@ -29,11 +29,11 @@ export default {
   name: 'HelloWorld',
   methods: {
     changeLocale() {
-      if(i18n.locale == 'kr'){
+      if(i18n.locale == 'ko'){
         i18n.locale = 'en';
       }
       else{
-        i18n.locale = 'kr';
+        i18n.locale = 'ko';
       }
       //i18n.locale = locale;
     }
