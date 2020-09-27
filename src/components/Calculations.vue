@@ -3,8 +3,10 @@
         <div class = "top3">
             <ul>
                 <li class = "resultingimg" v-for= "index in 3" :key=index>
-                    <img :src= getImg(storeState.final[index-1].photo) :alt=storeState.final[index-1].name>
-                    <br>{{index}}. {{$t('characters.'+storeState.final[index-1].shortname)}}
+                    <!-- <a :href= getLink($t(storeState.final[index-1].shortname)) target= "_blank"> -->
+                        <img :src= getImg(storeState.final[index-1].photo) :alt=storeState.final[index-1].name>
+                        <br>{{index}}. {{$t('characters.'+storeState.final[index-1].shortname)}}
+                    <!-- </a> -->
                 </li>
             </ul>
             <br><br><br>
@@ -39,12 +41,16 @@ export default {
             storeState: store.state,
             category: "",
             picked: store.state.picked,
+            link: ""
         };
     },
     methods: {
         getImg(path){
             return require('../assets' + path);
-        }
+        },
+        // getLink(index){
+        //     return 
+        // }
     }
 }
 </script>
