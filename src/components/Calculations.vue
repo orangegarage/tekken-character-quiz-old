@@ -8,6 +8,7 @@
                         <br>{{index}}. {{$t('characters.'+storeState.final[index-1].shortname)}}
                     </a>
                 </li>
+                <p>[{{$t('tutorial.Clickmsg')}}]</p>
             </ul>
 
             <!-- add padding l8r -->

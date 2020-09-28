@@ -12,7 +12,7 @@
     "navbar":
     {
         "takeQuiz": "퀴즈",
-        "home": "홈페이지",
+        "home": "홈",
         "about": "추가정보"
     },
     "about":
@@ -226,6 +226,7 @@
     },
     "tutorial":
     {
+        "Clickmsg": "썸네일을 클릭하시면 캐릭터 별 공략으로 링크됩니다",
         "Alisa" :"https://youtu.be/pmn-VumrHo8",
         "Akuma" : "https://youtu.be/sk5lAxmtBOk",
         "Anna": "https://youtu.be/2GTgAKWdoTw",

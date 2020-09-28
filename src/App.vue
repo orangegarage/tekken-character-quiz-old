@@ -183,6 +183,9 @@ li:hover {
 .top3 ul{
   padding-bottom:5em;
 }
+.top3 p{
+  font-size: .7em;
+}
 
 .resultingimg{
   display: inline-block;
