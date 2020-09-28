@@ -46,7 +46,7 @@ export default {
         };
     },
     methods: {
-        tran(translate){
+        tran: function(translate){
             if (typeof translate === 'string'){
                 return this.$i18n.t(translate)
             }
