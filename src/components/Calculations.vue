@@ -3,13 +3,13 @@
         <div class = "top3">
             <ul>
                 <li class = "resultingimg" v-for= "index in 3" :key=index>
-                    <!-- <a :href= getLink($t(storeState.final[index-1].shortname)) target= "_blank"> -->
+                    <a :href= getLink(storeState.final[index-1].shortname) target= "_blank" rel="noopener">
                         <img :src= getImg(storeState.final[index-1].photo) :alt=storeState.final[index-1].name>
                         <br>{{index}}. {{$t('characters.'+storeState.final[index-1].shortname)}}
-                    <!-- </a> -->
+                    </a>
                 </li>
             </ul>
-            <br><br><br>
+
             <!-- add padding l8r -->
             <ul>
                 <li class = "characters" v-for= "index in 3" :key=index>
@@ -45,12 +45,21 @@ export default {
         };
     },
     methods: {
+        tran(translate){
+            if (typeof translate === 'string'){
+                return this.$i18n.t(translate)
+            }
+             else if (translate === void 0){
+                    return this.$i18n.t('loading')
+             }
+             return translate[this.$i18n.locale];
+        },
         getImg(path){
             return require('../assets' + path);
         },
-        // getLink(index){
-        //     return 
-        // }
+        getLink(index){
+            return this.tran('tutorial.'+index);
+        }
     }
 }
 </script>

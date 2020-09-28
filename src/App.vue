@@ -171,13 +171,17 @@ li:hover {
 .specialthanks, .faq{
     margin-bottom: 5em;
 }
-.specialthanks a, .faq a{
+.specialthanks a, .faq a, .top3 a{
   color: #ffbd69;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 .top3 { 
   white-space:pre-wrap;
+}
+.top3 ul{
+  padding-bottom:5em;
 }
 
 .resultingimg{
