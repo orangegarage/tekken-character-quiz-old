@@ -811,7 +811,7 @@
             "name": "Master Raven",
             "shortname": "Raven",
             "dlc": "base",
-            "photo": "/charimg/masterrravenhead.png",
+            "photo": "/charimg/masterravenhead.png",
             "gender": "female",
             "tutorial": "Raven",
             "execution": "hard",
