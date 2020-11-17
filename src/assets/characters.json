@@ -516,7 +516,7 @@
             "gender": "male",
             "tutorial": "Kazuya",
             "execution": "hard",
-            "tier":"3->2",
+            "tier":"2",
             "movetier":"high",
             "gameplan-focus": "versatile",
             "gameplan-focus2": "versatile",
@@ -528,7 +528,7 @@
             "stance": "light",
             "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["3d","male", "base", "versatilegoal", "mixup", "whiff-punish", "aggressiveoki", "setups-unimportant","stance-light", "movetier-high", "movetier-midhigh","evasion-mid","evasion-midlow", "tier-midhigh", "tier-high" , "gameplan-level-high"]
+            "tags": ["3d","male", "base", "versatilegoal", "mixup", "whiff-punish", "aggressiveoki", "setups-unimportant","stance-light", "movetier-high", "movetier-midhigh","evasion-mid","evasion-midlow", "tier-midhigh", "tier-mid" , "gameplan-level-high"]
         },
 
         {
