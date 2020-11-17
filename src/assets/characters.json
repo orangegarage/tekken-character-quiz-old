@@ -31,7 +31,7 @@
             "gender": "male",
             "tutorial": "9ra",
             "execution": "high",
-            "tier": "1",
+            "tier": "2",
             "movetier": "mid",
             "gameplan-focus": "aggression",
             "gameplan-focus2": "combo",
@@ -43,7 +43,7 @@
             "stance": "heavy (counting ex gauge)",
             "gameplan-level": "3",
             "beginner-friendly": "no",
-            "tags": ["2d", "male", "base", "combo", "aggression", "mixup", "versatileoffense", "aggressiveoki", "setups-unimportant", "stance-light", "movetier-mid", "movetier-midhigh", "evasion-mid", "evasion-midhigh", "tier-high", "tier-midhigh", "gameplan-level-high"]
+            "tags": ["2d", "male", "base", "combo", "aggression", "mixup", "versatileoffense", "aggressiveoki", "setups-unimportant", "stance-light", "movetier-mid", "movetier-midhigh", "evasion-mid", "evasion-midhigh", "tier-mid", "tier-midhigh", "gameplan-level-high"]
         },
 
         {
@@ -54,7 +54,7 @@
             "gender": "female",
             "tutorial": "",
             "execution": "mid",
-            "tier": "4",
+            "tier": "3",
             "movetier": "high",
             "gameplan-focus": "aggression",
             "gameplan-focus2": "aggression",
@@ -66,7 +66,7 @@
             "stance": "mid (call it light)",
             "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["3d","female", "dlc", "aggression", "mixup", "counterhit", "aggressiveoki", "setups-important", "stance-light", "evasion-midhigh","movetier-high", "movetier-midhigh", "tier-low", "tier-midlow"]
+            "tags": ["3d","female", "dlc", "aggression", "mixup", "counterhit", "aggressiveoki", "setups-important", "stance-light", "evasion-midhigh","movetier-high", "movetier-midhigh", "tier-low", "tier-midlow", "tier-midhigh", "gameplan-level-low"]
 
         },
 
@@ -134,9 +134,9 @@
             "setups": "not-important",
             "evasion": "high",
             "stance": "light",
-            "gameplan-level": "2",
+            "gameplan-level": "1",
             "beginner-friendly": "no",
-            "tags": ["3d","male", "base", "aggression", "versatilegoal", "counterhit", "mixup", "versatileoki" ,"setups-unimportant", "setups-important", "stance-light", "evasion-high", "evasion-midhigh", "movetier-high", "movetier-midhigh", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low"]
+            "tags": ["3d","male", "base", "aggression", "versatilegoal", "counterhit", "mixup", "versatileoki" ,"setups-unimportant", "setups-important", "stance-light", "evasion-high", "evasion-midhigh", "movetier-high", "movetier-midhigh", "tier-high", "tier-midhigh", "tier-midlow", "gameplan-level-low"]
         },
 
         {
@@ -147,7 +147,7 @@
             "gender": "male",
             "tutorial": "Bryan",
             "execution": "mid",
-            "tier": "mid/low",
+            "tier": "mid/low -> midhigh",
             "movetier": "mid/midhigh",
             "gameplan-focus": "aggression",
             "gameplan-focus2": "movement",
@@ -157,9 +157,9 @@
             "setups": "unimportant",
             "evasion": "high/midhigh",
             "stance": "light",
-            "gameplan-level": "3",
+            "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["3d","male", "dlc", "aggression", "movement", "counterhit", "poke", "aggressiveoki", "setups-unimportant", "stance-light", "movetier-midhigh", "movetier-high", "evasion-high", "evasion-midhigh", "tier-mid", "tier-midlow", "tier-midhigh", "gameplan-level-low"]
+            "tags": ["3d","male", "dlc", "aggression", "movement", "counterhit", "poke", "aggressiveoki", "setups-unimportant", "stance-light", "movetier-midhigh", "movetier-high", "evasion-high", "evasion-midhigh", "tier-high", "tier-midhigh", "gameplan-level-low"]
         },
 
         {
@@ -309,7 +309,7 @@
             "gender": "male",
             "tutorial": "Gigas",
             "execution": "low",
-            "tier": "5",
+            "tier": "3",
             "movetier": "low (big boned)",
             "gameplan-focus": "defense",
             "gameplan-focus2": "defense",
@@ -321,7 +321,7 @@
             "stance": "light",
             "gameplan-level": "1",
             "beginner-friendly": "beginner friendly",
-            "tags": ["3d","male", "base", "defense", "counterhit", "whiff-punish", "defensiveoki", "setups-unimportant", "stance-light", "movetier-low", "evasion-low", "tier-low", "tier-midlow", "gameplan-level-low", "beginner-friendly"]
+            "tags": ["3d","male", "base", "defense", "counterhit", "whiff-punish", "defensiveoki", "setups-unimportant", "stance-light", "movetier-low", "evasion-low", "tier-mid", "tier-midlow", "tier-midhigh" ,"gameplan-level-low", "beginner-friendly"]
         },
 
         {
@@ -332,7 +332,7 @@
             "gender": "male",
             "tutorial": "Geese",
             "execution": "mid",
-            "tier": "2",
+            "tier": "1",
             "movetier": "high",
             "gameplan-focus": "aggression",
             "gameplan-focus2": "combo",
@@ -344,7 +344,7 @@
             "stance": "light",
             "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["2d","male", "dlc", "aggression", "combo", "versatileoffense", "poke", "versatileoki", "setups-unimportant", "evasion-low", "stance-light", "movetier-high", "movetier-midhigh", "gameplan-level-high", "gameplan-level-low","tier-mid", "tier-midhigh"]
+            "tags": ["2d","male", "dlc", "aggression", "combo", "versatileoffense", "poke", "versatileoki", "setups-unimportant", "evasion-low", "stance-light", "movetier-high", "movetier-midhigh", "gameplan-level-high", "gameplan-level-low","tier-high", "tier-midhigh"]
         },
         
         {
@@ -378,7 +378,7 @@
             "gender": "male",
             "tutorial": "Heihachi",
             "execution": "hard",
-            "tier": "4",
+            "tier": "3",
             "movetier": "high",
             "gameplan-focus": "aggression",
             "gameplan-focus2": "combo",
@@ -390,7 +390,7 @@
             "stance": "light",
             "gameplan-level": "low(er)",
             "beginner-friendly": "no",
-            "tags": ["3d","male", "base", "aggression", "combo", "mixup", "whiff-punish", "defensiveoki", "stance-light", "movetier-midhigh", "movetier-high", "evasion-low", "tier-mid", "tier-midlow", "gameplan-level-high"]
+            "tags": ["3d","male", "base", "aggression", "combo", "mixup", "whiff-punish", "defensiveoki", "stance-light", "movetier-midhigh", "movetier-high", "evasion-low", "tier-midhigh","tier-mid", "tier-midlow", "gameplan-level-high"]
         },
 
         {
@@ -401,7 +401,7 @@
             "gender": "male",
             "tutorial": "Hwoarang",
             "execution": "hard",
-            "tier":"3",
+            "tier":"2",
             "movetier":"mid",
             "gameplan-focus": "aggression",
             "gameplan-focus2": "combo",
@@ -413,7 +413,7 @@
             "stance": "heavy",
             "gameplan-level": "4",
             "beginner-friendly": "no",
-            "tags": ["3d","male", "base", "aggression", "combo", "mixup", "versatileoffense", "versatileoki", "setups-important", "stance-heavy", "movetier-mid", "movetier-midhigh", "evasion-mid", "evasion-midhigh", "tier-midhigh", "tier-midlow", "tier-mid", "gameplan-level-high"]
+            "tags": ["3d","male", "base", "aggression", "combo", "mixup", "versatileoffense", "versatileoki", "setups-important", "stance-heavy", "movetier-mid", "movetier-midhigh", "evasion-mid", "evasion-midhigh", "tier-midhigh", "tier-mid", "gameplan-level-high"]
         },
         
         {
@@ -516,7 +516,7 @@
             "gender": "male",
             "tutorial": "Kazuya",
             "execution": "hard",
-            "tier":"2",
+            "tier":"3->2",
             "movetier":"high",
             "gameplan-focus": "versatile",
             "gameplan-focus2": "versatile",
@@ -526,9 +526,9 @@
             "evasion": "low",
             "setups": "not-important",
             "stance": "light",
-            "gameplan-level": "3",
+            "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["3d","male", "base", "versatilegoal", "mixup", "whiff-punish", "aggressiveoki", "setups-unimportant","stance-light", "movetier-high", "movetier-midhigh","evasion-mid","evasion-midlow", "tier-midhigh", "tier-midlow", "tier-mid" , "gameplan-level-high"]
+            "tags": ["3d","male", "base", "versatilegoal", "mixup", "whiff-punish", "aggressiveoki", "setups-unimportant","stance-light", "movetier-high", "movetier-midhigh","evasion-mid","evasion-midlow", "tier-midhigh", "tier-high" , "gameplan-level-high"]
         },
 
         {
@@ -585,7 +585,7 @@
             "gender": "male",
             "tutorial": "King",
             "execution": "low",
-            "tier": "3",
+            "tier": "2",
             "movetier": "midhigh",
             "gameplan-focus": "versatile",
             "gameplan-focus2": "aggression",
@@ -597,7 +597,7 @@
             "stance": "light",
             "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["3d","male", "base", "versatilegoal", "aggression", "grab", "mixup", "aggressiveoki", "setups-important", "evasion-midhigh","stance-light", "movetier-high", "movetier-midhigh", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low"]
+            "tags": ["3d","male", "base", "versatilegoal", "aggression", "grab", "mixup", "aggressiveoki", "setups-important", "evasion-midhigh","stance-light", "movetier-high", "movetier-midhigh", "tier-mid", "tier-midhigh", "gameplan-level-low"]
         },
         
         {
@@ -617,10 +617,33 @@
             "evasion": "mid",
             "stance": "mid",
             "movetier": "low",
-            "tier": "5",
+            "tier": "4",
             "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["3d","female", "male", "base","defense","movement","poke","whiff-punish","aggressiveoki","setups-unimportant","evasion-mid","evasion-midhigh","stance-light","movetier-low", "movetier-mid", "movetier-midlow", "tier-low","tier-midlow", "gameplan-level-low"]
+            "tags": ["3d","female", "male", "base","defense","movement","poke","whiff-punish","aggressiveoki","setups-unimportant","evasion-mid","evasion-midhigh","stance-light","movetier-low", "movetier-mid", "movetier-midlow", "tier-mid","tier-midlow", "gameplan-level-low"]
+        },
+
+        {
+            "name": "Kunimitsu",
+            "shortname": "Kunimitsu",
+            "dlc": "s4",
+            "photo": "/charimg/kunimitsuhead.png",
+            "gender": "female",
+            "tutorial": "Kunimitsu",
+            "execution": "mid-hard",
+            "gameplan-focus": "movement",
+            "gameplan-focus2": "aggression",
+            "gameplan-offensive-options": "poke",
+            "gameplan-offensive-options2": "mixup", 
+            "gameplan-okizeme": "aggressive",
+            "setups": "unimportant",
+            "evasion": "mid",
+            "stance": "light/heavy",
+            "movetier": "high",
+            "tier": "2",
+            "gameplan-level": "high",
+            "beginner-friendly": "no",
+            "tags": ["3d","female", "dlc", "movement", "aggression", "poke", "mixup", "versatileoki", "setups-unimportant", "evasion-midhigh", "evasion-mid", "stance-light", "stance-heavy","movetier-midhigh", "movetier-high", "tier-mid", "tier-midhigh", "gameplan-level-high"]
         },
 
         {
@@ -640,10 +663,10 @@
             "evasion": "mid",
             "stance": "light",
             "movetier": "midhigh",
-            "tier": "5",
+            "tier": "2",
             "gameplan-level": "high",
             "beginner-friendly": "no",
-            "tags": ["3d","male", "base", "versatilegoal", "versatileoffense", "defensiveoki", "setups-unimportant", "evasion-mid", "evasion-midhigh", "evasion-midlow", "stance-light", "movetier-mid", "movetier-midlow", "movetier-midhigh", "tier-low", "tier-midlow", "gameplan-level-low"]
+            "tags": ["3d","male", "base", "versatilegoal", "versatileoffense", "defensiveoki", "setups-unimportant", "evasion-mid", "evasion-midhigh", "evasion-midlow", "stance-light", "movetier-mid", "movetier-midlow", "movetier-midhigh", "tier-midhigh", "tier-mid", "gameplan-level-low"]
         },
 
         {
@@ -663,10 +686,10 @@
             "evasion": "low",
             "stance": "light",
             "movetier": "midhigh",
-            "tier": "1",
+            "tier": "2",
             "gameplan-level": "low",
             "beginner-friendly": "yes",
-            "tags": ["3d","male", "dlc", "versatilegoal", "versatileoffense", "versatileoki", "setups-unimportant", "evasion-low", "stance-light", "movetier-midhigh", "movetier-mid", "gameplan-level-low", "beginner-friendly", "tier-high", "tier-midhigh"]
+            "tags": ["3d","male", "dlc", "versatilegoal", "versatileoffense", "versatileoki", "setups-unimportant", "evasion-low", "stance-light", "movetier-midhigh", "movetier-mid", "gameplan-level-low", "beginner-friendly", "tier-mid", "tier-midhigh"]
         },
 
         {
@@ -709,10 +732,10 @@
             "evasion": "high",
             "stance": "heavy",
             "movetier": "midhigh",
-            "tier": "4",
+            "tier": "3",
             "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["3d","male", "dlc", "defense", "movement", "poke", "mixup", "versatileoki", "setups-important", "evasion-high", "evasion-midhigh", "stance-heavy", "movetier-high", "movetier-midhigh", "tier-midlow", "tier-mid", "gameplan-level-low"]
+            "tags": ["3d","male", "dlc", "defense", "movement", "poke", "mixup", "versatileoki", "setups-important", "evasion-high", "evasion-midhigh", "stance-heavy", "movetier-high", "movetier-midhigh", "tier-midlow", "tier-mid", "tier-midhigh" ,"gameplan-level-low"]
         },
 
         {
@@ -755,10 +778,10 @@
             "evasion": "low",
             "stance": "light",
             "movetier": "high",
-            "tier": "3",
+            "tier": "4",
             "gameplan-level": "high",
             "beginner-friendly": "yes",
-            "tags": ["3d","female", "base", "aggression", "defense", "plus-frame", "poke", "defensiveoki", "setups-unimportant", "evasion-midhigh", "stance-light", "movetier-high", "movetier-midhigh", "tier-midlow", "tier-mid", "tier-midhigh", "beginner-friendly", "gameplan-level-high"]
+            "tags": ["3d","female", "base", "aggression", "defense", "plus-frame", "poke", "defensiveoki", "setups-unimportant", "evasion-midhigh", "stance-light", "movetier-high", "movetier-midhigh", "tier-midlow", "tier-mid", "beginner-friendly", "gameplan-level-high"]
         },
 
         {
@@ -824,10 +847,10 @@
             "evasion": "high",
             "stance": "light/heavy",
             "movetier": "high",
-            "tier": "3",
+            "tier": "2",
             "gameplan-level": "high",
             "beginner-friendly": "no",
-            "tags": ["3d","female", "base", "combo", "versatilegoal", "versatileoffense", "aggressiveoki", "setups-important", "evasion-midhigh", "evasion-high", "stance-light", "stance-heavy","movetier-midhigh", "movetier-high", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-high"]
+            "tags": ["3d","female", "base", "combo", "versatilegoal", "versatileoffense", "aggressiveoki", "setups-important", "evasion-midhigh", "evasion-high", "stance-light", "stance-heavy","movetier-midhigh", "movetier-high", "tier-mid", "tier-midhigh", "gameplan-level-high"]
         },
 
         {
@@ -870,10 +893,10 @@
             "evasion": "low",
             "stance": "light",
             "movetier": "midhigh",
-            "tier": "3",
+            "tier": "2",
             "gameplan-level": "low",
             "beginner-friendly": "yes",
-            "tags": ["3d","male", "base", "aggression", "movement", "poke","mixup", "defensiveoki", "setups-unimportant" ,"stance-light", "evasion-low", "movetier-midhigh", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low", "beginner-friendly"]
+            "tags": ["3d","male", "base", "aggression", "movement", "poke","mixup", "defensiveoki", "setups-unimportant" ,"stance-light", "evasion-low", "movetier-midhigh", "tier-mid", "tier-midhigh", "gameplan-level-low", "beginner-friendly"]
         },
 
         {
@@ -893,10 +916,10 @@
             "evasion": "midhigh",
             "stance": "unimportant",
             "movetier": "high",
-            "tier": "3",
+            "tier": "2",
             "gameplan-level": "low",
             "beginner-friendly": "yes",
-            "tags": ["3d","male", "dlc", "aggression", "movement", "whiff-punish", "versatileoffense", "defensiveoki", "setups-unimportant", "stance-light", "evasion-midhigh", "movetier-midhigh", "movetier-high", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low", "beginner-friendly"]
+            "tags": ["3d","male", "dlc", "aggression", "movement", "whiff-punish", "versatileoffense", "defensiveoki", "setups-unimportant", "stance-light", "evasion-midhigh", "movetier-midhigh", "movetier-high", "tier-mid", "tier-midhigh", "gameplan-level-low", "beginner-friendly"]
         },
 
         {
@@ -939,10 +962,10 @@
             "evasion": "low",
             "stance": "light",
             "movetier": "mid",
-            "tier": "4",
+            "tier": "3",
             "gameplan-level": "ez",
             "beginner-friendly": "yes",
-            "tags": ["3d","male", "dlc", "aggression", "combo", "plus-frame", "whiff-punish", "versatileoki", "setups-important", "evasion-mid", "movetier-mid", "stance-light", "tier-midlow", "tier-mid", "gameplan-level-low", "beginner-friendly"]
+            "tags": ["3d","male", "dlc", "aggression", "combo", "plus-frame", "whiff-punish", "versatileoki", "setups-important", "evasion-mid", "movetier-mid", "stance-light", "tier-midlow", "tier-mid", "tier-midhigh", "gameplan-level-low", "beginner-friendly"]
         },
 
         {
@@ -985,10 +1008,10 @@
             "evasion": "low",
             "stance": "light",
             "movetier": "high",
-            "tier": "2",
+            "tier": "3",
             "gameplan-level": "low",
             "beginner-friendly": "yes",
-            "tags": ["3d","male", "base", "aggression", "versatilegoal", "poke", "mixup", "defensiveoki", "setups-unimportant","stance-light","evasion-low", "movetier-mid","tier-midhigh", "tier-mid", "gameplan-level-low","beginner-friendly"]
+            "tags": ["3d","male", "base", "aggression", "versatilegoal", "poke", "mixup", "defensiveoki", "setups-unimportant","stance-light","evasion-low", "movetier-mid","tier-midhigh", "tier-mid", "tier-midlow", "gameplan-level-low","beginner-friendly"]
         },
 
         {
@@ -998,7 +1021,7 @@
             "photo": "/charimg/shaheenhead.png",
             "gender": "male",
             "tutorial": "Shaheen",
-            "execution": "easy",
+            "execution": "easy", 
             "gameplan-focus": "versatile",
             "gameplan-focus2": "versatile",
             "gameplan-offensive-options": "counterhit",

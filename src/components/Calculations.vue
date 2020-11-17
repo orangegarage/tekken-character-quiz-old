@@ -50,10 +50,7 @@ export default {
             if (typeof translate === 'string'){
                 return this.$i18n.t(translate)
             }
-             else if (translate === void 0){
-                    return this.$i18n.t('loading')
-             }
-             return translate[this.$i18n.locale];
+            return translate[this.$i18n.locale];
         },
         getImg(path){
             return require('../assets' + path);
