@@ -14,7 +14,7 @@
             <!-- add padding l8r -->
             <ul>
                 <li class = "characters" v-for= "index in 3" :key=index>
-                    {{index}}. {{storeState.final[index-1].name}}
+                    {{index}}. {{$t('characters.'+storeState.final[index-1].name)}}
                     <br> 
                     <!-- index - 1 because array starts from 0 duh -->
                     {{$t('flavortexts.'+storeState.final[index-1].name)}}
