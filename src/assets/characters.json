@@ -263,7 +263,7 @@
             "gender": "male",
             "tutorial": "Fahkumram",
             "execution": "2",
-            "tier": "1",
+            "tier": "2",
             "movetier": "high",
             "gameplan-focus": "versatile",
             "gameplan-focus2": "versatile",
@@ -275,7 +275,7 @@
             "stance": "light",
             "gameplan-level": "2",
             "beginner-friendly": "no",
-            "tags": ["3d","male", "dlc", "versatilegoal", "poke", "mixup", "versatileoki" ,"setups-unimportant", "stance-light", "movetier-high", "movetier-midhigh", "evasion-low", "tier-high","tier-midhigh", "gameplan-level-low"]
+            "tags": ["3d","male", "dlc", "versatilegoal", "poke", "mixup", "versatileoki" ,"setups-unimportant", "stance-light", "movetier-high", "movetier-midhigh", "evasion-low", "tier-mid","tier-midhigh", "gameplan-level-low"]
         },
 
         {
@@ -493,7 +493,7 @@
             "gender": "female",
             "tutorial": "Julia",
             "execution": "medium",
-            "tier":"1",
+            "tier":"2",
             "movetier":"mid",
             "gameplan-focus": "aggression",
             "gameplan-focus2": "movement",
@@ -505,7 +505,7 @@
             "stance": "light",
             "gameplan-level": "2",
             "beginner-friendly": "yes",
-            "tags": ["3d","female", "dlc", "aggression", "movement", "mixup", "poke", "aggressiveoki", "setups-unimportant", "stance-light", "movetier-mid", "movetier-midhigh", "movetier-high" , "evasion-mid", "evasion-midhigh", "tier-high", "tier-midhigh", "gameplan-level-low"]
+            "tags": ["3d","female", "dlc", "aggression", "movement", "mixup", "poke", "aggressiveoki", "setups-unimportant", "stance-light", "movetier-mid", "movetier-midhigh", "movetier-high" , "evasion-mid", "evasion-midhigh", "tier-mid", "tier-midhigh", "gameplan-level-low"]
         },
 
         {
@@ -638,12 +638,12 @@
             "gameplan-okizeme": "aggressive",
             "setups": "unimportant",
             "evasion": "mid",
-            "stance": "light/heavy",
+            "stance": "light",
             "movetier": "high",
             "tier": "2",
             "gameplan-level": "high",
             "beginner-friendly": "no",
-            "tags": ["3d","female", "dlc", "movement", "aggression", "poke", "mixup", "versatileoki", "setups-unimportant", "evasion-midhigh", "evasion-mid", "stance-light", "stance-heavy","movetier-midhigh", "movetier-high", "tier-mid", "tier-midhigh", "gameplan-level-high"]
+            "tags": ["3d","female", "dlc", "movement", "aggression", "poke", "mixup", "versatileoki", "setups-unimportant", "evasion-midhigh", "evasion-mid", "stance-light", "movetier-midhigh", "movetier-high", "tier-mid", "tier-midhigh", "gameplan-level-high"]
         },
 
         {
@@ -759,6 +759,29 @@
             "gameplan-level": "low",
             "beginner-friendly": "yes",
             "tags": ["3d","female", "male", "base", "versatilegoal", "versatileoffense", "aggressiveoki", "setups-unimportant", "evasion-midhigh", "stance-light", "movetier-mid", "tier-low", "tier-midlow", "beginner-friendly", "gameplan-level-low"]
+        },
+
+        {
+            "name": "Lidia Sobieska",
+            "shortname": "Lidia",
+            "dlc": "s4",
+            "photo": "/charimg/lidiahead.png",
+            "gender": "female",
+            "tutorial": "Lidia",
+            "execution": "high?",
+            "gameplan-focus": "versatile",
+            "gameplan-focus2": "versatile",
+            "gameplan-offensive-options": "versatile",
+            "gameplan-offensive-options2": "poke", 
+            "gameplan-okizeme": "aggressive",
+            "setups": "unimportant",
+            "evasion": "midhigh",
+            "stance": "light/heavy",
+            "movetier": "mid",
+            "tier": "1",
+            "gameplan-level": "low",
+            "beginner-friendly": "yes",
+            "tags": ["3d", "female", "dlc", "versatilegoal", "versatileoffense", "poke", "versatileoki", "aggressiveoki","setups-unimportant", "evasion-midhigh", "stance-light", "stance-heavy", "movetier-midhigh", "tier-high", "tier-midhigh", "beginner-friendly", "gameplan-level-low"]
         },
 
         {
@@ -1045,7 +1068,7 @@
             "gender": "male",
             "tutorial": "Steve",
             "execution": "hard",
-            "tier": "1",
+            "tier": "3",
             "movetier": "high",
             "gameplan-focus": "versatile",
             "gameplan-focus2": "aggression",
@@ -1057,7 +1080,7 @@
             "stance": "heavy",
             "gameplan-level": "4",
             "beginner-friendly": "no",
-            "tags": ["3d","male", "base", "versatilegoal", "aggression", "versatileoffense", "counterhit", "defensiveoki", "setups-unimportant", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-midhigh", "tier-high", "tier-midhigh", "gameplan-level-high"]
+            "tags": ["3d","male", "base", "versatilegoal", "aggression", "versatileoffense", "counterhit", "defensiveoki", "setups-unimportant", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-midhigh", "tier-midlow" ,"tier-mid", "tier-midhigh", "gameplan-level-high"]
         },
 
         {

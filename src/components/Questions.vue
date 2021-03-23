@@ -46,9 +46,6 @@ export default {
             store.nextButton();
             if(this.storeState.currentQuestion > this.storeState.totalQuestions-1){
                 this.storeState.currentQuestion = this.storeState.totalQuestions-1;
-                //now everything should work
-                //ok it works
-                // console.log(this.storeState.currentQuestion);
                 this.$router.push({path: '/recommendation'});
             }
         },
