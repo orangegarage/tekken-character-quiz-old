@@ -193,7 +193,7 @@
             "gender": "male",
             "tutorial": "DVJ",
             "execution": "high",
-            "tier": "2",
+            "tier": "1",
             "movetier": "high",
             "gameplan-focus": "versatile",
             "gameplan-focus2": "aggression",
@@ -286,7 +286,7 @@
             "gender": "male",
             "tutorial": "Feng",
             "execution": "2",
-            "tier": "3",
+            "tier": "2",
             "movetier": "mid",
             "gameplan-focus": "aggression",
             "gameplan-focus2": "defense",
@@ -298,7 +298,7 @@
             "stance": "light/heavy",
             "gameplan-level": "2",
             "beginner-friendly": "yes",
-            "tags": ["3d","male", "base", "aggression", "defense","poke", "counterhit","defensiveoki", "setups-unimportant","stance-light", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-midhigh", "evasion-high", "tier-mid", "tier-midlow", "tier-midhigh", "gameplan-level-low", "beginner-friendly"]
+            "tags": ["3d","male", "base", "aggression", "defense","poke", "counterhit","defensiveoki", "setups-unimportant","stance-light", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-midhigh", "evasion-high", "tier-mid", "tier-midhigh", "gameplan-level-low", "beginner-friendly"]
         },
 
         {
@@ -916,10 +916,10 @@
             "evasion": "low",
             "stance": "light",
             "movetier": "midhigh",
-            "tier": "2",
+            "tier": "3",
             "gameplan-level": "low",
             "beginner-friendly": "yes",
-            "tags": ["3d","male", "base", "aggression", "movement", "poke","mixup", "defensiveoki", "setups-unimportant" ,"stance-light", "evasion-low", "movetier-midhigh", "tier-mid", "tier-midhigh", "gameplan-level-low", "beginner-friendly"]
+            "tags": ["3d","male", "base", "aggression", "movement", "poke","mixup", "defensiveoki", "setups-unimportant" ,"stance-light", "evasion-low", "movetier-midhigh", "tier-mid", "tier-midhigh", "tier-midlow", "gameplan-level-low", "beginner-friendly"]
         },
 
         {
@@ -1137,7 +1137,7 @@
             "gender": "female",
             "tutorial": "Zafina",
             "execution": "easy",
-            "tier": "1",
+            "tier": "2",
             "movetier": "high",
             "gameplan-focus": "versatile",
             "gameplan-focus2": "movement",
@@ -1149,7 +1149,7 @@
             "stance": "light",
             "gameplan-level": "high",
             "beginner-friendly": "yes",
-            "tags": ["3d","female", "dlc", "movement", "versatilegoal", "poke", "versatileoffense", "defensiveoki", "setups-unimportant", "stance-light", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-high", "evasion-midhigh", "tier-high", "tier-midhigh", "gameplan-level-high", "gameplan-level-low", "beginner-friendly"]
+            "tags": ["3d","female", "dlc", "movement", "versatilegoal", "poke", "versatileoffense", "defensiveoki", "setups-unimportant", "stance-light", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-high", "evasion-midhigh", "tier-midhigh", "tier-mid", "gameplan-level-high", "gameplan-level-low", "beginner-friendly"]
         }
         
     ]
