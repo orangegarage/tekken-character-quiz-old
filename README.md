@@ -4,6 +4,7 @@
 ```
 Technical Support: Bigcookie, GenaFurLy
 Tekken Data Support: LoseAgainMan, Merv202
+Maintenance: Lubamartin
 ```
 
 ##Newest Changes
