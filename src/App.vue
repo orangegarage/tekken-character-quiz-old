@@ -4,6 +4,7 @@
         <nav id="nav">
           <router-link to="/">{{ $t('navbar.home') }}</router-link> |
           <router-link to="/quiz">{{ $t('navbar.takeQuiz') }}</router-link> |
+          <router-link to="/characters">{{ $t('navbar.characters') }}</router-link> |
           <router-link to="/about">{{ $t('navbar.about') }}</router-link> |
           <div class = "dropdown">
               <button class="langbtn" v-on:click="changeLocale()">
@@ -13,17 +14,16 @@
         </nav>
     </div>
 
-        <transition
-          name = "fade"
-          mode = "out-in">
-        <router-view/>
-        </transition>
+    <transition
+      name = "fade"
+      mode = "out-in">
+    <router-view/>
+    </transition>
   </div>
 </template>
 
 <script>
 import i18n from '@/assets/i18n.js'
-// import lang from '@/assets/i18n.js'
 
 export default {
   name: 'HelloWorld',
