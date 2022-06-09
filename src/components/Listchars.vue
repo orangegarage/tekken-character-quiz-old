@@ -44,7 +44,7 @@ export default {
       return this.tran("tutorial." + index);
     },
     clickedList(index) {
-        console.log("clicked" + index);
+        // todo: make a modal
         alert(this.tran("flavortexts."+this.characterList[index - 1].name));
     },
     reorder() {
