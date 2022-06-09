@@ -298,7 +298,7 @@
             "stance": "light/heavy",
             "gameplan-level": "2",
             "beginner-friendly": "yes",
-            "tags": ["3d","male", "base", "aggression", "defense","poke", "counterhit","defensiveoki", "setups-unimportant","stance-light", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-midhigh", "evasion-high", "tier-mid", "tier-midhigh", "gameplan-level-low", "beginner-friendly"]
+            "tags": ["3d","male", "base", "aggression", "defense","poke", "counterhit","defensiveoki", "setups-unimportant","stance-light", "stance-heavy", "movetier-high", "movetier-midhigh", "evasion-midhigh", "evasion-high", "tier-high", "tier-midhigh", "gameplan-level-low", "beginner-friendly"]
         },
 
         {
