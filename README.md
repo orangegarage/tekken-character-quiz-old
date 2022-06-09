@@ -9,6 +9,11 @@ Maintenance: Lubamartin
 
 ##Newest Changes
 ```
+2022
+As of June 09th:
+Feng: tier 2->1
+Added the 'Character' tab, where you can see all characters and reorder them based on your quiz results
+
 2021
 As of June 18th:
 Alisa: tier 2->3
