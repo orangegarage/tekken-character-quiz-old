@@ -86,7 +86,7 @@ export default {
 .reorderButton{
   padding: 0.4em;
   border: 0.1em solid #bbe1fa;
-  border-radius: 0.1em;
+  border-radius: 1em;
   font-size: 120%;
   color: #bbe1fa;
   background-color: transparent;
