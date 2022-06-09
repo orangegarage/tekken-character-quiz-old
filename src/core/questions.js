@@ -14,7 +14,7 @@ export const store = {
         jsonQuestion: quiz.questions,
         totalQuestions: quiz.questions.length,
         jsonCharacters: characters.characters,
-        final: []
+        final: characters.characters
     },
     nextButton() {
         // console.log(this.state.picked);
@@ -93,6 +93,5 @@ export const store = {
         console.log("justTheScores: " + justTheScores);
         console.log(charactersSortedHighestScores);
         this.state.final = charactersSortedHighestScores;
-
     }
 }

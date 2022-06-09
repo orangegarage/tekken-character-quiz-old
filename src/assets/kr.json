@@ -14,7 +14,7 @@
         "takeQuiz": "퀴즈",
         "home": "홈",
         "about": "정보",
-        "characters": "캐릭터"
+        "characters": "캐릭터 열람"
     },
     "about":
     {
@@ -282,5 +282,9 @@
         "Xiaoyu": "https://youtu.be/rn2Ircr8g2E",
         "Yoshimitsu": "https://youtu.be/E0Y5CKN8D5I",
         "Zafina": "https://youtu.be/N4GmXe30JBA"
+    },
+    "view":
+    {
+        "reorder": "퀴즈 결과 순으로 재정렬"
     }
 }

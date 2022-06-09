@@ -6,7 +6,6 @@
           <router-link to="/quiz">{{ $t('navbar.takeQuiz') }}</router-link> |
           <router-link to="/characters">{{ $t('navbar.characters') }}</router-link> |
           <router-link to="/about">{{ $t('navbar.about') }}</router-link> |
-
           <div class = "dropdown">
               <button class="langbtn" v-on:click="changeLocale()">
                 <img src="./assets/language.svg" alt="language" width="50em">
@@ -15,11 +14,11 @@
         </nav>
     </div>
 
-        <transition
-          name = "fade"
-          mode = "out-in">
-        <router-view/>
-        </transition>
+    <transition
+      name = "fade"
+      mode = "out-in">
+    <router-view/>
+    </transition>
   </div>
 </template>
 

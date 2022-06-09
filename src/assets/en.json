@@ -285,5 +285,9 @@
         "Xiaoyu": "https://youtu.be/D1PQLAvVQlY",
         "Yoshimitsu": "https://youtu.be/rIVeR76mQxo",
         "Zafina": "https://youtu.be/IduLCS9eA0c"
+    },
+    "view":
+    {
+        "reorder": "Reorder based on quiz results"
     }
 }
