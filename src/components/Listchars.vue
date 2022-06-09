@@ -8,11 +8,10 @@
         <!-- problem right now is the structure of the en/kr data store format, use character name as path to characters.json, portraits -->
         <li class="resultingimg"
             v-for="index in characterList.length" :key="index.shortname"
+            v-on:click= "clickedList(index)"       
         >
-            <a :href="getLink(characterList[index - 1].shortname)" target="_blank" rel="noopener">
             <img :src="getImg(characterList[index - 1].photo)" :alt="characterList[index - 1].name"/>
             <br />{{ index }}. {{ $t("characters." + characterList[index - 1].shortname) }}
-            </a>
         </li>
         </ul>
     </div>
@@ -44,9 +43,11 @@ export default {
     getLink(index) {
       return this.tran("tutorial." + index);
     },
+    clickedList(index) {
+        console.log("clicked" + index);
+        alert(this.tran("flavortexts."+this.characterList[index - 1].name));
+    },
     reorder() {
-      console.log("reorder");
-      console.log("final: ");
       console.log(store.state.final);
       if(this.characterList != this.originalCharacterList) {
         this.characterList = this.originalCharacterList;
@@ -62,11 +63,12 @@ export default {
 .characterList {
   text-align: center;
   color: #bbe1fa;
-  margin-left: 5em;
-  margin-right: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
 }
 
-.characterList a, button {
+.characterList .resultingimg, button {
   color: #bbe1fa;
   font-weight: bold;
   text-decoration: none;
@@ -76,7 +78,7 @@ export default {
     margin-bottom: 1em;
 }
 
-a:hover {
+.resultingimg:hover {
   color: #ffbd69;
   transition: 0.3s;
 }
@@ -101,10 +103,21 @@ a:hover {
     margin-bottom: 1em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   .characterList {
-    margin-left: 0%;
-    margin-right: 0%;
+    max-width:100%;
   }
 }
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  .characterList {
+    max-width:80%;
+  }
+}
+@media only screen and (min-width: 1500px) and (max-width: 1700px){
+  .characterList {
+    max-width:60%;
+  }
+}
+
+
 </style>
