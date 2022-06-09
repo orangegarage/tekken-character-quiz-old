@@ -3,7 +3,6 @@
 //question component will run that function soon as person chooses answer and return the list of characters.
 import quiz from "../assets/quiz.json";
 import characters from "../assets/characters.json";
-// import Recommendation from "../views/Recommendation.vue";
 
 export const store = {
     state: {
@@ -17,48 +16,48 @@ export const store = {
         jsonCharacters: characters.characters,
         final: []
     },
-    nextButton(){
+    nextButton() {
         // console.log(this.state.picked);
         this.state.chosenTraits[this.state.currentQuestion] = this.state.picked;
         console.log(this.state.picked);
         this.state.currentQuestion++;
-        if(this.state.chosenTraits[this.state.currentQuestion] != null){
-            console.log("already chosen: "+ this.state.chosenTraits[this.state.currentQuestion]);
-            this.state.picked = this.state.chosenTraits[this.state.currentQuestion];   
+        if (this.state.chosenTraits[this.state.currentQuestion] != null) {
+            console.log("already chosen: " + this.state.chosenTraits[this.state.currentQuestion]);
+            this.state.picked = this.state.chosenTraits[this.state.currentQuestion];
         }
         console.log(this.state.chosenTraits);
 
-        if(this.state.chosenTraits[this.state.currentQuestion] == null || this.state.chosenTraits[this.state.currentQuestion] == " "){
+        if (this.state.chosenTraits[this.state.currentQuestion] == null || this.state.chosenTraits[this.state.currentQuestion] == " ") {
             this.state.picked = " ";
             this.state.currentStatus = "Skip";
         }
-        if(this.state.currentQuestion > this.state.totalQuestions-1){
+        if (this.state.currentQuestion > this.state.totalQuestions - 1) {
             this.state.currentStatus = "Submit";
-            this.pointAssign();//need to fix where this goes- wait no i don't
+            this.pointAssign(); //need to fix where this goes- wait no i don't
         }
     },
-    backButton(){
+    backButton() {
         this.state.currentQuestion--;
-        if(this.state.chosenTraits[this.state.currentQuestion] != null){
+        if (this.state.chosenTraits[this.state.currentQuestion] != null) {
             this.state.picked = this.state.chosenTraits[this.state.currentQuestion];
         }
-        if (this.state.chosenTraits[this.state.currentQuestion] == null || this.state.chosenTraits[this.state.currentQuestion] == " "){
+        if (this.state.chosenTraits[this.state.currentQuestion] == null || this.state.chosenTraits[this.state.currentQuestion] == " ") {
             this.state.currentStatus = "Skip";
         }
 
-        if(this.state.currentQuestion <= 0){
+        if (this.state.currentQuestion <= 0) {
             console.log("this is the first question");
             this.state.currentQuestion = 0;
         }
     },
-    answerAsButton(){
+    answerAsButton() {
         this.state.currentStatus = "Next";
-        if(this.state.currentQuestion+1 == this.state.jsonQuestion.length){
+        if (this.state.currentQuestion + 1 == this.state.jsonQuestion.length) {
             // alert("this is the last question");
             this.state.currentStatus = "Submit";
         }
     },
-    pointAssign(){
+    pointAssign() {
         // List of traits that were prioritized, with the 'prioritize' removed
         // console.log("point assign start");
         const prioritizedTraits = this.state.chosenTraits.filter(trait => trait.includes("prioritize")).map(trait => trait.replace("-prioritize", ""));
@@ -78,22 +77,22 @@ export const store = {
             const characterOnlyTraits = 1 + character.tags.filter(tag => onlyTraits.includes(tag)).length;
             const onlyTraitTrueLength = character.tags.filter(tag => onlyTraits.includes(tag)).length
 
-            character.score = characterOnlyTraits*((onlyTraitTrueLength)*10 + characterPrioritizedTraits * 10 + characterPreferredTraits * 5);
-            console.log("character score: "+ character.score);
+            character.score = characterOnlyTraits * ((onlyTraitTrueLength) * 10 + characterPrioritizedTraits * 10 + characterPreferredTraits * 5);
+            console.log("character score: " + character.score);
             return character;
         });
 
         const characterHighestScore = Math.max(...this.state.jsonCharacters.map(character => character.score), 0);
-        console.log("CharacterHighestScore: "+ characterHighestScore);
+        console.log("CharacterHighestScore: " + characterHighestScore);
         console.log(characterHighestScore);
 
         // Or to show multiple recommendations
 
         const charactersSortedHighestScores = this.state.jsonCharacters.sort((a, b) => b.score - a.score);
         const justTheScores = this.state.jsonCharacters.sort((a, b) => b.score - a.score).map(char => char.score);
-        console.log("justTheScores: "+ justTheScores);
+        console.log("justTheScores: " + justTheScores);
         console.log(charactersSortedHighestScores);
         this.state.final = charactersSortedHighestScores;
-        
+
     }
 }

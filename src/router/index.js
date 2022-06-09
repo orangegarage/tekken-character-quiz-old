@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Quiz from '../views/Quiz.vue'
-// import Recommendation from '../views/Recommendation.vue'
+
 
 Vue.use(VueRouter)
 
@@ -30,6 +30,11 @@ Vue.use(VueRouter)
     path: '/recommendation',
     name: 'Recommendation',
     component: () => import(/*webpackChunkName: "recommendation" */ '../views/Recommendation.vue')
+  },
+  {
+    path: '/characters',
+    name: 'Characters',
+    component: () => import(/*webpackChunkName: "Characterlist" */ '../views/Characters.vue')
   }
   
 ]

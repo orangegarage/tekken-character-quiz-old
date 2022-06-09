@@ -4,7 +4,9 @@
         <nav id="nav">
           <router-link to="/">{{ $t('navbar.home') }}</router-link> |
           <router-link to="/quiz">{{ $t('navbar.takeQuiz') }}</router-link> |
+          <router-link to="/characters">{{ $t('navbar.characters') }}</router-link> |
           <router-link to="/about">{{ $t('navbar.about') }}</router-link> |
+
           <div class = "dropdown">
               <button class="langbtn" v-on:click="changeLocale()">
                 <img src="./assets/language.svg" alt="language" width="50em">
@@ -23,7 +25,6 @@
 
 <script>
 import i18n from '@/assets/i18n.js'
-// import lang from '@/assets/i18n.js'
 
 export default {
   name: 'HelloWorld',
