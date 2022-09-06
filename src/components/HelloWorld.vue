@@ -1,21 +1,38 @@
 <template>
   <div class="hello">
-    <h1>{{ $t('main.welcome') }}</h1>
+    <img alt="Vue logo" src="../assets/tcq.png" />
+    <h1>{{ $t("main.welcome") }}</h1>
     <p>
-      <b>{{ $t('main.1p') }}</b>
+      <b>{{ $t("main.1p") }}</b>
     </p>
-      <p>
-        {{ $t('main.introParagraph') }}
-      </p>
-
     <p>
-      <router-link to="/quiz"><b>{{ $t('main.takeQuiz') }}</b></router-link>
+      {{ $t("main.introParagraph") }}
     </p>
 
-    <h3>{{ $t('main.feedbackLink') }}:</h3>
+    <p>
+      <router-link to="/quiz"
+        ><b>{{ $t("main.takeQuiz") }}</b></router-link
+      >
+    </p>
+
+    <h3>{{ $t("main.feedbackLink") }}:</h3>
     <ul>
-      <li><a href="https://github.com/orangegarage/tekken-character-quiz" target="_blank" rel="noopener">{{ $t('main.githubLink')}}</a></li>
-      <li><a href="https://twitter.com/jincontroller" target="_blank" rel="noopener">{{ $t('main.twtLink') }}</a></li>
+      <li>
+        <a
+          href="https://github.com/orangegarage/tekken-character-quiz"
+          target="_blank"
+          rel="noopener"
+          >{{ $t("main.githubLink") }}</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://twitter.com/jincontroller"
+          target="_blank"
+          rel="noopener"
+          >{{ $t("main.twtLink") }}</a
+        >
+      </li>
       <li><router-link to="/about">FAQ</router-link></li>
     </ul>
   </div>
@@ -33,5 +50,8 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+}
+img {
+  width: 25vmax;
 }
 </style>
