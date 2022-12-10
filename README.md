@@ -1,4 +1,6 @@
-# tekken-character-quiz
+# tekken-character-quiz-old
+
+Tekken character quiz is moved to a new react based app
 
 ## Special thanks
 ```
